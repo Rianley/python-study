@@ -1,0 +1,15 @@
+前台时间函数的调用:{:date('n月-j日',$vo['atime'])}//显示12月14日
+{:date('Y年m月d日',$vo['atime'])}年月日 2016年11月12日
+
+
+
+//or 和and 都可以使用的查询语句
+        $where=array();
+        $where['acid']=$_GET['id'];
+        $where['state']=1;
+        $map['title']=array('like',"%{$_GET['title']}%");
+        $map['content']=array('like',"%{$_GET['title']}%");
+        $map['_logic']="or";
+        $where['_complex']=$map;
+        $count=$xarticle->where($where)->count();
+        $data3=$xarticle->where($where)->page(I('get.p',1),5)->order('atime desc')->select();

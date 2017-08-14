@@ -1,0 +1,125 @@
+.user-content-a {
+    color: #898989;
+    font-size: 12px;
+    margin: 0px auto;
+    width: 188px;
+    padding-top: 4px;
+    height: 35px;
+    line-height: 35px;
+}
+.user-content-a a {
+    font-weight: bold;
+}
+.user-content-b {
+    margin: 0px auto;
+    width: 188px;
+    overflow: hidden;
+}
+.u-c-ba1 {
+    float: left;
+    padding-right: 10px;
+}
+a {
+    text-decoration: none;
+    color: #2158A2;
+}
+.u-c-ba2 {
+    float: left;
+    color: #4B4B4B;
+    line-height: 30px;
+}
+.user-content-c {
+    margin: 3px auto 0px;
+    width: 188px;
+    overflow: hidden;
+}
+.u-c-ca1 {
+    line-height: 30px;
+    height: 30px;
+    color: #4B4B4B;
+}
+.u-c-ca1 a {
+    color: #898989;
+}
+.u-c-ca1 a font {
+    color: #F00;
+    font-size: 12px;
+}
+.u-c-ca1 span {
+    color: #898989;
+}
+.user-content-d {
+    margin: 0px auto;
+    width: 188px;
+    overflow: hidden;
+    height: 30px;
+    line-height: 30px;
+}
+.u-c-da1 {
+    float: left;
+}
+.u-c-da2 {
+    float: right;
+}
+.user-content-f {
+    margin: 5px auto 0px;
+    width: 190px;
+    overflow: hidden;
+    background: transparent url("../images/lineg.jpg") repeat-x scroll 0% 0%;
+    padding-top: 8px;
+}
+.u-c-fa1 input {
+    border: medium none;
+    background: transparent url("../images/imgpng.png") no-repeat scroll 0px 0px;
+    width: 190px;
+    height: 37px;
+    cursor: pointer;
+    margin: 0px 0px 5px;
+}
+.new-signin-toast {
+    display: none;
+    width: 190px;
+    height: 47px;
+    background-position: 1px -144px;
+}
+
+.my-signed {
+    width: 88px;
+    padding-top: 6px;
+}
+.new-signin-toast {
+    display: none;
+    width: 190px;
+    height: 47px;
+    background-position: 1px -144px;
+}
+.new-signin-toast .total {
+    width: 70px;
+    padding: 0px 0px 0px 28px;
+    float: right;
+    background-position: -165px 13px;
+    font-size: 16px;
+    color: #999;
+    line-height: 45px;
+    text-align: center;
+}
+.my-signed em {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 16px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #276CA4;
+}
+.my-signed p {
+    font-size: 14px;
+    color: #FFF;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+address, cite, dfn, em, var {
+    font-style: normal;
+}

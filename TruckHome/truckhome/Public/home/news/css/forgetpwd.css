@@ -1,0 +1,161 @@
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;}body,button,input,select,textarea{font-size:12px;  line-height:1.5em;}h1,h2,h3,h4,h5,h6{font-size:100%;}address,cite,dfn,em,var{font-style:normal;}code,kbd,pre,samp{font-family: "Helvetica Neue","Microsoft YaHei","Simsun","Arial";}small{font-size:12px;}ul,ol{list-style:none;}a{text-decoration:none; color:#03329c;}a:hover{text-decoration:none; color:#cc0000;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}legend{color:#000;}fieldset,img{border:0;}button,input,select,textarea{font-size:100%;}table{border-collapse:collapse;border-spacing:0;}
+/*注册登录页头*/
+.registertop{ margin:0 auto; width:1000px; overflow:hidden; border-bottom:solid 3px #0f5489; padding:19px 0px 13px; height:60px;}
+.registertop_left{ float:left; padding:9px 0px;}
+.registertop_right{ float:right; width:630px; height:60px}
+.registertop a, .registertop em, .registertop span{ float:left;}
+.registertop em{ width:1px; height:30px; background:#e9e9e9; display:inline-block; overflow:hidden; margin:12px 10px 0px 14px;}
+.registertop span{ font-size:20px; color:#999; line-height:22px; margin-top:20px;}
+.registertop a.return{ float:right; line-height:18px; margin-top:30px;}
+/*框架*/
+.registerfill{margin:0 auto; width:940px; padding:0px 29px 0px; overflow:hidden; border:solid 1px #e9e9e9; padding-bottom:60px;}
+.fullwidth{ float:left; width:100%; overflow:hidden;}
+.makesure:hover, .makesure2:hover, .makesure4:hover, .makesure5:hover{ background:#ff822f}
+.direct_login:hover, .enter2:hover, .makesure3:hover, .makesure6:hover{ background:#105f9b}
+/*注册信息填写*/
+.registerfill h5{ float:left; color:#666; line-height:40px; font-weight:normal; padding:17px 0px 4px; }
+.leftpart{ float:left; width:681px; height:470px; padding-right:32px; border-right:solid 1px #e9e9e9}
+.rightpart{float:left; width:194px; overflow:hidden; padding-left:31px; padding-top:26px;}
+.part1{ float:left; width:100%; height:40px; margin-bottom:60px;}
+.part2{ float:left; width:100%;  height:370px;}
+.part2 li{ float:left; line-height:38px; width:100%; padding-bottom:20px;}
+.part2 li label{ float:left; width:118px; text-align:right; color:#666; padding-right:4px;}
+.part2 li span{ float:left; color:#c4c4c4}
+.part2 li font{ float:left; text-indent:20px;}
+.part2 li em{ float:left; text-indent:122px; line-height:18px; margin-top:-4px; color:#999}
+.part2 li font.correct{ background:url(../images/correct.png) no-repeat 0px 10px; color:#58b850;}
+.part2 li font.wrong{ background:url(../images/wrong.png) no-repeat 0px 10px; color:#d60000;}
+.enter{ float:left; width:242px; padding:8px 0px 8px 6px; border:solid 1px #e9e9e9; color:#333; margin-right:14px; line-height:20px; }
+*html .enter{ float:left; width:242px; padding:10px 0px 10px 6px; border:solid 1px #e9e9e9; color:#333; margin-right:14px; line-height:20px; }
+.enter:focus{ border:solid 1px #c4c4c4}
+.part2 li span select { border:none; width:104px;  border:1px solid #e9e9e9;  padding:7px 4px 8px 6px; margin:0px; float:left; margin-right:10px; color:#888}
+.makesure, .makesure2, .makesure3, .makesure4, .makesure5, .makesure6{ float:left; width:180px; margin-top:20px; font-size:14px; height:38px; background:none; border:none; background:#ff6600; cursor:pointer; line-height:38px; text-align:center; color:#fff; margin-left:122px; margin-right:11px;}
+.makesure2{ width:130px; margin-left:0px;margin-top:28px;}
+.makesure3{ width:160px; margin-left:0px;margin-top:5px;background:#0f5489; margin-bottom:40px; }
+.makesure4{ width:100px; margin-left:0px;margin-top:0px;}
+.makesure5{ width:170px;height:50px; margin-left:39px;margin-top:20px;line-height:50px; margin-bottom:12px; }
+.makesure6{ width:170px;height:50px; margin-left:39px;margin-top:20px;line-height:50px; margin-bottom:12px;background:#0f5489; }
+.rules{ float:left; line-height:18px; margin-top:40px}
+.rightpart h4{ float:left; width:100%; line-height:40px; color:#666; font-weight:normal}
+.registered{ float:left; width:100%; overflow:hidden; padding-bottom:37px;}
+.direct_login{float:left; width:80px; height:25px; background:none; border:none; background:#0f5489; cursor:pointer; line-height:25px; text-align:center; color:#fff;}
+.loginqq, .loginweibo, .loginweixin{ float:left; width:69px; padding-left:29px; margin-bottom:15px;  height:28px;border:solid 1px #e9e9e9; line-height:28px; color:#666; text-align:center;}
+.loginqq{ background:url(../images/qq.png) no-repeat;}
+.loginweibo{ background:url(../images/sina.png) no-repeat;}
+.loginweixin{ background:url(../images/weixin08.png) no-repeat;}
+.loginqq:hover, .loginweibo:hover, .loginweixin:hover{ border:solid 1px #c4c4c4; text-decoration:none}
+/*验证手机号*/
+.enter2{float:left; width:80px; height:38px; background:none; border:none; background:#0f5489; cursor:pointer; line-height:38px; text-align:center; color:#fff; }
+.enter2:disabled{ background:#c4c4c4; color:inherit; color:#666; cursor:default}
+.countdown{ float:left; width:250px; clear:both; padding-left:122px; overflow:hidden; line-height:20px; color:#999; margin-top:10px;}
+.countdown i{ color:#ff0000; font-style:normal}
+/*注册成功*/
+.complete{ float:left; width:100%; overflow:hidden; height:160px; padding-top:80px; text-align:center; background:url(../images/icongig1.png) no-repeat center top; margin-top:30px;}
+.complete p{ float:left; width:100%; line-height:30px; color:#333; padding-bottom:4px;}
+.complete p font{font-size:20px; font-weight:bold}
+.complete p em{ color:#ff0000}
+.complete p span{ color:#ff0000; font-size:20px; font-weight:bold}
+.complete p.autojump{ float:left; width:100%; line-height:30px; padding:30px 0px 0px;}
+.complete strong{ margin-top:20px; font-size:14px; font-weight:bold; color:#666; float:left; width:100%; text-align:center;}
+.completenew{ margin-top:100px;}
+/*登录*/
+.part3{ float:left; width:100%; overflow:hidden; height:64px;}
+.part3 h3{float:left; width:681px; border-bottom:solid 1px #e9e9e9; line-height:63px; color:#666; font-size:18px;}
+/*.js{ margin-top:60px;}*/
+.login_express{ float:left; padding-left:122px; color:#666; line-height:18px; width:150px;}
+.login_express input{ float:left;}
+.login_express i{ float:left;white-space:nowrap;line-height:18px;}
+.login_express input{ margin-top:2px; height:14px; width:14px; margin-right:8px;}
+.login_express i{ font-style:normal}
+.forget{ float:right; margin-right:308px; line-height:18px;}
+/*找回密码*/
+.part5{ float:left; width:940px; margin:50px 0px 50px 0px; height:40px;}
+.part6{ float:left; padding-left:122px; width:640px; overflow:hidden;}
+.part6 li{ float:left; line-height:38px; width:100%; color:#666}
+.enter3{ float:left; width:394px; padding:8px 0px 8px 6px; border:solid 1px #e9e9e9; color:#333; margin-right:14px; line-height:20px;}
+.enter3:focus{ border:solid 1px #c4c4c4}
+.hint1{ float:left; width:100%; line-height:20px; margin-top:60px; color:#ff0000; text-indent:122px;}
+.hint2{ float:left; width:560px; line-height:30px; margin-top:40px; color:#ff0000; padding-left:122px;}
+.hint2 font{ color:#666}
+.part6 li em{ color:#ff0000}
+.part6 li font{ color:#999; text-indent:7px; float:left;}
+.enter4{ float:left; width:344px; padding:8px 0px 8px 6px; border:solid 1px #e9e9e9; color:#333; margin-right:14px; line-height:20px;}
+.enter4:focus{ border:solid 1px #c4c4c4}
+.makesure3:disabled, .makesure4:disabled{ background:#c4c4c4; color:inherit; color:#666; cursor:default}
+.fullwidth h2{ float:left; line-height:20px; padding-bottom:20px; font-size:16px; color:#666; width:100%; font-weight:normal; text-indent:24px;}
+.fullwidth h2 font{ color:#0f5489}
+.fullwidth dl{ float:left; width:100%; overflow:hidden; padding-bottom:10px;}
+.fullwidth dl dt, .fullwidth dl dd{ float:left; width:100%; line-height:38px;}
+.fullwidth dl dd{ padding-left:122px; width:400px; margin-top:10px;}
+.fullwidth dl dt label{ float:left; width:118px; padding-right:4px; color:#666; text-align:right; }
+.fullwidth dl dt font{ float:left; text-indent:20px;}
+.fullwidth dl dt font.correct{ background:url(../images/correct.png) no-repeat 0px 10px; color:#58b850;}
+.fullwidth dl dt font.wrong{ background:url(../images/wrong.png) no-repeat 0px 10px; color:#ff0000;}
+.fullwidth dl dd em{ float:left; width:60px; height:14px; text-align:center; line-height:14px; color:#fff; background:#0E5488; margin-right:1px;}
+.fullwidth dl dd em.ok{ background:#FF6600}
+.fullwidth dl dt.spe1{ padding-left:122px; padding-top:4px;}
+/*服务条款*/
+.part7{ float:left; width:100%; overflow:hidden; height:64px;}
+.part7 h3{float:left;width:100%; border-bottom:solid 1px #e9e9e9; line-height:54px; color:#333; font-size:18px;}
+.part8new{ float:left; width:100%; overflow:hidden; color:#666; padding-bottom:35px;}
+.part8new h3, .part8new p{ float:left; width:100%; line-height:26px;}
+/*第三番注册*/
+.square{ float:left; width:248px; height:198px; background:#f7f7f7; border:solid 1px #e9e9e9; margin:92px 0px 0px 65px;}
+.square p{ float:left; line-height:26px; color:#999; width:100%; text-indent:16px;}
+.square p.spe2{text-indent:30px;}
+.xs{ float:left; width:742px; height:470px;padding-right:5px; border-right:solid 1px #e9e9e9}
+.part8{ float:left; width:100%;overflow:hidden; height:64px;}
+.part8 h3{float:left; width:691px; border-bottom:solid 1px #e9e9e9; line-height:63px; color:#666; font-size:18px;}
+.touxiang{ float:left; width:132px; height:210px; margin-top:64px; text-align:center; border-right:solid 1px #e9e9e9;}
+.xs4{float:left; width:132px; height:97px; margin-top:64px; text-align:center; border-right:solid 1px #e9e9e9;}
+.touxiang span{ float:left; height:60px; margin-top:60px; clear:both; width:100%; text-align:center;}
+.xs4 span{ float:left; height:60px;margin-top:4px; clear:both; width:100%; text-align:center;}
+.touxiang font{ float:left; text-align:center;width:100%; height:40px; line-height:40px; font-size:16px; color:#666; clear:both;}
+/*添加的css*/
+.part9{ float:left; width:100%;  height:370px;}
+.part9 li{ float:left; line-height:38px; width:100%; padding-bottom:20px;}
+.part9 li label{ float:left; width:118px; text-align:right; color:#666; padding-right:4px;}
+.part9 li span{ float:left; color:#c4c4c4}
+.part9 li font{ float:left; text-indent:20px;}
+.part9 li em{ float:left; text-indent:122px; line-height:18px; margin-top:-4px; color:#999999}
+.part9 li font.correct{ background:url(../images/correct.png) no-repeat 0px 10px; color:#58b850;}
+.part9 li font.wrong{ background:url(../images/wrong.png) no-repeat 0px 2px; color:#d60000;}
+/*添加的css*/
+.xs2{ width:606px; margin-top:64px;}
+.xs2 li label{ width:102px;}
+.xs3{ padding-left:20px;}
+.succeed{ float:left; width:100%; overflow:hidden; text-align:center; margin-top:100px; color:#666}
+.succeed h3{ font-size:20px; line-height:40px; display:inline-block; color:#ff0000; padding-right:10px;}
+.succeed2{ float:left; width:350px; height:120px;background:#f7f7f7; border:solid 1px #e9e9e9; margin-left:174px; margin-top:16px;}
+.succeed2 span{ float:left; width:122px; padding-top: 20px; text-align:center;}
+.succeed2 span img{ width:60px; height:60px; margin:0 auto;}
+.succeed2 span font{ float:left; width:122px;text-align:center; color:#666 }
+.succeed2 em{ float:left; width:106px; text-align:center; line-height:120px;}
+/*添加的css*/
+#telts font.correct{ background:url(../images/correct.png) no-repeat 0px 10px; color:#58b850;text-indent: 20px;}
+#telts font.wrong{ background:url(../images/wrong.png) no-repeat 0px 10px; color:#d60000;text-indent: 20px;}
+#telts_ip font.correct{ background:url(../images/correct.png) no-repeat 0px 10px; color:#58b850;text-indent: 20px;}
+#telts_ip font.wrong{ background:url(../images/wrong.png) no-repeat 0px 10px; color:#d60000;text-indent: 20px;}
+#namets_ip font.correct{ background:url(../images/correct.png) no-repeat 0px 10px; color:#58b850;text-indent: 20px;}
+#namets_ip font.wrong{ background:url(../images/wrong.png) no-repeat 0px 10px; color:#d60000;text-indent: 20px;}
+#showyzm .wrong{ background:url(../images/wrong.png) no-repeat 0px 10px; color:#d60000;}
+#ts{color:#999999;}
+#re1{padding-bottom: 0px;padding-top: 20px;}
+.addmakesurestyle{margin-left: 108px;}
+/*2014.11.27*/
+.part2 li.xll_hg{ line-height:26px;}
+.part2 li{height: 38px;}
+/*20141204邀请码注册*/
+.lpnew{ float:left; width:681px; height:430px; padding-right:32px; padding-top:40px; margin-top:64px; border-right:solid 1px #e9e9e9}
+.rpnew{float:left; width:194px; overflow:hidden; padding-left:31px; padding-top:90px;}
+.rpnew h4{ float:left; width:100%; line-height:40px; color:#666; font-weight:normal}
+/*20150119修改*/
+.reverseone{float: left;width: 100%;overflow: hidden;text-align: center;clear:both; margin-top:30px;}
+.reverseone a{ color:#666}
+.reverseone a:hover{ color:#d60000}
+/*20150429*/
+.direct_jxs{float:left; width:110px; height:25px; background:none; border:none; background:#0f5489; cursor:pointer; line-height:25px; text-align:center; color:#fff;}
+.direct_jxs:hover{ background:#105f9b;}
+
+
+

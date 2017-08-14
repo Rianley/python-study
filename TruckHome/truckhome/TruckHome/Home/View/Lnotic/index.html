@@ -1,0 +1,70 @@
+<extend name="Public/Lbase"/>
+<block name="main">
+	<div class="jlbtn">
+		<a id="fjump" class="jlbtn-xg1" href="">卡车论坛</a>
+		<div class="dengluhou">
+
+			<cite>
+				<a href="" class="noborder">{$_SESSION['user']['username']}</a>
+			</cite>
+			|
+			<a href="{:U('User/userindex')}">个人中心</a>
+			|
+			<a href="{:U('User/logout')}">退出</a>
+
+		</div>
+	</div>
+
+	<div class="jlbtiezlie">
+		<div class="jlbtiezliel"><span style='color:red'>卡车之家公告</span> </div>
+	</div>
+
+	<div class="jlbtiezilie">
+		<div id="threadlist" class="threadlist datalist" style="position: relative;">
+			<table summary="" class="datatable" cellpadding="0" cellspacing="0">
+				<tbody>
+					<tr>
+						<td class="folder2"></td>
+						<td class="subject2">标题</td>
+					</tr>
+				</tbody>
+				<tbody>
+					<volist name="list" id='vo'>
+						<tr>
+							<td class="folder2">
+								<if condition="($vo['state1']) eq 1">
+									<a href="" target="" title="新窗口打开" class="official">
+										<img src="__PUBLIC__/bbs/images/pin_3.gif" alt="全局置顶"></a>
+								</if>
+							</td>
+							<th class="subject hot">
+								<span>
+									<a href="{:U('Lnotic/detail',array('id'=>$vo['id']))}" target="">{$vo['title']}</a>
+								</span>
+
+							</th>
+							<td class="author">
+								<em>{:date('Y-m-d H:i:s',$vo['addtime'])}</em>
+							</td>
+							<!-- <td class="nums"> <strong>203</strong>
+								<em>52705</em>
+							</td>
+							<td class="lastpost">
+								<cite>
+									<a href="">小木船</a>
+								</cite>
+								<em><a href="">2016-1-11 15:57</a></em>
+							</td> -->
+						</tr>
+					</volist>
+				</tbody>
+			</table>
+			<span >
+				<a style="display:block;float:right;background:#4182c8;width:90px;height:30px;line-height:30px;margin-top:3px;color:#fff;font-size:14px;font-weight:bold" href="{:U('Index/index')}">&nbsp;返回首页&nbsp;</a>
+			</span>
+		</div>
+	</div>
+
+	<div style="height:30px"></div>
+
+</block>

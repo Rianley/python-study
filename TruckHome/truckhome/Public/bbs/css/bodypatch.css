@@ -1,0 +1,30 @@
+@charset "gb2312";
+/* CSS Document */
+html {margin:0;padding:0;}
+body {margin:0;padding:5px;}
+body, td {font:12px/1.8 "Heiti SC", "Microsoft Yahei", "Simsun", "Arial";}
+body, p, div {word-wrap: break-word;}
+p {margin:5px 0;}
+table {border-collapse:collapse;}
+img {border:0;}
+noscript {display:none;}
+p{ margin:1px 0;}
+body{ padding:14px 2px 20px 7px; color:#333333;font:14px/1.8 "Heiti SC", "Microsoft Yahei", "Simsun", "Arial";}
+
+
+/*论坛帖子引用*/
+.quote { background: url("http://img.360che.com/style/bbs/club/v2content/images_1/con_bg.png") no-repeat scroll 11px -1161px #F9F9F9; padding:10px 17px 15px 1px; width: 78%; margin:0px 0px 10px; border: 1px solid #EBF1F8;
+border-radius: 10px;}
+.quote blockquote { background: url("http://img.360che.com/style/bbs/club/v2content/images_1/icon_quote_e.gif") no-repeat scroll 100% 100% transparent; line-height: 1.5em; margin: 0; padding: 5px 0px 20px 46px; word-break: break-all; word-wrap: break-word; font-size:12px; }
+.quote blockquote strong a { color: #0099CC; }
+.quotbox{ padding-bottom:4px; width:100%; overflow:hidden; clear:both}
+.quotbox_a{display:inline-block; float:left}
+.quotbox_b{ display:inline-block; float:left; padding:3px 0px 0px 3px}
+.t_msgfontfix table td .quotbox_b img{ margin:0}
+.quote blockquote .quotbox_b img{ display:block; width:13px; height:13px;}
+.quote blockquote img{ display:none; width:0px; height:0px;}
+
+.quotbox_a{font: 12px/1.5em "Heiti SC", "Microsoft Yahei", "Simsun", "Arial";}
+.quotbox_a a{ color:#09c; text-decoration:none}
+
+

@@ -1,0 +1,105 @@
+<extend name="Public/userbase"/>
+
+<block name="main">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/shop/home/css/ecshop_pcenter.css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/shop/home/css/ecshop_common.css">
+	<script src="__PUBLIC__/My97DatePicker/WdatePicker.js"></script>
+	<script src="__PUBLIC__/Plupload/plupload.full.min.js"></script>
+	<script src="__PUBLIC__/Jcrop/js/jquery.Jcrop.js"></script>
+	{:W('Menu/userleft')}
+	<div class="prefirght">
+
+		<div class="jymx2" style="width:770px">
+			<div class="jymx_a">我的订单</div>
+			<div class="allin">
+				<div class="dd_bar">
+					<span class="bar1" style="">订单号</span>
+
+					<span class="bar3" style="width:100px">收货人</span>
+					<span class="bar4" style="width:100px">商品数量</span>
+					<span class="bar4" style="width:120px">订单金额</span>
+					<span class="bar5" style="width:100px">时间</span>
+					<span class="bar6" style="width:120px">订单状态</span>
+					<span class="bar7">操作</span>
+				</div>
+				<foreach name="data" item="vo">
+				<div class="jymx_b_ver2" style="height:70px">
+
+					<div class="jymx_c_l_ver2_1">
+						<table width="100%" border="0" cellpadding="0" cellspacing="0">
+							<tbody>
+								<tr style="height:70px">
+									<td style="border-right:1px solid #ccc;width:100px">
+										<div class="jymx_c_l_ver2">
+											<a href="user.php?act=order_detail&amp;order_id=38942" class="f6">{$vo['id']}</a>
+										</div>
+									</td>
+
+
+									<td class="amount">
+										<div>{$vo['getman']}</div>
+									</td>
+									<td class="amount">
+										<b>{$vo['totalNumber']}</b>
+
+									</td>
+									<td class="amount"> <b>{$vo['totalPrice']}</b>
+
+									</td>
+									<td class="time">
+										<div>{:date('Y-m-d H:i:s',$vo['addtime'])}</div>
+									</td>
+
+									<td class="status">
+
+										<span class="condi1">待收货</span>
+
+									</td>
+
+									<td class="oprate">
+
+
+
+										<div class="oprate_n">
+											<a href="{:U('Sorder/orderDetail',array('id'=>$vo['id']))}" class="del">订单详情</a>
+										</div>
+
+										<a href="{:U('Sorder/sureRec',array('id'=>$vo['id']))}" class="del" onclick="if (!confirm('您确认要确定收货吗')) return false;">确认收货</a>
+
+									</td>
+
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				</foreach>
+
+			</div>
+
+			<div class="jymx_d" style="width:750px">
+
+
+					<div >
+
+						{$show}
+					</div>
+
+				<script type="Text/Javascript" language="JavaScript">
+<!--
+
+function selectPage(sel)
+{
+  sel.form.submit();
+}
+
+//-->
+</script>
+			</div>
+
+		</div>
+
+
+</div>
+
+</block>

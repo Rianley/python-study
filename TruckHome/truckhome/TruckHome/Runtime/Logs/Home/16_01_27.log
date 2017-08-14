@@ -1,0 +1,7 @@
+[ 2016-01-27T09:06:34+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/checkPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003475s ]
+SQL: DESCRIBE truck_user [ RunTime:0.007942s ]
+SQL: SELECT * FROM `truck_user` WHERE `phone` = '15172764834' LIMIT 1   [ RunTime:0.000972s ]
+

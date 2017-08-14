@@ -1,0 +1,106 @@
+<extend name="Public/base"/>
+<block name="main">
+	<!-- <div class="row">
+		<div class="col-lg-12">
+			<h1 class="page-header">Tables</h1>
+		</div>
+
+	</div> -->
+	<meta charset="utf-8"/>
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="panel panel-default">
+				<div class="panel-heading">帖子列表</div>
+				<form action="">
+					<input type="hidden" name="p" value="1">
+					作者：<input type="text" name="username" value="{:I('get.username')}">
+					标题：<input type="text" name="title" value="{:I('get.title')}">
+					浏览状态：<select name="hot" id="">
+							  <option value="">请选择</option>
+							  <option value="1" {:I('get.hot')==1?"selected":""}>热帖</option>
+							  <option value="2" {:I('get.hot')==2?"selected":""}>普通</option>
+						  </select>
+					<input type="submit" value="提交">
+
+				</form>
+				<!-- /.panel-heading -->
+				<div class="panel-body">
+					<div class="dataTable_wrapper">
+						<div class="dataTables_wrapper form-inline dt-bootstrap no-footer" id="dataTables-example_wrapper">
+
+							<div class="row">
+								<div class="col-sm-12">
+									<table aria-describedby="dataTables-example_info" role="grid" class="table table-striped table-bordered table-hover dataTable no-footer" id="dataTables-example">
+										<thead>
+											<tr role="row">
+												<th aria-label="Rendering engine: activate to sort column ascending" style="text-align:center" colspan="1" rowspan="1" aria-controls="dataTables-example" tabindex="0" class="sorting">帖子id</th>
+												<th aria-sort="descending" aria-label="Browser: activate to sort column ascending" style="text-align:center" colspan="1" rowspan="1" aria-controls="dataTables-example" tabindex="0" class="sorting_desc">标题</th>
+												<th aria-label="Platform(s): activate to sort column ascending" style="text-align:center" colspan="1" rowspan="1" aria-controls="dataTables-example" tabindex="0" class="sorting">作者</th>
+												<th aria-label="Engine version: activate to sort column ascending" style="text-align:center" colspan="1" rowspan="1" aria-controls="dataTables-example" tabindex="0" class="sorting">发布时间</th>
+												<th aria-label="Engine version: activate to sort column ascending" style="text-align:center" colspan="1" rowspan="1" aria-controls="dataTables-example" tabindex="0" class="sorting">置顶状态</th>
+												<th aria-label="Engine version: activate to sort column ascending" style="text-align:center" colspan="1" rowspan="1" aria-controls="dataTables-example" tabindex="0" class="sorting">浏览状态</th>
+												<th aria-label="CSS grade: activate to sort column ascending" style="text-align:center" colspan="1" rowspan="1" aria-controls="dataTables-example" tabindex="0" class="sorting">操作</th>
+											</tr>
+										</thead>
+										<tbody>
+
+											<tr role="row" class="gradeA odd">
+
+											</tr>
+											<volist name="data" id="vo">
+												<tr role="row" class="gradeA odd"  style="text-align:center">
+													<td class="">{$vo['id']}</td>
+													<td class="sorting_1">{$vo['title']|msubstr=0,7,'utf-8',true}</td>
+													<td>{$vo['username']}</td>
+													<td>{:date('Y-m-d H:i:s',$vo['ctime'])}</td>
+													<td>
+														<if condition="$vo['state1'] eq 1">已置顶
+														<else/>普通
+														</if>
+													</td>
+													<td>
+														<if condition="$vo['hot'] eq 1">热帖
+														<else/>普通
+														</if>
+													</td>
+													<td class="center">
+														<a href="{:U('Lpost/pdetail',array('id'=>$vo['id']))}" class="btn btn-success btn-xs">查看详情</a>
+
+
+
+
+														<a href="{:U('Lpost/top',array('id'=>$vo['id'],'state1'=>$vo['state1']))}" class="btn btn-success btn-xs">
+															<if condition="$vo['state1'] eq 2">置&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;顶
+															<else/>取消置顶
+															</if>
+														</a>
+														<a href="{:U('Lpost/hot',array('id'=>$vo['id'],'hot'=>$vo['hot']))}" class="btn btn-success btn-xs">
+															<if condition="$vo['hot'] eq 2">加为热帖
+															<else/>取消热帖
+															</if>
+														</a>
+														<input type="hidden" class="inp" value="{$vo['id']}">
+														<a href="{:U('Lpost/toRecycle',array('id'=>$vo['id']))}" class="rec btn btn-warning btn-xs">加入回收站</a>
+													</td>
+												</tr>
+
+											</volist>
+											<tr>
+												<td colspan="7">{$show}</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /.table-responsive -->
+
+				</div>
+				<!-- /.panel-body -->
+			</div>
+			<!-- /.panel -->
+		</div>
+		<!-- /.col-lg-12 -->
+	</div>
+</block>

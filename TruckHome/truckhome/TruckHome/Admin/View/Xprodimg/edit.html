@@ -1,0 +1,70 @@
+<extend name="Public/base"/>
+<block name="main">
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="panel panel-default">
+				<div class="panel-heading">添加产品</div>
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-lg-12">
+							<form class="form-horizontal" action="{:U('Xprodimg/update')}" method="post" enctype="multipart/form-data">
+								<div class="form-group">
+									<label for="inputPassword3" class="col-sm-2 control-label">产品名称:</label>
+									<div class="col-sm-10">
+
+										<select style="width:50%" class="form-control" name="pid">
+											<volist name="prod" id="vo" >
+
+												<option value="{$vo['id']}" {$vo['id']==$poneid?'selected':''}>
+													{$vo['pname']}
+												</option>
+
+
+											</volist>
+                                        </select>
+
+
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="inputEmail3" class="col-sm-2 control-label">类别：</label>
+									<div class="col-sm-10">
+										<input type="hidden" name="id" value="{$data['id']}"/>
+										<label class="radio-inline">
+											<input type="hidden" name="id" value="{$data['id']}"/>
+											<input type="radio" name="state" id="state" {$data['state']==1?"checked":""} value="{$data['state']}"/>外观
+										</label>
+										<label class="radio-inline">
+											<input type="radio" name="state" id="state" value="{$data['state']}" {$data['state']==2?"checked":""}/>驾驶室
+										</label>
+										<label class="radio-inline">
+											<input type="radio" name="state" id="state" value="{$data['state']}" {$data['state']==3?"checked":""} />底盘
+										</label>
+									</div>
+								</div>
+
+
+
+
+								<div class="form-group">
+    								<label for="exampleInputFile" class="col-sm-2 control-label">上传图片：</label>
+    								<div class="col-sm-10">
+    									<input type="file" name="picname"  class="">
+										<img src="{$data['picname']}"  height="80px"/>
+    								</div>
+  								</div>
+
+								<div class="form-group">
+									<div class="col-sm-offset-2 col-sm-10">
+										<button type="submit" class="btn btn-primary">修改</button>
+										<button onclick="javascript:location.href='{:U('Xprodimg/index')}';" class="btn btn-primary" type="button">&nbsp;&nbsp;取消&nbsp;&nbsp;</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</block>

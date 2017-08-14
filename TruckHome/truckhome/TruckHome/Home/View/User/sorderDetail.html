@@ -1,0 +1,96 @@
+<extend name="Public/userbase"/>
+
+<block name="main">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/shop/home/css/ecshop_pcenter.css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/shop/home/css/ecshop_common.css">
+
+	{:W('Menu/userleft')}
+	<div class="prefirght">
+
+		<div class="jymx_0927" style="width:770px">
+			<div class="jymx_a">订单信息</div>
+
+			<div class="jymx_bol">
+				<div class="ddzt">
+					<span class="zt1">
+						订单状态： <font>{$state[$data['state']]}</font>
+					</span>
+
+				</div>
+				<div class="ddzt">
+					<span class="ddh">
+						订单号： <font>{$data['id']}</font>
+					</span>
+				</div>
+				<div class="ddzt">
+					<span class="ddh">
+						下单时间： <font>{:date('Y-m-d H:i:s',$data['addtime'])}</font>
+					</span>
+				</div>
+
+
+			</div>
+
+			<div class="jymx_bol"> <strong>收货人信息</strong>
+				<br>
+				姓名：{$data['getman']}
+				<br>
+				地址：{$data['area']}{$data['address']}
+				<br>
+				手机号码：{$data['phonenum']}
+				<br></div>
+
+			<div class="jymx_bol"> <strong>支付方式</strong>
+				<br>支付方式：支付宝</div>
+
+			<div class="jymx_bol">
+				<div class="ddzt">
+					<span class="zt1">商品清单</span>
+				</div>
+				<div class="jymsp0927 spqd" style="width:720px">
+
+
+				<table width="500" cellspacing="0" cellpadding="0">
+					<tbody></tbody>
+					<tbody>
+						<tr style="text-align:center">
+							<th style="text-align:center">商品编号</th>
+							<th class="wid240" style="text-align:center">商品名称</th>
+							<th style="text-align:center">商品价格</th>
+							<th class="paddlr" style="text-align:center">数量</th>
+						</tr>
+						<foreach name="res" item="vo">
+						<tr>
+							<td>{$vo['pid']}</td>
+							<td>
+								<a href="{:U('Sproduct/proDetail',array('id'=>$vo['pid']))}" target="_blank" class="flk13">{$vo['proname']|msubstr=0,30,'utf-8',true}</a>
+							</td>
+							<td class="red01">{$vo['price']}</td>
+							<td>{$vo['number']}</td>
+						</tr>
+						</foreach>
+
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="jymx_bol0928">
+
+			<div class="jiesuan2">
+
+				<span class="js21">商品总价：</span>
+				<span class="js22">
+					{$data['totalPrice']}元
+
+				</span>
+
+			</div>
+
+
+		</div>
+
+	</div>
+
+</div>
+
+</block>

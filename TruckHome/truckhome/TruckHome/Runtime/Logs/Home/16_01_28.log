@@ -1,0 +1,2952 @@
+[ 2016-01-28T10:39:21+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Sproduct/index/cid/10.html
+ERR: Think\Controller:slogin方法不存在！
+
+[ 2016-01-28T10:39:34+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Sproduct/index/cid/14.html
+ERR: Think\Controller:slogin方法不存在！
+
+[ 2016-01-28T10:39:43+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Sproduct/index/cid/11.html
+ERR: Think\Controller:slogin方法不存在！
+
+[ 2016-01-28T10:44:14+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Scart/increase.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003779s ]
+SQL: DESCRIBE truck_scart [ RunTime:0.031315s ]
+SQL: UPDATE `truck_scart` SET `number`=number+1 WHERE `uid` = 2 AND `pid` = 64 [ RunTime:0.115101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002715s ]
+
+[ 2016-01-28T10:44:14+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Scart/increase.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003779s ]
+SQL: DESCRIBE truck_scart [ RunTime:0.007722s ]
+SQL: UPDATE `truck_scart` SET `number`=number+1 WHERE `uid` = 2 AND `pid` = 64 [ RunTime:0.069254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002790s ]
+
+[ 2016-01-28T10:44:15+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Scart/increase.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004089s ]
+SQL: DESCRIBE truck_scart [ RunTime:0.007735s ]
+SQL: UPDATE `truck_scart` SET `number`=number+1 WHERE `uid` = 2 AND `pid` = 64 [ RunTime:0.054542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002680s ]
+
+[ 2016-01-28T10:44:15+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Scart/increase.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003859s ]
+SQL: DESCRIBE truck_scart [ RunTime:0.007915s ]
+SQL: UPDATE `truck_scart` SET `number`=number+1 WHERE `uid` = 2 AND `pid` = 64 [ RunTime:0.173519s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002663s ]
+
+[ 2016-01-28T10:44:21+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/sessid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003895s ]
+SQL: DESCRIBE truck_scart [ RunTime:0.008070s ]
+SQL: SELECT * FROM `truck_scart` INNER JOIN truck_sproduct ON truck_scart.pid = truck_sproduct.id  WHERE truck_scart.uid = '2' AND truck_scart.pid IN ('64')  [ RunTime:0.002919s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002706s ]
+
+[ 2016-01-28T10:44:22+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004935s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.007554s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.031833s ]
+
+[ 2016-01-28T10:44:30+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Sorder/aid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003870s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002591s ]
+
+[ 2016-01-28T10:46:12+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Sorder/index/state/3.html
+ERR: 模板不存在:./TruckHome/Home/View/User/sreceived.html
+
+[ 2016-01-28T11:37:53+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/sessid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003730s ]
+SQL: DESCRIBE truck_scart [ RunTime:0.007883s ]
+SQL: SELECT * FROM `truck_scart` INNER JOIN truck_sproduct ON truck_scart.pid = truck_sproduct.id  WHERE truck_scart.uid = '2' AND truck_scart.pid IN ('55')  [ RunTime:0.001164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002631s ]
+
+[ 2016-01-28T11:37:54+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006612s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.007907s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001206s ]
+
+[ 2016-01-28T11:38:09+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=18
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004194s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.009262s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=18 )  [ RunTime:0.001151s ]
+
+[ 2016-01-28T11:38:10+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=275
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004603s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008196s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=275 )  [ RunTime:0.001458s ]
+
+[ 2016-01-28T11:38:11+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=2915
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003970s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008576s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=2915 )  [ RunTime:0.009814s ]
+
+[ 2016-01-28T11:38:13+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=26598
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003845s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008228s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=26598 )  [ RunTime:0.001032s ]
+
+[ 2016-01-28T11:38:34+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005610s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.009288s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001462s ]
+
+[ 2016-01-28T11:38:41+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Sorder/aid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003718s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003694s ]
+
+[ 2016-01-28T11:38:44+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004483s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.005673s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.000883s ]
+
+[ 2016-01-28T11:38:52+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Sorder/aid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003879s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002203s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002456s ]
+
+[ 2016-01-28T11:39:09+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004733s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008299s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001428s ]
+
+[ 2016-01-28T11:39:13+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003946s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008210s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=1 )  [ RunTime:0.001102s ]
+
+[ 2016-01-28T11:39:14+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004344s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.007969s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=37 )  [ RunTime:0.001132s ]
+
+[ 2016-01-28T11:39:15+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=567
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004145s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008293s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=567 )  [ RunTime:0.000746s ]
+
+[ 2016-01-28T11:39:26+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004418s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.010222s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001324s ]
+
+[ 2016-01-28T11:42:56+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003706s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.010024s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001436s ]
+
+[ 2016-01-28T11:42:59+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004073s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008019s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=2 )  [ RunTime:0.001259s ]
+
+[ 2016-01-28T11:43:01+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003975s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008088s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=7 )  [ RunTime:0.001081s ]
+
+[ 2016-01-28T11:43:02+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=122
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004162s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.007795s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=122 )  [ RunTime:0.001023s ]
+
+[ 2016-01-28T11:43:03+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=1629
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004050s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008617s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=1629 )  [ RunTime:0.022136s ]
+
+[ 2016-01-28T11:43:04+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=11615
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003777s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.007795s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=11615 )  [ RunTime:0.000796s ]
+
+[ 2016-01-28T11:43:14+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/index.html
+ERR: 模板不存在:./TruckHome/Home/View/http///127.0.0.1/threeall/ThinkPHP/index.php/Home/Saddress/add.html.html
+
+[ 2016-01-28T11:45:29+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003930s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008597s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001133s ]
+
+[ 2016-01-28T11:45:30+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004003s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008651s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001432s ]
+
+[ 2016-01-28T11:45:33+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003954s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008368s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=1 )  [ RunTime:0.001254s ]
+
+[ 2016-01-28T11:45:34+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=38
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003868s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008489s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=38 )  [ RunTime:0.000903s ]
+
+[ 2016-01-28T11:45:34+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=578
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004369s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.007692s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=578 )  [ RunTime:0.000893s ]
+
+[ 2016-01-28T11:45:41+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/index.html
+ERR: 模板不存在:./TruckHome/Home/View//threeall/ThinkPHP/index.php/Home/Saddress/insert.html.html
+
+[ 2016-01-28T11:47:03+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002665s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.006252s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001003s ]
+
+[ 2016-01-28T11:47:09+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004029s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.006144s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001075s ]
+
+[ 2016-01-28T11:47:15+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004214s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008663s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=3 )  [ RunTime:0.001376s ]
+
+[ 2016-01-28T11:47:16+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=75
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004192s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008611s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=75 )  [ RunTime:0.000917s ]
+
+[ 2016-01-28T11:47:17+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=1164
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004008s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008006s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=1164 )  [ RunTime:0.001028s ]
+
+[ 2016-01-28T11:47:18+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=5528
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003804s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008508s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=5528 )  [ RunTime:0.000755s ]
+
+[ 2016-01-28T11:47:39+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/sessid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004658s ]
+SQL: DESCRIBE truck_scart [ RunTime:0.008172s ]
+SQL: SELECT * FROM `truck_scart` INNER JOIN truck_sproduct ON truck_scart.pid = truck_sproduct.id  WHERE truck_scart.uid = '2' AND truck_scart.pid IN ('59')  [ RunTime:0.001511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002889s ]
+
+[ 2016-01-28T11:47:40+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005180s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.006165s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.000981s ]
+
+[ 2016-01-28T11:50:20+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004881s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.007831s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001414s ]
+
+[ 2016-01-28T11:50:23+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003619s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008632s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001303s ]
+
+[ 2016-01-28T11:50:56+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003905s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.009691s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=1 )  [ RunTime:0.001961s ]
+
+[ 2016-01-28T11:50:57+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=38
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003844s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008324s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=38 )  [ RunTime:0.000951s ]
+
+[ 2016-01-28T11:50:58+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=577
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006511s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008336s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=577 )  [ RunTime:0.000764s ]
+
+[ 2016-01-28T11:51:04+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004302s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008119s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001320s ]
+
+[ 2016-01-28T11:52:13+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004517s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.044523s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001315s ]
+
+[ 2016-01-28T11:52:16+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003751s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008115s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=2 )  [ RunTime:0.001126s ]
+
+[ 2016-01-28T11:52:17+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=56
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004242s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008431s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=56 )  [ RunTime:0.001074s ]
+
+[ 2016-01-28T11:52:18+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=890
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004038s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008064s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=890 )  [ RunTime:0.000765s ]
+
+[ 2016-01-28T11:52:29+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003638s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008783s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001513s ]
+
+[ 2016-01-28T11:52:34+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003626s ]
+SQL: DESCRIBE truck_saddress [ RunTime:0.008440s ]
+SQL: DELETE FROM `truck_saddress` WHERE `id` = 19 AND `uid` = 2 [ RunTime:0.091912s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002980s ]
+
+[ 2016-01-28T11:52:35+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004011s ]
+SQL: DESCRIBE truck_saddress [ RunTime:0.008311s ]
+SQL: DELETE FROM `truck_saddress` WHERE `id` = 18 AND `uid` = 2 [ RunTime:0.167126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003217s ]
+
+[ 2016-01-28T11:52:38+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004054s ]
+SQL: DESCRIBE truck_saddress [ RunTime:0.008162s ]
+SQL: DELETE FROM `truck_saddress` WHERE `id` = 17 AND `uid` = 2 [ RunTime:0.326724s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002711s ]
+
+[ 2016-01-28T11:52:39+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003446s ]
+SQL: DESCRIBE truck_saddress [ RunTime:0.009768s ]
+SQL: DELETE FROM `truck_saddress` WHERE `id` = 16 AND `uid` = 2 [ RunTime:0.134807s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002733s ]
+
+[ 2016-01-28T11:52:40+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003608s ]
+SQL: DESCRIBE truck_saddress [ RunTime:0.008422s ]
+SQL: DELETE FROM `truck_saddress` WHERE `id` = 15 AND `uid` = 2 [ RunTime:0.050964s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002630s ]
+
+[ 2016-01-28T11:52:41+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003641s ]
+SQL: DESCRIBE truck_saddress [ RunTime:0.007676s ]
+SQL: DELETE FROM `truck_saddress` WHERE `id` = 14 AND `uid` = 2 [ RunTime:0.083782s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002588s ]
+
+[ 2016-01-28T11:52:41+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003537s ]
+SQL: DESCRIBE truck_saddress [ RunTime:0.008123s ]
+SQL: DELETE FROM `truck_saddress` WHERE `id` = 13 AND `uid` = 2 [ RunTime:0.000707s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002922s ]
+
+[ 2016-01-28T11:52:44+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003528s ]
+SQL: DESCRIBE truck_saddress [ RunTime:0.008156s ]
+SQL: DELETE FROM `truck_saddress` WHERE `id` = 13 AND `uid` = 2 [ RunTime:0.000834s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002575s ]
+
+[ 2016-01-28T11:52:50+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003621s ]
+SQL: DESCRIBE truck_saddress [ RunTime:0.008079s ]
+SQL: DELETE FROM `truck_saddress` WHERE `id` = 13 AND `uid` = 2 [ RunTime:0.000810s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002613s ]
+
+[ 2016-01-28T11:52:53+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003608s ]
+SQL: DESCRIBE truck_saddress [ RunTime:0.008689s ]
+SQL: DELETE FROM `truck_saddress` WHERE `id` = 12 AND `uid` = 2 [ RunTime:0.000743s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002568s ]
+
+[ 2016-01-28T11:52:55+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004015s ]
+SQL: DESCRIBE truck_saddress [ RunTime:0.007974s ]
+SQL: DELETE FROM `truck_saddress` WHERE `id` = 10 AND `uid` = 2 [ RunTime:0.000749s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002581s ]
+
+[ 2016-01-28T11:52:57+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003824s ]
+SQL: DESCRIBE truck_saddress [ RunTime:0.008338s ]
+SQL: DELETE FROM `truck_saddress` WHERE `id` = 9 AND `uid` = 2 [ RunTime:0.000754s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002828s ]
+
+[ 2016-01-28T11:53:03+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003597s ]
+SQL: DESCRIBE truck_saddress [ RunTime:0.008445s ]
+SQL: DELETE FROM `truck_saddress` WHERE `id` = 13 AND `uid` = 2 [ RunTime:0.000773s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002558s ]
+
+[ 2016-01-28T11:53:09+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003726s ]
+SQL: DESCRIBE truck_saddress [ RunTime:0.008311s ]
+SQL: DELETE FROM `truck_saddress` WHERE `id` = 13 AND `uid` = 2 [ RunTime:0.000735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002563s ]
+
+[ 2016-01-28T11:56:46+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003522s ]
+SQL: DESCRIBE truck_saddress [ RunTime:0.007929s ]
+SQL: DELETE FROM `truck_saddress` WHERE `id` = 13 AND `uid` = 2 [ RunTime:0.000844s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002545s ]
+
+[ 2016-01-28T11:57:48+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003788s ]
+SQL: DESCRIBE truck_saddress [ RunTime:0.008174s ]
+SQL: DELETE FROM `truck_saddress` WHERE `id` = 13 [ RunTime:0.067997s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002552s ]
+
+[ 2016-01-28T11:57:52+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003681s ]
+SQL: DESCRIBE truck_saddress [ RunTime:0.009064s ]
+SQL: DELETE FROM `truck_saddress` WHERE `id` = 12 [ RunTime:0.072367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002601s ]
+
+[ 2016-01-28T11:57:55+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003699s ]
+SQL: DESCRIBE truck_saddress [ RunTime:0.007996s ]
+SQL: DELETE FROM `truck_saddress` WHERE `id` = 11 [ RunTime:0.048657s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002765s ]
+
+[ 2016-01-28T11:58:00+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003666s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008697s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001207s ]
+
+[ 2016-01-28T11:58:05+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004184s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008670s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=3 )  [ RunTime:0.000996s ]
+
+[ 2016-01-28T11:58:06+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=74
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003774s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.007942s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=74 )  [ RunTime:0.001133s ]
+
+[ 2016-01-28T11:58:07+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=1151
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004122s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008882s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=1151 )  [ RunTime:0.001118s ]
+
+[ 2016-01-28T11:58:08+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=5344
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008238s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008405s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=5344 )  [ RunTime:0.001378s ]
+
+[ 2016-01-28T11:59:13+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007099s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.005669s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001040s ]
+
+[ 2016-01-28T11:59:14+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003416s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.011550s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=3 )  [ RunTime:0.001655s ]
+
+[ 2016-01-28T11:59:15+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=74
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003726s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008547s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=74 )  [ RunTime:0.000983s ]
+
+[ 2016-01-28T11:59:16+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=1150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004055s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008591s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=1150 )  [ RunTime:0.001318s ]
+
+[ 2016-01-28T11:59:17+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=5317
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003761s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008229s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=5317 )  [ RunTime:0.000744s ]
+
+[ 2016-01-28T11:59:29+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006455s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.007497s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001255s ]
+
+[ 2016-01-28T11:59:31+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002744s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.006352s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=3 )  [ RunTime:0.000712s ]
+
+[ 2016-01-28T11:59:32+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=74
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004382s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.007784s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=74 )  [ RunTime:0.001121s ]
+
+[ 2016-01-28T11:59:34+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=1149
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004075s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.007944s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=1149 )  [ RunTime:0.001309s ]
+
+[ 2016-01-28T11:59:35+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=5299
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003910s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008096s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=5299 )  [ RunTime:0.000774s ]
+
+[ 2016-01-28T11:59:44+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004290s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.009786s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001751s ]
+
+[ 2016-01-28T11:59:45+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003517s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008703s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=3 )  [ RunTime:0.000968s ]
+
+[ 2016-01-28T11:59:45+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=73
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004137s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008498s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=73 )  [ RunTime:0.001268s ]
+
+[ 2016-01-28T11:59:46+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=1128
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003853s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008024s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=1128 )  [ RunTime:0.001105s ]
+
+[ 2016-01-28T11:59:47+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=5049
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003937s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008626s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=5049 )  [ RunTime:0.000817s ]
+
+[ 2016-01-28T12:00:23+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/sessid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003957s ]
+SQL: DESCRIBE truck_scart [ RunTime:0.009884s ]
+SQL: SELECT * FROM `truck_scart` INNER JOIN truck_sproduct ON truck_scart.pid = truck_sproduct.id  WHERE truck_scart.uid = '2' AND truck_scart.pid IN ('51','59')  [ RunTime:0.001436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002962s ]
+
+[ 2016-01-28T12:01:12+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/sessid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003368s ]
+SQL: DESCRIBE truck_scart [ RunTime:0.009324s ]
+SQL: SELECT * FROM `truck_scart` INNER JOIN truck_sproduct ON truck_scart.pid = truck_sproduct.id  WHERE truck_scart.uid = '2' AND truck_scart.pid IN ('51','59')  [ RunTime:0.001098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001894s ]
+
+[ 2016-01-28T12:01:29+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/sessid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003909s ]
+SQL: DESCRIBE truck_scart [ RunTime:0.009369s ]
+SQL: SELECT * FROM `truck_scart` INNER JOIN truck_sproduct ON truck_scart.pid = truck_sproduct.id  WHERE truck_scart.uid = '2' AND truck_scart.pid IN ('51')  [ RunTime:0.001226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002579s ]
+
+[ 2016-01-28T12:03:06+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/sessid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003570s ]
+SQL: DESCRIBE truck_scart [ RunTime:0.008319s ]
+SQL: SELECT * FROM `truck_scart` INNER JOIN truck_sproduct ON truck_scart.pid = truck_sproduct.id  WHERE truck_scart.uid = '2' AND truck_scart.pid IN ('51','59')  [ RunTime:0.002032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002501s ]
+
+[ 2016-01-28T12:03:06+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002927s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.007795s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001149s ]
+
+[ 2016-01-28T12:03:10+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003780s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.010076s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001408s ]
+
+[ 2016-01-28T12:03:12+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004307s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008017s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=3 )  [ RunTime:0.001142s ]
+
+[ 2016-01-28T12:03:13+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=74
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004127s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008114s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=74 )  [ RunTime:0.001148s ]
+
+[ 2016-01-28T12:03:14+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=1151
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004142s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008749s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=1151 )  [ RunTime:0.001063s ]
+
+[ 2016-01-28T12:03:15+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=5343
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004022s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008460s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=5343 )  [ RunTime:0.000860s ]
+
+[ 2016-01-28T12:03:20+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002754s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.007337s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001032s ]
+
+[ 2016-01-28T12:03:31+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003686s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.007652s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001459s ]
+
+[ 2016-01-28T12:03:33+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004034s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008183s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=1 )  [ RunTime:0.001240s ]
+
+[ 2016-01-28T12:03:34+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=38
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004231s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008088s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=38 )  [ RunTime:0.001058s ]
+
+[ 2016-01-28T12:03:35+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=578
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003967s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.007835s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=578 )  [ RunTime:0.000786s ]
+
+[ 2016-01-28T12:03:40+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003753s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008075s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001267s ]
+
+[ 2016-01-28T12:04:27+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003434s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.007893s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001091s ]
+
+[ 2016-01-28T12:04:29+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005138s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008256s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=2 )  [ RunTime:0.000813s ]
+
+[ 2016-01-28T12:04:30+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=56
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004392s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008768s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=56 )  [ RunTime:0.001063s ]
+
+[ 2016-01-28T12:04:31+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=889
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003772s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.007721s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=889 )  [ RunTime:0.000809s ]
+
+[ 2016-01-28T12:05:21+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002838s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.006088s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001190s ]
+
+[ 2016-01-28T12:05:22+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002563s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.006581s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=2 )  [ RunTime:0.001437s ]
+
+[ 2016-01-28T12:05:23+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=56
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004456s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008309s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=56 )  [ RunTime:0.001209s ]
+
+[ 2016-01-28T12:05:24+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=890
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004419s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008990s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=890 )  [ RunTime:0.000709s ]
+
+[ 2016-01-28T12:52:51+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003681s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.005279s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.000944s ]
+
+[ 2016-01-28T12:52:55+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004171s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.007661s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=4 )  [ RunTime:0.001000s ]
+
+[ 2016-01-28T12:52:56+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=86
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004213s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008520s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=86 )  [ RunTime:0.001263s ]
+
+[ 2016-01-28T12:52:57+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=1321
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004645s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.007819s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=1321 )  [ RunTime:0.001077s ]
+
+[ 2016-01-28T12:52:58+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=7497
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004104s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008523s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=7497 )  [ RunTime:0.000960s ]
+
+[ 2016-01-28T12:53:05+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003878s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008948s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001355s ]
+
+[ 2016-01-28T12:53:08+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004039s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008439s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=3 )  [ RunTime:0.000987s ]
+
+[ 2016-01-28T12:53:09+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=75
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003946s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.007557s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=75 )  [ RunTime:0.001224s ]
+
+[ 2016-01-28T12:53:10+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=1164
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003827s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008063s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=1164 )  [ RunTime:0.001009s ]
+
+[ 2016-01-28T12:53:11+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=5529
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004069s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008717s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=5529 )  [ RunTime:0.000795s ]
+
+[ 2016-01-28T12:53:58+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002874s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.005592s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001087s ]
+
+[ 2016-01-28T12:54:00+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004161s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008561s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=3 )  [ RunTime:0.001044s ]
+
+[ 2016-01-28T12:54:01+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=74
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003701s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.007695s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=74 )  [ RunTime:0.001018s ]
+
+[ 2016-01-28T12:54:03+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=1153
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004225s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.009462s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=1153 )  [ RunTime:0.001048s ]
+
+[ 2016-01-28T12:54:05+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=5371
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004454s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008281s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=5371 )  [ RunTime:0.000873s ]
+
+[ 2016-01-28T12:55:01+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003817s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.010565s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001449s ]
+
+[ 2016-01-28T12:55:03+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003411s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.007727s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=3 )  [ RunTime:0.001747s ]
+
+[ 2016-01-28T12:55:04+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=75
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003774s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.007728s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=75 )  [ RunTime:0.001032s ]
+
+[ 2016-01-28T12:55:05+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=1164
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003771s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008278s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=1164 )  [ RunTime:0.001249s ]
+
+[ 2016-01-28T12:55:05+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=5528
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003701s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008451s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=5528 )  [ RunTime:0.000730s ]
+
+[ 2016-01-28T12:55:23+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005836s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.014640s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001773s ]
+
+[ 2016-01-28T12:55:26+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003601s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.009655s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=3 )  [ RunTime:0.001217s ]
+
+[ 2016-01-28T12:55:27+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=74
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003786s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.007938s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=74 )  [ RunTime:0.001028s ]
+
+[ 2016-01-28T12:55:28+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=1150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005165s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008626s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=1150 )  [ RunTime:0.001611s ]
+
+[ 2016-01-28T12:55:29+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=5316
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003697s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008823s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=5316 )  [ RunTime:0.000876s ]
+
+[ 2016-01-28T12:55:37+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009605s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.007851s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001215s ]
+
+[ 2016-01-28T12:55:39+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003943s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008246s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=4 )  [ RunTime:0.000963s ]
+
+[ 2016-01-28T12:55:40+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=85
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004330s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008508s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=85 )  [ RunTime:0.000961s ]
+
+[ 2016-01-28T12:55:41+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=1310
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003934s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008540s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=1310 )  [ RunTime:0.001323s ]
+
+[ 2016-01-28T12:55:42+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=7368
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003959s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008241s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=7368 )  [ RunTime:0.000776s ]
+
+[ 2016-01-28T12:55:47+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/insert.html
+ERR: 模板不存在:./TruckHome/Home/View/Saddress/saddIndex.html
+
+[ 2016-01-28T12:57:09+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004702s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.009456s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001512s ]
+
+[ 2016-01-28T12:57:12+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003819s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008640s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=5 )  [ RunTime:0.000989s ]
+
+[ 2016-01-28T12:57:13+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=97
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004388s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008412s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=97 )  [ RunTime:0.000933s ]
+
+[ 2016-01-28T12:57:14+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=1437
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004352s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008268s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=1437 )  [ RunTime:0.000898s ]
+
+[ 2016-01-28T12:57:15+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=8862
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003845s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.007537s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=8862 )  [ RunTime:0.000762s ]
+
+[ 2016-01-28T13:00:22+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/sessid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003687s ]
+SQL: DESCRIBE truck_scart [ RunTime:0.008736s ]
+SQL: SELECT * FROM `truck_scart` INNER JOIN truck_sproduct ON truck_scart.pid = truck_sproduct.id  WHERE truck_scart.uid = '2' AND truck_scart.pid IN ('52')  [ RunTime:0.001360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003344s ]
+
+[ 2016-01-28T13:00:22+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003394s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.006279s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.000971s ]
+
+[ 2016-01-28T13:48:25+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/sessid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004245s ]
+SQL: DESCRIBE truck_scart [ RunTime:0.010695s ]
+SQL: SELECT * FROM `truck_scart` INNER JOIN truck_sproduct ON truck_scart.pid = truck_sproduct.id  WHERE truck_scart.uid = '2' AND truck_scart.pid IN ('64','52','51','59')  [ RunTime:0.002768s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002596s ]
+
+[ 2016-01-28T13:48:25+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003777s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008529s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001217s ]
+
+[ 2016-01-28T13:48:31+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Sorder/aid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003776s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003093s ]
+
+[ 2016-01-28T13:49:51+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/sessid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006439s ]
+SQL: DESCRIBE truck_scart [ RunTime:0.008957s ]
+SQL: SELECT * FROM `truck_scart` INNER JOIN truck_sproduct ON truck_scart.pid = truck_sproduct.id  WHERE truck_scart.uid = '2' AND truck_scart.pid IN ('65')  [ RunTime:0.001191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002622s ]
+
+[ 2016-01-28T13:49:52+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005824s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008625s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001301s ]
+
+[ 2016-01-28T13:50:08+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Sorder/aid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002404s ]
+
+[ 2016-01-28T13:52:25+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/sessid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004938s ]
+SQL: DESCRIBE truck_scart [ RunTime:0.015572s ]
+SQL: SELECT * FROM `truck_scart` INNER JOIN truck_sproduct ON truck_scart.pid = truck_sproduct.id  WHERE truck_scart.uid = '2' AND truck_scart.pid IN ('51','53')  [ RunTime:0.002896s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004180s ]
+
+[ 2016-01-28T13:52:25+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007699s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.012186s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001335s ]
+
+[ 2016-01-28T13:52:46+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/sessid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003977s ]
+SQL: DESCRIBE truck_scart [ RunTime:0.008863s ]
+SQL: SELECT * FROM `truck_scart` INNER JOIN truck_sproduct ON truck_scart.pid = truck_sproduct.id  WHERE truck_scart.uid = '2' AND truck_scart.pid IN ('51','53')  [ RunTime:0.007273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002868s ]
+
+[ 2016-01-28T13:52:47+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004747s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.007964s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001502s ]
+
+[ 2016-01-28T13:53:22+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Sorder/aid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003781s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002797s ]
+
+[ 2016-01-28T13:53:34+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003774s ]
+SQL: DESCRIBE truck_saddress [ RunTime:0.008351s ]
+SQL: DELETE FROM `truck_saddress` WHERE `id` = 3 [ RunTime:0.108945s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002637s ]
+
+[ 2016-01-28T13:53:36+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003658s ]
+SQL: DESCRIBE truck_saddress [ RunTime:0.011409s ]
+SQL: DELETE FROM `truck_saddress` WHERE `id` = 4 [ RunTime:0.080663s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002630s ]
+
+[ 2016-01-28T13:53:36+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003903s ]
+SQL: DESCRIBE truck_saddress [ RunTime:0.007803s ]
+SQL: DELETE FROM `truck_saddress` WHERE `id` = 5 [ RunTime:0.066651s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002667s ]
+
+[ 2016-01-28T13:53:37+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003867s ]
+SQL: DESCRIBE truck_saddress [ RunTime:0.008531s ]
+SQL: DELETE FROM `truck_saddress` WHERE `id` = 7 [ RunTime:0.080328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002734s ]
+
+[ 2016-01-28T13:53:37+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003670s ]
+SQL: DESCRIBE truck_saddress [ RunTime:0.007568s ]
+SQL: DELETE FROM `truck_saddress` WHERE `id` = 8 [ RunTime:0.077355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002651s ]
+
+[ 2016-01-28T13:53:38+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003828s ]
+SQL: DESCRIBE truck_saddress [ RunTime:0.008076s ]
+SQL: DELETE FROM `truck_saddress` WHERE `id` = 9 [ RunTime:0.074849s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002673s ]
+
+[ 2016-01-28T13:53:38+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003870s ]
+SQL: DESCRIBE truck_saddress [ RunTime:0.008090s ]
+SQL: DELETE FROM `truck_saddress` WHERE `id` = 10 [ RunTime:0.081403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002646s ]
+
+[ 2016-01-28T13:53:39+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003743s ]
+SQL: DESCRIBE truck_saddress [ RunTime:0.008616s ]
+SQL: DELETE FROM `truck_saddress` WHERE `id` = 20 [ RunTime:0.075441s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002928s ]
+
+[ 2016-01-28T13:53:40+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003898s ]
+SQL: DESCRIBE truck_saddress [ RunTime:0.007489s ]
+SQL: DELETE FROM `truck_saddress` WHERE `id` = 21 [ RunTime:0.087843s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002639s ]
+
+[ 2016-01-28T13:53:40+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003751s ]
+SQL: DESCRIBE truck_saddress [ RunTime:0.008352s ]
+SQL: DELETE FROM `truck_saddress` WHERE `id` = 22 [ RunTime:0.059227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002643s ]
+
+[ 2016-01-28T13:53:40+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003861s ]
+SQL: DESCRIBE truck_saddress [ RunTime:0.008105s ]
+SQL: DELETE FROM `truck_saddress` WHERE `id` = 23 [ RunTime:0.065987s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002651s ]
+
+[ 2016-01-28T13:53:42+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003515s ]
+SQL: DESCRIBE truck_saddress [ RunTime:0.008482s ]
+SQL: DELETE FROM `truck_saddress` WHERE `id` = 24 [ RunTime:0.213369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002683s ]
+
+[ 2016-01-28T13:53:42+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004133s ]
+SQL: DESCRIBE truck_saddress [ RunTime:0.007687s ]
+SQL: DELETE FROM `truck_saddress` WHERE `id` = 24 [ RunTime:0.000709s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002542s ]
+
+[ 2016-01-28T13:53:46+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003673s ]
+SQL: DESCRIBE truck_saddress [ RunTime:0.008325s ]
+SQL: DELETE FROM `truck_saddress` WHERE `id` = 25 [ RunTime:0.068870s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002595s ]
+
+[ 2016-01-28T13:53:47+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003514s ]
+SQL: DESCRIBE truck_saddress [ RunTime:0.008820s ]
+SQL: DELETE FROM `truck_saddress` WHERE `id` = 26 [ RunTime:0.071432s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002574s ]
+
+[ 2016-01-28T13:53:48+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004010s ]
+SQL: DESCRIBE truck_saddress [ RunTime:0.008153s ]
+SQL: DELETE FROM `truck_saddress` WHERE `id` = 27 [ RunTime:0.048179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002543s ]
+
+[ 2016-01-28T13:53:49+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003663s ]
+SQL: DESCRIBE truck_saddress [ RunTime:0.007512s ]
+SQL: DELETE FROM `truck_saddress` WHERE `id` = 29 [ RunTime:0.071953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002662s ]
+
+[ 2016-01-28T13:53:50+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003739s ]
+SQL: DESCRIBE truck_saddress [ RunTime:0.008505s ]
+SQL: DELETE FROM `truck_saddress` WHERE `id` = 28 [ RunTime:0.067760s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002595s ]
+
+[ 2016-01-28T13:53:51+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003636s ]
+SQL: DESCRIBE truck_saddress [ RunTime:0.008273s ]
+SQL: DELETE FROM `truck_saddress` WHERE `id` = 2 [ RunTime:0.063293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002542s ]
+
+[ 2016-01-28T13:55:05+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/sessid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004396s ]
+SQL: DESCRIBE truck_scart [ RunTime:0.008381s ]
+SQL: SELECT * FROM `truck_scart` INNER JOIN truck_sproduct ON truck_scart.pid = truck_sproduct.id  WHERE truck_scart.uid = '2' AND truck_scart.pid IN ('67')  [ RunTime:0.001227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002685s ]
+
+[ 2016-01-28T13:55:06+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004661s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.009610s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001215s ]
+
+[ 2016-01-28T13:55:12+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Sorder/aid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003930s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002774s ]
+
+[ 2016-01-28T13:56:15+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/sessid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003321s ]
+SQL: DESCRIBE truck_scart [ RunTime:0.007894s ]
+SQL: SELECT * FROM `truck_scart` INNER JOIN truck_sproduct ON truck_scart.pid = truck_sproduct.id  WHERE truck_scart.uid = '2' AND truck_scart.pid IN ('50','52')  [ RunTime:0.001844s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002953s ]
+
+[ 2016-01-28T13:56:15+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004970s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008782s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001456s ]
+
+[ 2016-01-28T13:56:22+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003978s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.007827s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001258s ]
+
+[ 2016-01-28T13:56:30+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Sorder/aid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003482s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002834s ]
+
+[ 2016-01-28T14:09:29+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/sessid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003663s ]
+SQL: DESCRIBE truck_scart [ RunTime:0.013382s ]
+SQL: SELECT * FROM `truck_scart` INNER JOIN truck_sproduct ON truck_scart.pid = truck_sproduct.id  WHERE truck_scart.uid = '2' AND truck_scart.pid IN ('58','59')  [ RunTime:0.001374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002597s ]
+
+[ 2016-01-28T14:09:29+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003990s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008394s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001382s ]
+
+[ 2016-01-28T14:09:33+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004644s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008629s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001198s ]
+
+[ 2016-01-28T14:09:38+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Sorder/aid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003680s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003338s ]
+
+[ 2016-01-28T14:10:38+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/sessid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008243s ]
+SQL: DESCRIBE truck_scart [ RunTime:0.013435s ]
+SQL: SELECT * FROM `truck_scart` INNER JOIN truck_sproduct ON truck_scart.pid = truck_sproduct.id  WHERE truck_scart.uid = '2' AND truck_scart.pid IN ('60')  [ RunTime:0.001651s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002673s ]
+
+[ 2016-01-28T14:10:39+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005307s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.009929s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001565s ]
+
+[ 2016-01-28T14:10:47+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004135s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.007773s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001252s ]
+
+[ 2016-01-28T14:11:25+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007095s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.013805s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001533s ]
+
+[ 2016-01-28T14:11:30+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004779s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008013s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001497s ]
+
+[ 2016-01-28T14:11:33+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004474s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.005797s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001114s ]
+
+[ 2016-01-28T14:12:11+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/sessid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003348s ]
+SQL: DESCRIBE truck_scart [ RunTime:0.008475s ]
+SQL: SELECT * FROM `truck_scart` INNER JOIN truck_sproduct ON truck_scart.pid = truck_sproduct.id  WHERE truck_scart.uid = '2' AND truck_scart.pid IN ('59','60')  [ RunTime:0.001375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002507s ]
+
+[ 2016-01-28T14:12:12+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002762s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.006114s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.000945s ]
+
+[ 2016-01-28T14:12:26+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Sorder/aid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006641s ]
+
+[ 2016-01-28T14:27:00+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/sessid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003848s ]
+SQL: DESCRIBE truck_scart [ RunTime:0.009306s ]
+SQL: SELECT * FROM `truck_scart` INNER JOIN truck_sproduct ON truck_scart.pid = truck_sproduct.id  WHERE truck_scart.uid = '2' AND truck_scart.pid IN ('55','64')  [ RunTime:0.001476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002762s ]
+
+[ 2016-01-28T14:27:01+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002949s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.006583s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001104s ]
+
+[ 2016-01-28T14:27:10+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003648s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.009690s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001331s ]
+
+[ 2016-01-28T14:27:11+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Sorder/aid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003833s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002791s ]
+
+[ 2016-01-28T14:28:36+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/sessid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008789s ]
+SQL: DESCRIBE truck_scart [ RunTime:0.008339s ]
+SQL: SELECT * FROM `truck_scart` INNER JOIN truck_sproduct ON truck_scart.pid = truck_sproduct.id  WHERE truck_scart.uid = '2' AND truck_scart.pid IN ('55','64')  [ RunTime:0.025142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003105s ]
+
+[ 2016-01-28T14:28:37+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003754s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.009123s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001334s ]
+
+[ 2016-01-28T14:28:43+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003850s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.009390s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001263s ]
+
+[ 2016-01-28T14:28:52+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005233s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008072s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001352s ]
+
+[ 2016-01-28T14:29:00+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003626s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.007369s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001228s ]
+
+[ 2016-01-28T14:30:28+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003939s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008011s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001288s ]
+
+[ 2016-01-28T14:30:31+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Sorder/aid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002660s ]
+
+[ 2016-01-28T14:31:30+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/sessid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003603s ]
+SQL: DESCRIBE truck_scart [ RunTime:0.009650s ]
+SQL: SELECT * FROM `truck_scart` INNER JOIN truck_sproduct ON truck_scart.pid = truck_sproduct.id  WHERE truck_scart.uid = '2' AND truck_scart.pid IN ('53')  [ RunTime:0.001108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002633s ]
+
+[ 2016-01-28T14:31:31+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008100s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.013281s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001527s ]
+
+[ 2016-01-28T14:31:35+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Sorder/aid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002177s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002449s ]
+
+[ 2016-01-28T14:32:23+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/sessid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003525s ]
+SQL: DESCRIBE truck_scart [ RunTime:0.008568s ]
+SQL: SELECT * FROM `truck_scart` INNER JOIN truck_sproduct ON truck_scart.pid = truck_sproduct.id  WHERE truck_scart.uid = '2' AND truck_scart.pid IN ('58')  [ RunTime:0.001253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002576s ]
+
+[ 2016-01-28T14:32:24+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004261s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008813s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001330s ]
+
+[ 2016-01-28T14:32:32+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Sorder/aid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003455s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002490s ]
+
+[ 2016-01-28T14:32:58+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/sessid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003750s ]
+SQL: DESCRIBE truck_scart [ RunTime:0.007163s ]
+SQL: SELECT * FROM `truck_scart` INNER JOIN truck_sproduct ON truck_scart.pid = truck_sproduct.id  WHERE truck_scart.uid = '2' AND truck_scart.pid IN ('53')  [ RunTime:0.001113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002888s ]
+
+[ 2016-01-28T14:32:59+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004066s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.005470s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.000966s ]
+
+[ 2016-01-28T14:33:16+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/sessid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003239s ]
+SQL: DESCRIBE truck_scart [ RunTime:0.007817s ]
+SQL: SELECT * FROM `truck_scart` INNER JOIN truck_sproduct ON truck_scart.pid = truck_sproduct.id  WHERE truck_scart.uid = '2' AND truck_scart.pid IN ('53')  [ RunTime:0.001320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002924s ]
+
+[ 2016-01-28T14:33:18+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003399s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.007754s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001398s ]
+
+[ 2016-01-28T14:37:46+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005175s ]
+SQL: DESCRIBE truck_area [ RunTime:0.048901s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.040323s ]
+
+[ 2016-01-28T14:37:51+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/valUserName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003687s ]
+SQL: DESCRIBE truck_user [ RunTime:0.008877s ]
+SQL: SELECT * FROM `truck_user` WHERE `username` = '2345678' AND `cate` = 2 LIMIT 1   [ RunTime:0.001097s ]
+
+[ 2016-01-28T14:38:01+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004123s ]
+SQL: DESCRIBE truck_area [ RunTime:0.008061s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=13 )  [ RunTime:0.000986s ]
+
+[ 2016-01-28T14:38:02+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003887s ]
+SQL: DESCRIBE truck_area [ RunTime:0.008599s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=209 )  [ RunTime:0.001164s ]
+
+[ 2016-01-28T14:38:03+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003799s ]
+SQL: DESCRIBE truck_area [ RunTime:0.008715s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=2395 )  [ RunTime:0.029240s ]
+
+[ 2016-01-28T14:38:08+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/valCode1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002803s ]
+
+[ 2016-01-28T14:38:34+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/checkPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003690s ]
+SQL: DESCRIBE truck_user [ RunTime:0.008322s ]
+SQL: SELECT * FROM `truck_user` WHERE `phone` = '15930507607' LIMIT 1   [ RunTime:0.000941s ]
+
+[ 2016-01-28T14:38:50+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/getPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003544s ]
+ERR: 请求发生错误：Could not resolve host: (nil); Host not found
+
+[ 2016-01-28T14:39:04+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/getPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003220s ]
+ERR: 请求发生错误：Could not resolve host: (nil); Host not found
+
+[ 2016-01-28T14:39:18+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/getPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002142s ]
+
+[ 2016-01-28T14:39:18+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/getPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002236s ]
+
+[ 2016-01-28T14:39:18+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/getPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002229s ]
+
+[ 2016-01-28T14:39:22+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003310s ]
+SQL: DESCRIBE truck_area [ RunTime:0.007063s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.000710s ]
+
+[ 2016-01-28T14:39:25+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/valUserName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003131s ]
+SQL: DESCRIBE truck_user [ RunTime:0.010648s ]
+SQL: SELECT * FROM `truck_user` WHERE `username` = '2345678' AND `cate` = 2 LIMIT 1   [ RunTime:0.001228s ]
+
+[ 2016-01-28T14:39:33+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/getPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002119s ]
+
+[ 2016-01-28T14:39:33+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003908s ]
+SQL: DESCRIBE truck_area [ RunTime:0.008303s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=16 )  [ RunTime:0.001366s ]
+
+[ 2016-01-28T14:39:35+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003482s ]
+SQL: DESCRIBE truck_area [ RunTime:0.008474s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=254 )  [ RunTime:0.001172s ]
+
+[ 2016-01-28T14:39:36+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004958s ]
+SQL: DESCRIBE truck_area [ RunTime:0.009864s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=2789 )  [ RunTime:0.032239s ]
+
+[ 2016-01-28T14:39:41+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/valCode1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003814s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002549s ]
+
+[ 2016-01-28T14:39:48+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/checkPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003869s ]
+SQL: DESCRIBE truck_user [ RunTime:0.009003s ]
+SQL: SELECT * FROM `truck_user` WHERE `phone` = '15930507607' LIMIT 1   [ RunTime:0.000925s ]
+
+[ 2016-01-28T14:40:03+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/getPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003900s ]
+ERR: 请求发生错误：Could not resolve host: (nil); Host not found
+
+[ 2016-01-28T14:40:18+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/getPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005218s ]
+ERR: 请求发生错误：Could not resolve host: (nil); Host not found
+
+[ 2016-01-28T14:40:32+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/getPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004417s ]
+
+[ 2016-01-28T14:40:32+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/getPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003922s ]
+
+[ 2016-01-28T14:40:46+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/getPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+
+[ 2016-01-28T14:41:01+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/getPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001165s ]
+
+[ 2016-01-28T14:41:15+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/getPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004425s ]
+
+[ 2016-01-28T14:41:15+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/getPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004471s ]
+
+[ 2016-01-28T14:41:15+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/getPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004612s ]
+
+[ 2016-01-28T14:41:15+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/getPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004676s ]
+
+[ 2016-01-28T14:41:29+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/getPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+
+[ 2016-01-28T14:41:40+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001736s ]
+SQL: DESCRIBE truck_area [ RunTime:0.003205s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.000627s ]
+
+[ 2016-01-28T14:41:43+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/getPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+
+[ 2016-01-28T14:41:44+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/valUserName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002999s ]
+SQL: DESCRIBE truck_user [ RunTime:0.009246s ]
+SQL: SELECT * FROM `truck_user` WHERE `username` = '2345678' AND `cate` = 2 LIMIT 1   [ RunTime:0.001322s ]
+
+[ 2016-01-28T14:41:55+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002035s ]
+SQL: DESCRIBE truck_area [ RunTime:0.004765s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=13 )  [ RunTime:0.001587s ]
+
+[ 2016-01-28T14:41:56+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001947s ]
+SQL: DESCRIBE truck_area [ RunTime:0.005915s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=207 )  [ RunTime:0.000775s ]
+
+[ 2016-01-28T14:41:57+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003507s ]
+SQL: DESCRIBE truck_area [ RunTime:0.011401s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=2373 )  [ RunTime:0.015093s ]
+
+[ 2016-01-28T14:41:58+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/getPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+
+[ 2016-01-28T14:41:58+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/getPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+
+[ 2016-01-28T14:41:58+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/getPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+
+[ 2016-01-28T14:42:02+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/valCode1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001623s ]
+
+[ 2016-01-28T14:42:07+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/checkPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001567s ]
+SQL: DESCRIBE truck_user [ RunTime:0.005113s ]
+SQL: SELECT * FROM `truck_user` WHERE `phone` = '15172764834' LIMIT 1   [ RunTime:0.000521s ]
+
+[ 2016-01-28T14:42:11+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/checkPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+SQL: DESCRIBE truck_user [ RunTime:0.003019s ]
+SQL: SELECT * FROM `truck_user` WHERE `phone` = '15172764834' LIMIT 1   [ RunTime:0.000340s ]
+
+[ 2016-01-28T14:42:12+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/getPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001274s ]
+
+[ 2016-01-28T14:42:12+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/getPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001220s ]
+
+[ 2016-01-28T14:42:26+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/checkPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+SQL: DESCRIBE truck_user [ RunTime:0.002816s ]
+SQL: SELECT * FROM `truck_user` WHERE `phone` = '15172764834' LIMIT 1   [ RunTime:0.000344s ]
+
+[ 2016-01-28T14:42:27+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/getPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007630s ]
+ERR: 请求发生错误：Could not resolve host: (nil); Host not found
+
+[ 2016-01-28T14:42:27+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/checkPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: DESCRIBE truck_user [ RunTime:0.003173s ]
+SQL: SELECT * FROM `truck_user` WHERE `phone` = '15172764834' LIMIT 1   [ RunTime:0.000520s ]
+
+[ 2016-01-28T14:42:41+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/getPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007792s ]
+
+[ 2016-01-28T14:42:41+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/getPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003417s ]
+
+[ 2016-01-28T14:42:42+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/checkPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+SQL: DESCRIBE truck_user [ RunTime:0.002875s ]
+SQL: SELECT * FROM `truck_user` WHERE `phone` = '15613553728' LIMIT 1   [ RunTime:0.000365s ]
+
+[ 2016-01-28T14:42:55+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/getPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001682s ]
+
+[ 2016-01-28T14:42:55+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/getPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001322s ]
+
+[ 2016-01-28T14:42:55+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/checkPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+
+[ 2016-01-28T14:42:55+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001920s ]
+
+[ 2016-01-28T14:42:55+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/valUserName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001557s ]
+SQL: DESCRIBE truck_user [ RunTime:0.004965s ]
+SQL: SELECT * FROM `truck_user` WHERE `username` = 'phpcms' AND `cate` = 2 LIMIT 1   [ RunTime:0.000444s ]
+
+[ 2016-01-28T14:42:57+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/getPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+ERR: 请求发生错误：Could not resolve host: (nil); Host not found
+
+[ 2016-01-28T14:43:00+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003691s ]
+SQL: DESCRIBE truck_area [ RunTime:0.009858s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=undefined )  [ RunTime:0.000587s ]
+ERR: 1054:Unknown column 'undefined' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `truck_area` WHERE ( upid=undefined ) 
+
+[ 2016-01-28T14:43:02+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003833s ]
+SQL: DESCRIBE truck_area [ RunTime:0.008349s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=undefined )  [ RunTime:0.000570s ]
+ERR: 1054:Unknown column 'undefined' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `truck_area` WHERE ( upid=undefined ) 
+
+[ 2016-01-28T14:43:12+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005470s ]
+SQL: DESCRIBE truck_area [ RunTime:0.006082s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.000906s ]
+
+[ 2016-01-28T14:43:17+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003701s ]
+SQL: DESCRIBE truck_area [ RunTime:0.007615s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.000931s ]
+
+[ 2016-01-28T14:43:23+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/valUserName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003397s ]
+SQL: DESCRIBE truck_user [ RunTime:0.008602s ]
+SQL: SELECT * FROM `truck_user` WHERE `username` = 'phpcms' AND `cate` = 2 LIMIT 1   [ RunTime:0.001092s ]
+
+[ 2016-01-28T14:43:32+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003169s ]
+SQL: DESCRIBE truck_area [ RunTime:0.009038s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=14 )  [ RunTime:0.001031s ]
+
+[ 2016-01-28T14:43:33+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004759s ]
+SQL: DESCRIBE truck_area [ RunTime:0.009287s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=218 )  [ RunTime:0.001332s ]
+
+[ 2016-01-28T14:43:34+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003594s ]
+SQL: DESCRIBE truck_area [ RunTime:0.009227s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=2464 )  [ RunTime:0.003938s ]
+
+[ 2016-01-28T14:43:40+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/valCode1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002584s ]
+
+[ 2016-01-28T14:43:43+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/checkPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003278s ]
+SQL: DESCRIBE truck_user [ RunTime:0.009264s ]
+SQL: SELECT * FROM `truck_user` WHERE `phone` = '15613553728' LIMIT 1   [ RunTime:0.000952s ]
+
+[ 2016-01-28T14:43:58+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/getPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003232s ]
+ERR: 请求发生错误：Could not resolve host: (nil); Host not found
+
+[ 2016-01-28T14:44:13+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/getPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+ERR: 请求发生错误：Could not resolve host: (nil); Host not found
+
+[ 2016-01-28T14:45:19+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/getPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003251s ]
+
+[ 2016-01-28T14:45:41+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/yzMessage.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001992s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002248s ]
+
+[ 2016-01-28T14:46:33+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Scart/increase.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003067s ]
+SQL: DESCRIBE truck_scart [ RunTime:0.008479s ]
+SQL: UPDATE `truck_scart` SET `number`=number+1 WHERE `uid` = 14 AND `pid` = 64 [ RunTime:0.071743s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002113s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002343s ]
+
+[ 2016-01-28T14:46:34+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Scart/increase.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003108s ]
+SQL: DESCRIBE truck_scart [ RunTime:0.007495s ]
+SQL: UPDATE `truck_scart` SET `number`=number+1 WHERE `uid` = 14 AND `pid` = 53 [ RunTime:0.123531s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002147s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002375s ]
+
+[ 2016-01-28T14:46:38+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/sessid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005025s ]
+SQL: DESCRIBE truck_scart [ RunTime:0.008766s ]
+SQL: SELECT * FROM `truck_scart` INNER JOIN truck_sproduct ON truck_scart.pid = truck_sproduct.id  WHERE truck_scart.uid = '14' AND truck_scart.pid IN ('53','64')  [ RunTime:0.001405s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002144s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002381s ]
+
+[ 2016-01-28T14:46:39+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003173s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008353s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001294s ]
+
+[ 2016-01-28T14:46:56+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Sorder/aid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005645s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002185s ]
+
+[ 2016-01-28T14:57:25+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/sessid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003531s ]
+SQL: DESCRIBE truck_scart [ RunTime:0.011453s ]
+SQL: SELECT * FROM `truck_scart` INNER JOIN truck_sproduct ON truck_scart.pid = truck_sproduct.id  WHERE truck_scart.uid = '15' AND truck_scart.pid IN ('53','64')  [ RunTime:0.006117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002781s ]
+
+[ 2016-01-28T14:57:25+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004053s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.010893s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001328s ]
+
+[ 2016-01-28T14:57:28+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006798s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.006359s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001114s ]
+
+[ 2016-01-28T15:03:50+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/sessid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002841s ]
+SQL: DESCRIBE truck_scart [ RunTime:0.009611s ]
+SQL: SELECT * FROM `truck_scart` INNER JOIN truck_sproduct ON truck_scart.pid = truck_sproduct.id  WHERE truck_scart.uid = '15' AND truck_scart.pid IN ('53','64')  [ RunTime:0.001426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002117s ]
+
+[ 2016-01-28T15:03:50+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004477s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.007939s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001267s ]
+
+[ 2016-01-28T15:04:09+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002397s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.005894s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.000917s ]
+
+[ 2016-01-28T15:04:12+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003777s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.006714s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.000978s ]
+
+[ 2016-01-28T15:04:16+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005559s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.010154s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=5 )  [ RunTime:0.001920s ]
+
+[ 2016-01-28T15:04:17+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=96
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004042s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008904s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=96 )  [ RunTime:0.000961s ]
+
+[ 2016-01-28T15:04:18+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=1426
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003881s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.010475s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=1426 )  [ RunTime:0.001054s ]
+
+[ 2016-01-28T15:04:19+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=8743
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004025s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.010213s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=8743 )  [ RunTime:0.000810s ]
+
+[ 2016-01-28T15:05:09+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/sessid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003565s ]
+SQL: DESCRIBE truck_scart [ RunTime:0.008957s ]
+SQL: SELECT * FROM `truck_scart` INNER JOIN truck_sproduct ON truck_scart.pid = truck_sproduct.id  WHERE truck_scart.uid = '15' AND truck_scart.pid IN ('64')  [ RunTime:0.001731s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003137s ]
+
+[ 2016-01-28T15:05:10+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003780s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008341s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001528s ]
+
+[ 2016-01-28T15:05:58+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005245s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008983s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.000945s ]
+
+[ 2016-01-28T15:06:03+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Sorder/aid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001744s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001992s ]
+
+[ 2016-01-28T15:07:29+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002107s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.006557s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001194s ]
+
+[ 2016-01-28T15:13:16+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/sessid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007094s ]
+SQL: DESCRIBE truck_scart [ RunTime:0.009628s ]
+SQL: SELECT * FROM `truck_scart` INNER JOIN truck_sproduct ON truck_scart.pid = truck_sproduct.id  WHERE truck_scart.uid = '16' AND truck_scart.pid IN ('53','64')  [ RunTime:0.001314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002664s ]
+
+[ 2016-01-28T15:13:16+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002975s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.009394s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001516s ]
+
+[ 2016-01-28T15:13:26+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004582s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008200s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001301s ]
+
+[ 2016-01-28T15:13:30+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003221s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008539s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=2 )  [ RunTime:0.001185s ]
+
+[ 2016-01-28T15:13:31+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=55
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003092s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008473s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=55 )  [ RunTime:0.000990s ]
+
+[ 2016-01-28T15:13:32+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=884
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003187s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008140s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=884 )  [ RunTime:0.000815s ]
+
+[ 2016-01-28T15:13:42+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002739s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.005264s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.000808s ]
+
+[ 2016-01-28T15:13:45+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Sorder/aid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003587s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002784s ]
+
+[ 2016-01-28T15:14:11+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003856s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.009130s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001167s ]
+
+[ 2016-01-28T15:16:27+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/sessid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003696s ]
+SQL: DESCRIBE truck_scart [ RunTime:0.011214s ]
+SQL: SELECT * FROM `truck_scart` INNER JOIN truck_sproduct ON truck_scart.pid = truck_sproduct.id  WHERE truck_scart.uid = '16' AND truck_scart.pid IN ('52','64')  [ RunTime:0.001356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002639s ]
+
+[ 2016-01-28T15:16:28+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003324s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.009016s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001315s ]
+
+[ 2016-01-28T15:16:33+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003103s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.007289s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001230s ]
+
+[ 2016-01-28T15:16:41+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Sorder/aid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002066s ]
+
+[ 2016-01-28T15:22:50+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003300s ]
+SQL: DESCRIBE truck_area [ RunTime:0.010995s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.001514s ]
+
+[ 2016-01-28T15:24:16+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/valUserName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003118s ]
+SQL: DESCRIBE truck_user [ RunTime:0.010084s ]
+SQL: SELECT * FROM `truck_user` WHERE `username` = '钱多多' AND `cate` = 2 LIMIT 1   [ RunTime:0.001083s ]
+
+[ 2016-01-28T15:26:57+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003488s ]
+SQL: DESCRIBE truck_area [ RunTime:0.007912s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=13 )  [ RunTime:0.001184s ]
+
+[ 2016-01-28T15:26:58+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003420s ]
+SQL: DESCRIBE truck_area [ RunTime:0.008996s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=205 )  [ RunTime:0.001019s ]
+
+[ 2016-01-28T15:26:59+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004462s ]
+SQL: DESCRIBE truck_area [ RunTime:0.008552s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=2349 )  [ RunTime:0.019456s ]
+
+[ 2016-01-28T15:27:05+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/valCode1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003135s ]
+
+[ 2016-01-28T15:27:16+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/checkPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003100s ]
+SQL: DESCRIBE truck_user [ RunTime:0.009394s ]
+SQL: SELECT * FROM `truck_user` WHERE `phone` = '15930507607' LIMIT 1   [ RunTime:0.001026s ]
+
+[ 2016-01-28T15:27:17+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/getPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-01-28T15:27:43+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/yzMessage.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002015s ]
+
+[ 2016-01-28T15:31:37+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Xproduct/valCode1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002049s ]
+
+[ 2016-01-28T15:33:55+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002913s ]
+SQL: DESCRIBE truck_area [ RunTime:0.012332s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.002178s ]
+
+[ 2016-01-28T15:34:02+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003867s ]
+SQL: DESCRIBE truck_area [ RunTime:0.009050s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=2 )  [ RunTime:0.001656s ]
+
+[ 2016-01-28T15:34:03+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003485s ]
+SQL: DESCRIBE truck_area [ RunTime:0.008422s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=56 )  [ RunTime:0.001122s ]
+
+[ 2016-01-28T15:34:04+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003387s ]
+SQL: DESCRIBE truck_area [ RunTime:0.008253s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=889 )  [ RunTime:0.001003s ]
+
+[ 2016-01-28T15:34:19+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012194s ]
+SQL: DESCRIBE truck_area [ RunTime:0.005963s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.001063s ]
+
+[ 2016-01-28T15:34:47+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/doCrop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003914s ]
+NOTIC: [8] Undefined index: w D:\wamp\www\threeall\ThinkPHP\TruckHome\Home\Controller\UserController.class.php 第 376 行.
+NOTIC: [8] Undefined index: h D:\wamp\www\threeall\ThinkPHP\TruckHome\Home\Controller\UserController.class.php 第 376 行.
+NOTIC: [8] Undefined index: x D:\wamp\www\threeall\ThinkPHP\TruckHome\Home\Controller\UserController.class.php 第 376 行.
+NOTIC: [8] Undefined index: y D:\wamp\www\threeall\ThinkPHP\TruckHome\Home\Controller\UserController.class.php 第 376 行.
+NOTIC: [2] imagecreatetruecolor(): Invalid image dimensions D:\wamp\www\threeall\ThinkPHP\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 166 行.
+NOTIC: [2] imagecolorallocate() expects parameter 1 to be resource, boolean given D:\wamp\www\threeall\ThinkPHP\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 168 行.
+NOTIC: [2] imagefill() expects parameter 1 to be resource, boolean given D:\wamp\www\threeall\ThinkPHP\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 169 行.
+NOTIC: [2] imagecopyresampled() expects parameter 1 to be resource, boolean given D:\wamp\www\threeall\ThinkPHP\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 172 行.
+ERR: 没有可以被保存的图像资源
+
+[ 2016-01-28T15:34:54+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/doCrop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003876s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002671s ]
+
+[ 2016-01-28T15:35:02+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/getOld.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003708s ]
+SQL: DESCRIBE truck_user [ RunTime:0.008708s ]
+SQL: SELECT * FROM `truck_user` WHERE `id` = 17 AND `password` = '123456' LIMIT 1   [ RunTime:0.000981s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002625s ]
+
+[ 2016-01-28T15:35:12+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007334s ]
+SQL: DESCRIBE truck_area [ RunTime:0.006905s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.000923s ]
+
+[ 2016-01-28T15:35:48+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/sendEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008852s ]
+
+[ 2016-01-28T15:36:11+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/checkEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002584s ]
+
+[ 2016-01-28T15:36:25+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/checkEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003969s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002651s ]
+
+[ 2016-01-28T15:36:28+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006706s ]
+SQL: DESCRIBE truck_area [ RunTime:0.008292s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.001282s ]
+
+[ 2016-01-28T15:36:37+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004758s ]
+SQL: DESCRIBE truck_area [ RunTime:0.009809s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.001294s ]
+
+[ 2016-01-28T15:37:16+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/checkPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003507s ]
+SQL: DESCRIBE truck_user [ RunTime:0.009692s ]
+SQL: SELECT * FROM `truck_user` WHERE `phone` = '15930507607' LIMIT 1   [ RunTime:0.001081s ]
+
+[ 2016-01-28T15:37:19+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/getPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003055s ]
+
+[ 2016-01-28T15:37:37+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/yzMessage.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002129s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002419s ]
+
+[ 2016-01-28T16:02:17+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Lpost/index.html
+ERR: 错误的查询条件:[status=>1]
+
+[ 2016-01-28T17:15:48+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Sindex/index.html
+ERR: 错误的查询条件:[status=>1]
+
+[ 2016-01-28T17:15:59+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Sindex/index.html
+ERR: 错误的查询条件:[status=>1]
+
+[ 2016-01-28T17:16:45+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Sindex/index.html
+ERR: 错误的查询条件:[status=>1]
+
+[ 2016-01-28T17:16:46+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Sindex/index.html
+ERR: 错误的查询条件:[status=>1]
+
+[ 2016-01-28T17:16:47+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Sindex/index.html
+ERR: 错误的查询条件:[status=>1]
+
+[ 2016-01-28T17:17:00+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Sindex/index.html
+ERR: 错误的查询条件:[status=>1]
+
+[ 2016-01-28T17:17:45+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Sindex/index.html
+ERR: 错误的查询条件:[status=>1]
+
+[ 2016-01-28T17:17:55+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Sindex/index.html
+ERR: 错误的查询条件:[status=>1]
+
+[ 2016-01-28T17:18:12+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Sindex/index.html
+ERR: 错误的查询条件:[status=>1]
+
+[ 2016-01-28T17:19:16+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Sindex/index.html
+ERR: 错误的查询条件:[status=>1]
+
+[ 2016-01-28T17:19:24+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Sindex/index.html
+ERR: 错误的查询条件:[status=>1]
+
+[ 2016-01-28T17:20:15+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Sindex/index.html
+ERR: 错误的查询条件:[status=>1]
+
+[ 2016-01-28T17:30:35+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002619s ]
+SQL: DESCRIBE truck_area [ RunTime:0.008796s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.001013s ]
+
+[ 2016-01-28T18:23:50+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Sindex/index.html
+ERR: XML标签语法错误 : start='1' end='$dataCount+1'
+				<li class=""
+
+[ 2016-01-28T19:10:37+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/sessid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003708s ]
+SQL: DESCRIBE truck_scart [ RunTime:0.011116s ]
+SQL: SELECT * FROM `truck_scart` INNER JOIN truck_sproduct ON truck_scart.pid = truck_sproduct.id  WHERE truck_scart.uid = '2' AND truck_scart.pid IN ('53')  [ RunTime:0.001310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002624s ]
+
+[ 2016-01-28T19:10:38+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003639s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.009436s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001210s ]
+
+[ 2016-01-28T20:29:02+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/sessid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006982s ]
+SQL: DESCRIBE truck_scart [ RunTime:0.010676s ]
+SQL: SELECT * FROM `truck_scart` INNER JOIN truck_sproduct ON truck_scart.pid = truck_sproduct.id  WHERE truck_scart.uid = '2' AND truck_scart.pid IN ('55','53')  [ RunTime:0.001333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005933s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006228s ]
+
+[ 2016-01-28T20:29:02+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002822s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008917s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001380s ]
+
+[ 2016-01-28T20:29:05+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002952s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008239s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001921s ]
+
+[ 2016-01-28T20:29:12+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005704s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.008775s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001033s ]
+
+[ 2016-01-28T20:29:15+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004288s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.011538s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=3 )  [ RunTime:0.000974s ]
+
+[ 2016-01-28T20:29:16+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=74
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005130s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.011622s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=74 )  [ RunTime:0.001244s ]
+
+[ 2016-01-28T20:29:17+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=1151
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004955s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.010441s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=1151 )  [ RunTime:0.001157s ]
+
+[ 2016-01-28T20:29:18+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=5344
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003990s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.009788s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=5344 )  [ RunTime:0.047895s ]
+
+[ 2016-01-28T20:29:24+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003979s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.010222s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.001112s ]
+
+[ 2016-01-28T20:29:27+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Sorder/aid.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002501s ]
+
+[ 2016-01-28T23:39:06+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008541s ]
+SQL: DESCRIBE truck_area [ RunTime:0.010775s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.001380s ]
+
+[ 2016-01-28T23:39:14+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/sendEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003830s ]
+
+[ 2016-01-28T23:39:25+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/checkEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003956s ]
+
+[ 2016-01-28T23:39:32+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005136s ]
+SQL: DESCRIBE truck_area [ RunTime:0.011071s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.001704s ]
+
+[ 2016-01-28T23:42:05+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004622s ]
+SQL: DESCRIBE truck_area [ RunTime:0.009139s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.001239s ]
+
+[ 2016-01-28T23:42:29+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/doCrop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003676s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003164s ]
+
+[ 2016-01-28T23:42:35+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/doCrop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003606s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002728s ]
+
+[ 2016-01-28T23:42:50+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/doCrop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004969s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002926s ]
+
+[ 2016-01-28T23:43:03+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003824s ]
+SQL: DESCRIBE truck_area [ RunTime:0.010628s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.001053s ]
+
+[ 2016-01-28T23:43:27+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/doCrop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001740s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001956s ]
+
+[ 2016-01-28T23:43:31+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/doCrop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004878s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002841s ]
+
+[ 2016-01-28T23:43:49+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/doCrop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004478s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002208s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002474s ]
+
+[ 2016-01-28T23:43:55+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003875s ]
+SQL: DESCRIBE truck_area [ RunTime:0.008263s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.001051s ]
+
+[ 2016-01-28T23:44:13+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/doCrop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002469s ]
+
+[ 2016-01-28T23:44:20+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005420s ]
+SQL: DESCRIBE truck_area [ RunTime:0.008526s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.001041s ]
+
+[ 2016-01-28T23:49:00+08:00 ] 127.0.0.1 /threeall/ThinkPHP/index.php/Home/Saddress/area.html?upid=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002717s ]
+SQL: DESCRIBE truck_sarea [ RunTime:0.006143s ]
+SQL: SELECT * FROM `truck_sarea` WHERE ( upid=0 )  [ RunTime:0.038314s ]
+

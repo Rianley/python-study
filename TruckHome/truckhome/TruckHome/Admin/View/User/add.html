@@ -1,0 +1,135 @@
+<extend name="Public/base"/>
+<block name="main">
+
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="panel panel-default">
+				<div class="panel-heading">添加用户</div>
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-lg-12">
+							<form class="form-horizontal" action="{:U('User/insert')}"  method="post" enctype="multipart/form-data">
+								<div class="form-group">
+									<label for="inputEmail3" class="col-sm-2 control-label">用户名：</label>
+									<div class="col-sm-10">
+										<input type="text" class="form-control" id="username" placeholder="用户名" name="username"  value="">
+									</div>
+
+								</div>
+
+								<div class="form-group">
+									<label for="inputEmail3" class="col-sm-2 control-label">电话：</label>
+									<div class="col-sm-10">
+										<input type="text" class="form-control" id="phone" placeholder="电话" name="phone"  value="">
+									</div>
+
+								</div>
+								<div class="form-group">
+									<label for="inputEmail3" class="col-sm-2 control-label">邮箱：</label>
+									<div class="col-sm-10">
+										<input type="text" class="form-control" id="email" placeholder="邮箱" name="email"  value="">
+									</div>
+
+								</div>
+
+								<div class="form-group">
+									<label for="inputEmail3" class="col-sm-2 control-label">城市：</label>
+									<div class="col-sm-10">
+										<select id="province" name="province">
+											<option>--请选择省--</option>
+										</select>
+										<select id="city"  name="city">
+											<option>--请选择市--</option>
+										</select>
+										<select id="county" name="county">
+											<option>--请选择区--</option>
+										</select>
+										<select id="villages" name="villages">
+											<option>--请选择县--</option>
+										</select>
+										<!-- <input type="hidden" name="area" value="" id="dizhi"> -->
+
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="inputEmail3" class="col-sm-2 control-label">性别：</label>
+									<div class="col-sm-10">
+
+										<label class="radio-inline">
+											<input type="radio" name="sex" id="sex" value="1" />男
+										</label>
+										<label class="radio-inline">
+											<input type="radio" name="sex" id="sex" value="2" />女
+										</label>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="inputEmail3" class="col-sm-2 control-label">状态：</label>
+									<div class="col-sm-10">
+										<label class="radio-inline">
+											<input type="radio" name="state" id="state" value="1" />启用
+										</label>
+										<label class="radio-inline">
+											<input type="radio" name="state" id="state" value="2" />禁用
+										</label>
+									</div>
+								</div>
+								<div class="form-group">
+    								<label for="exampleInputFile" class="col-sm-2 control-label">上传图片：</label>
+    								<div class="col-sm-10">
+    									<input type="file" name="picname"  class="">
+										<img src=""  height="50px"/>
+    								</div>
+  								</div>
+								<div class="form-group">
+									<div class="col-sm-offset-2 col-sm-10">
+										<button type="submit" class="btn btn-default">添加</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script>
+	$(function(){
+
+
+						function getCity(obj,value)
+			{
+				$.post('{:U('User/requireCity')}',{'upid':value},function(msg){
+					// 1.msg是对象，将对象遍历拼接成option格式的HTML标签
+					var str = '<option>--请选择--</option>';
+					for (var i in msg) {
+						str += '<option value="'+msg[i]['id']+'">'+msg[i]['name']+'</option>';
+					}
+
+					// 2.将拼接好的HTML代码放在select内
+					if (obj == 'province') {
+						$('#province').html(str);
+					} else {
+						obj.next().html(str);
+					}
+				})
+			}
+			getCity('province',0);
+
+			// 省份改变事件，市改变
+			$('#province,#city,#county').change(function(){
+				// 0.初始化
+				$(this).nextAll().html('<option>--请选择--</option>');
+				//在下面的ajax请求中，$(this)传递不进去，只能定义变量接收$(this),在下面的ajax中使用变量
+				var that = $(this);
+				// 1.获取值
+				var value = $(this).val();
+
+				getCity(that,value);
+			});
+	})
+
+	</script>
+</block>

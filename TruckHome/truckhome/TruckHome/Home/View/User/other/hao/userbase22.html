@@ -1,0 +1,158 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>用户中心</title>
+		<link rel="stylesheet" href="__PUBLIC__/home/news/css/public.css"/>
+		<link rel="stylesheet" href="__PUBLIC__/home/news/css/usercenter.css"/>
+		<script type="text/javascript" src="__PUBLIC__/home/news/js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/home/news/js/oneself.js"></script>
+	</head>
+	<body>
+	<!--个人中心 mini_top 开始-->
+		<div class="mini_top">
+			<div class="mini_main">
+				<div class="tou1_left">
+					<a target="_blank" href="{:U('Index/index')}" class="kcsy">卡车之家首页</a>
+					<span>|</span>
+					<a target="_blank" href="">卡车之家商城</a><span>|</span>
+					<a href="" target="_blank" class="phone">手机客户端</a><span>|</span>
+					<a href="javascript:;" onClick="addFavoritepage('卡车之家','http://127.0.0.1/two/ThinkPHP/index.php/Home/User/userindex');" class="collect">加入收藏</a>
+				</div>
+
+                <div class="tou1_right">
+					<span>欢迎回家，<a href="{:U('User/userindex')}">{$_SESSION['user']['username']}</a></span><a href="{:U('User/logout')}">安全退出</a>
+				</div>
+
+			</div>
+		</div>
+
+	<!--mini_top end-->
+	<div class="clear"></div>
+	<!--header start-->
+		<div class="header">
+			<div class="logo">
+				<a href="index.php"><img src="__PUBLIC__/home/news/images/kczj.jpg"></a>
+			</div>
+			<div class="navcon">
+				<form accept-charset="UTF-8" method="get"  action="" target="_blank">
+					<span>
+						<input class="nav_ser_a" style="color: #999" name="q" value="请输入关键词" onfocus="if (this.value == '请输入关键词') {this.value = ''; this.style.color = '#000';}" onblur="if (this.value == '') {this.value = '请输入关键词';this.style.color = '#999';}" type="text">
+
+						<input value="" class="nav_ser_b" type="submit">
+
+					</span>
+				</form>
+			</div>
+		</div>
+	<!--header end-->
+
+	<div class="clear"></div>
+	<!---content start-->
+	<div class="content">
+		<div class="contborder">
+			<!-- 左侧开始  -->
+				<div class="colom fl w190">
+					<div class="userheard">
+						<div class="user_name">{$userdata['username']}</div>
+						<div class="user_imgbox">
+							<a href="">
+								<span>
+									<!--<img src="{$userdata['picname']}" onerror="this.onerror=null;this.src='__PUBLIC__/home/news/images/noavatar_middle.gif'" width="120px">-->
+									<img src="{$userdata['picname']}"  width="120px">
+								</span>
+							</a>
+						</div>
+					</div>
+					<!--互动 开始-->
+					<!--互动 结束-->
+
+
+
+					<!--管理模块 开始-->
+
+					<!--管理模块 结束-->
+
+
+					<!--左侧导航 开始-->
+
+
+					<div class="l_ban_module">
+						<ul class="item">
+							<li class="current">
+								<a href="" class="it1 itbig">我的首页</a>
+							</li>
+							<li><a href="" class="it2 itbig" id="pm_ntc">我的消息</a></li>
+							<li><a href="">我的短消息</a></li>
+							<li><a href="">我的论坛通知</a></li>
+							<li><a href="">写短消息</a></li>
+						</ul>
+						<div class="divde"></div>
+							<ul class="item">
+								<li><a href="" class="it3 itbig">我的帖子</a></li>
+								<li><a href="">我发的主帖</a></li>
+								<li style="display:none;"><a href="#">我收到的回复</a></li>
+								<li><a href="">我发的回帖</a></li>
+								
+							</ul>
+
+						<div class="divde"></div>
+						<ul class="item">
+							<li><a href="{:U('User/userupdate')}" class="it7 itbig">个人设置</a></li>
+							<li><a href="{:U('User/userupdate')}">修改个人资料</a></li>
+							<li><a href="{:U('User/userupdate')}">修改头像</a></li>
+							<li><a href="{:U('User/userupdate')}">修改密码</a></li>
+							<li><a href="">绑定手机<font class="red">&nbsp;&nbsp;(已绑定手机)</font></a></li>
+							<li><a href="5">收货地址</a></li>
+							<li><a href="">身份信息</a></li>
+							<li><a href="">绑定帐号</a></li>
+						</ul>
+					</div>
+					<!--左侧导航 结束-->
+				</div>
+
+			<!-- 左侧结束  -->
+			<!--右侧内容开始-->
+
+				<div class="prefirght">
+				<block name="main">
+
+				</block>
+
+		<!--帖子列表 结束-->
+			</div>
+
+
+			<!--右侧内容结束-->
+		</div>
+
+	</div>
+	<!---content end-->
+	<div class="clear"></div>
+	<!--尾部开始-->
+		<div class="footer_bbs">
+			<p>
+				<a href="" target="_blank">关于我们</a>
+				<span class="fbbsline">|</span>
+				<a href="" target="_blank">联系我们</a>
+				<span class="fbbsline">|</span>
+				<a href="" target="_blank">广告合作</a>
+				<span class="fbbsline">|</span>
+				<a href="" target="_blank">工作机会</a>
+				<span class="fbbsline">|</span>
+				<a href="" target="_blank">意见反馈</a>
+				<span class="fbbsline">|</span>
+				<a href="" target="_blank"><em class="footios"></em>iPhone / <em class="footand"></em>Android客户端</a>
+				<span class="fbbsline">|</span>
+				<a href="" target="_blank">卡车之家商城</a>
+			</p>
+			<p>
+				<span style="font-family:arial;">Copyright ©</span>
+				2009 www.360che.com All Rights Reserved.
+				<a target="_self" href="">卡车之家</a> 版权所有
+			</p>
+		</div>
+	<!--尾部结束-->
+	</body>
+
+</html>

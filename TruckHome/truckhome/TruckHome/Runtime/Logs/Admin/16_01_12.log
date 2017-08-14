@@ -1,0 +1,6 @@
+[ 2016-01-12T09:48:00+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Admin/Xarticle/insert.html
+ERR: 模板不存在:./TruckHome/Admin/View//two/ThinkPHP/index.php/Admin/Xarticle/index.html.html
+
+[ 2016-01-12T10:00:20+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Admin/Xarticle/tables.html
+ERR: 非法操作:tables
+

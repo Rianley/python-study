@@ -1,0 +1,28 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin: 0; padding: 0; }
+body, button, input, select, textarea { font:12px/1.5em "Helvetica Neue","Simsun","Arial"; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+address, cite, dfn, em, var { font-style: normal; }
+code, kbd, pre, samp { font-family: courier new, courier, monospace; }
+small { font-size: 12px; }
+ul, ol { list-style: none; }
+a { text-decoration: none; color: #0f5489; }
+body a:hover { color: #d60000; text-decoration: underline }
+sup { vertical-align: text-top; }
+sub { vertical-align: text-bottom; }
+legend { color: #000; }
+fieldset, img { border: 0; }
+button, input, select, textarea { font-size: 100%; }
+body { background: none repeat scroll 0 0 #ffffff; }
+a img { border: none; }
+img { border: 0; }
+.fl{float:left;}
+.fr{float:right;}
+.clear{clear:both;}
+.adimg{width:1000px;margin:10px auto;}
+/*颜色*/
+.red { color: #ff0000 }
+.gred6 { color: #666666 }
+.gred3 { color: #333333 }
+.gred9 { color: #999999 }
+.white { color: #fff }
+.orange { color: #ff6600 }

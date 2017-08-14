@@ -1,0 +1,40 @@
+<extend name="Public/base"/>
+<block name="main">
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="panel panel-default">
+				<div class="panel-heading">添加类别</div>
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-lg-12">
+							<form class="form-horizontal" action="{:U('Ltype/insert')}" method="post">
+								<div class="form-group">
+									<label for="inputEmail3" class="col-sm-2 control-label">添加到：</label>
+									<div class="col-sm-10">
+										<empty name='Think.get.id'>
+											顶级分类
+										<else/> {:I('get.catename')}
+										</empty>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="inputEmail3" class="col-sm-2 control-label">类别名：</label>
+									<div class="col-sm-10">
+										<input type="hidden" name="pid" value="{:I('get.id')}">
+										<input type="text" class="form-control" id="catename" placeholder="类别名" name="catename">
+									</div>
+								</div>
+
+								<div class="form-group">
+									<div class="col-sm-offset-2 col-sm-10">
+										<button type="submit" class="btn btn-default">添加</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</block>

@@ -1,0 +1,360 @@
+<extend name="Public/userbase"/>
+<block name="main">
+<script src="__PUBLIC__/My97DatePicker/WdatePicker.js"></script>
+<script src="__PUBLIC__/Plupload/plupload.full.min.js"></script>
+<script src="__PUBLIC__/Jcrop/js/jquery.Jcrop.js"></script>
+	<div class="post_list list_oneb">
+		<div class="post_list_label">
+			<ul>
+				<li class="tab" id="upinfo1">
+					<a href="" class="tab_a tab_on tabNormal" id="upinfo2" >修改个人资料</a>
+				</li>
+				<li class="tab_line"></li>
+				<li class="tab" id="upimg1">
+					<a href="" class="tab_a  tabNormal" id="upimg2">修改头像</a>
+				</li>
+				<li class="tab_line"></li>
+				<li class="tab" id="uppwd1">
+					<a href="" class="tab_a  tabNormal" id="uppwd2">修改密码</a>
+				</li>
+				<li class="tab_line"></li>
+				<li class="tab">
+					<a href="" class="tab_a  tabNormal">绑定手机</a>
+				</li>
+				<li class="tab_line"></li>
+				<li class="tab">
+					<a href="" class="tab_a  tabNormal">收货地址</a>
+				</li>
+				<li class="tab_line"></li>
+				<li class="tab">
+					<a href="" class="tab_a  tabNormal">身份信息</a>
+				</li>
+				<li class="tab_line"></li>
+				<li class="tab">
+					<a href="" class="tab_a  tabNormal">绑定帐号</a>
+				</li>
+
+			</ul>
+		</div>
+		<div id="userinfo">
+		<form name="reg" method="post" enctype="multipart/form-data" action="{:U('User/upuserinfo')}">
+
+			<div class="post_center" id="tabpanel1">
+				<div class="personal_post_wdzt">
+					<div class="HackBox">
+						<table cellpadding="0" cellspacing="0">
+							<tbody>
+								<tr>
+									<td class="hack_boleft">用户名：</td>
+									<td>{$_SESSION['user']['username']}</td>
+									<input type="hidden" name="id" value="{$_SESSION['user']['id']}"
+								</tr>
+								<tr>
+									<td class="hack_boleft">性别：</td>
+									<td>
+										<input name="sex" value="1" {$data['sex']==1?'checked':""} type="radio">
+										男&nbsp;&nbsp;
+										<input name="sex" value="2" {$data['sex']==2?'checked':""} type="radio">
+										女
+
+								</tr>
+								<tr>
+									<td class="hack_boleft">家乡：</td>
+									<td>
+										<!-- <label>所在城市：</label> -->
+										<span>
+											<select id="province" name="province">
+												<option>--请选择省--</option>
+
+											</select>
+											<select id="city"  name="city">
+												<option>--请选择市--</option>
+											</select>
+											<select id="county" name="county">
+												<option>--请选择区--</option>
+											</select>
+											<select id="villages" name="villages">
+												<option>--请选择县--</option>
+											</select>
+										</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="hack_boleft">生日：</td>
+
+									<td>
+										<input type="text" name="birthday" value="{$data['birthday']}" onClick="WdatePicker({dateFmt:'yyyy年MM月dd日 HH时mm分ss秒'})">
+									</td>
+								</tr>
+								<tr>
+									<td class="hack_boleft">邮箱：</td>
+									<td>
+										<span><input type="text" name="email" id="email" value="{$data['email']}" /></span>
+										<span class="tix" style="display:none;" id="emailinfo">您输入的邮箱格式不正确</span>
+									</td>
+								</tr>
+
+								<tr>
+									<td>&nbsp;</td>
+									<td>
+										<input class="buycaript32" name="editsubmit" id="editsubmit" value="保存" type="submit"></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+		</form>
+	</div>
+		<!--修改个人信息结束-->
+		<!--修改图像开始-->
+		<div style="display:none" id="upimg">
+
+
+
+				<!--修改个人头像 开始-->
+
+
+
+						<div id="box123" style="width:350px;height:350px;border: 1px solid #E4E5E5 ;">
+
+						</div>
+						<br/>
+						<button id="upload" class="btnup btn-success">点击上传</button>
+						<button id="sure" class="btnup btn-success">确认裁剪</button>
+
+
+
+				<!--修改个人头像 结束-->
+
+
+
+		</div>
+		<!--修改图像结束-->
+
+		<!---修改密码开始-->
+		<div id="uppwd" style="display:none">
+			<form name="reg" method="post" enctype="multipart/form-data" action="memcp.php?items=pwd&amp;action=newprofile&amp;typeid=3&amp;operation=&amp;addid=" onsubmit="return check('pwd')">
+
+
+
+				<div class="post_center" id="tabpanel3">
+					<div class="e_box1">
+						<table cellpadding="0" cellspacing="0">
+							<tbody>
+								<tr>
+									<td class="ebox_dd">
+										<div class="e_b1_b">当前密码：</div>
+									</td>
+									<td>
+										<div class="e_b1_c">
+											<input name="pwd_old" id="pwd_old" onkeyup="checkpass2();" onblur="checkpass2();" onfocus="showpass2();" type="password"></div>
+										<div class="predox">
+											<div id="pwdts_old"></div>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td class="ebox_dd">
+										<div class="e_b1_b">新密码：</div>
+									</td>
+									<td>
+										<div class="e_b1_c">
+											<input name="pwd" id="pwd" onkeyup="pwStrength(this.value);checkpass();" onblur="pwStrength(this.value);checkpass();" onfocus="showpass();" type="password"></div>
+										<div class="predox">
+											<div id="pwdts"></div>
+										</div>
+										<div class="e_b1_d">
+											<div class="ebox h_box" id="strength_L"></div>
+											<div class="ebox h_box" id="strength_M"></div>
+											<div class="ebox h_box" id="strength_H"></div>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td class="ebox_dd">
+										<div class="e_b1_b">确认密码：</div>
+									</td>
+									<td>
+										<div class="e_b1_c">
+											<input name="pwd_sure" id="pwd_sure" onkeyup="pwStrength(this.value);checkpass1();" onblur="pwStrength(this.value);checkpass1();" onfocus="showpass1();" type="password"></div>
+										<div class="predox">
+											<div id="pwdts_sure"></div>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td class="ebox_dd">&nbsp;</td>
+									<td>
+										<div class="e_b1_f">
+											<input class="buycaript32" name="editsubmit" id="editsubmit" value="保存" type="submit"></div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+
+				<div id="showwindow" class="layer" style="position: absolute; top: 50%; margin-top:-85px; left: 50%; display:none; margin-left: -210px; z-index: 1111;">
+					<h3>
+						个人中心密码修改
+						<a href="javascript:void(0)" class="layer-close" onclick="jQuery(&quot;#showwindow&quot;).hide();"> <i class="icon16 icon16-close"></i>
+						</a>
+					</h3>
+					<div class="layer-content">
+						<div class="layerofr">密码修改成功</div>
+					</div>
+					<div class="layer-bottom">
+						<a href="javascript:void(0);" class="btn btn-small" onclick="jQuery(&quot;#showwindow&quot;).hide();">关闭</a>
+					</div>
+				</div>
+
+
+
+			</form>
+		</div>
+		<!--修改密码结束-->
+
+
+
+
+		<script>
+			$(function(){
+				$('#upinfo1').mouseover(function(){
+					$('#userinfo').css("display",'block');
+					$('#upimg').css("display","none");
+					$('#uppwd').css("display",'none');
+					$('#upimg2').removeClass("tab_on");
+					$('#uppwd2').removeClass("tab_on");
+					$('#upinfo2').addClass("tab_on");
+				});
+				$('#upimg1').mouseover(function(){
+					$('#userinfo').css("display",'none');
+					$('#upimg').css("display","block");
+					$('#uppwd').css("display",'none');
+					$('#upinfo2').removeClass("tab_on");
+					$('#uppwd2').removeClass("tab_on");
+					$('#upimg2').addClass("tab_on");
+				});
+				$('#uppwd1').mouseover(function(){
+					$('#userinfo').css("display",'none');
+					$('#upimg').css("display","none");
+					$('#uppwd').css("display",'block');
+					$('#upinfo2').removeClass("tab_on");
+					$('#upimg2').removeClass("tab_on");
+					$('#uppwd2').addClass("tab_on");
+				});
+
+				function getCity(obj,value)
+			{
+				$.post('{:U('User/requireCity')}',{'upid':value},function(msg){
+					// 1.msg是对象，将对象遍历拼接成option格式的HTML标签
+					var str = '<option>--请选择--</option>';
+					for (var i in msg) {
+						str += '<option value="'+msg[i]['id']+'">'+msg[i]['name']+'</option>';
+					}
+
+					// 2.将拼接好的HTML代码放在select内
+					if (obj == 'province') {
+						$('#province').html(str);
+					} else {
+						obj.next().html(str);
+					}
+				})
+			}
+			getCity('province',0);
+
+			// 省份改变事件，市改变
+			$('#province,#city,#county').change(function(){
+				// 0.初始化
+				$(this).nextAll().html('<option>--请选择--</option>');
+				//在下面的ajax请求中，$(this)传递不进去，只能定义变量接收$(this),在下面的ajax中使用变量
+				var that = $(this);
+				// 1.获取值
+				var value = $(this).val();
+
+				getCity(that,value);
+			});
+			$('#email').blur(function(){
+				 var reg=/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+				 var value=$.trim($(this).val());
+				 if(!reg.test(value)){
+				 	$('#emailinfo').css("display","inline-block");
+				 	$('#emailinfo').addClass("no_tix");
+				 }else{
+				 	$('#emailinfo').removeClass("no_tix");
+				 	$('#emailinfo').text("");
+				 	$('#emailinfo').css("display","inline-block");
+				 	$('#emailinfo').addClass("ok_tix");
+				 }
+			});
+
+			// 1.实例化upload上传对象,并且配置
+	var up = new plupload.Uploader({
+		browse_button : 'upload', //触发文件选择对话框的按钮，为那个元素id
+        url : '{:U('User/upimg')}', //服务器端的上传页面地址
+	})
+
+	// 2.初始化
+	up.init();
+
+	// 3.绑定监听事件，并在事件监听函数中做你想做的事
+	// 当选中了图片，点击确定按钮之后，就上传图片
+	up.bind('FilesAdded',function(up,file){
+        // 当文件添加到上传队列的时候，执行上传功能
+        up.start();
+    });
+
+	var picname = '';
+	// 当文件上传成功之后，要做的事情
+    up.bind('FileUploaded',function(up,file,responseObject){
+        // 当文件上传成功之后，进行的处理
+        console.log(up);
+        console.log(file);
+        console.log(responseObject);
+
+        // 上传成功
+        if (responseObject.status == 200) {
+        	// $('#box').html('<img src="__PUBLIC__/'+responseObject.response+'" alt="" width="500"/>');
+        	// 给picname赋值
+        	picname = responseObject.response;
+
+        	$('<img src="__PUBLIC__/'+responseObject.response+'" alt=""/>').Jcrop({onChange:showCoords,onSelect:showCoords}).appendTo('#box123');
+			alert("上传成功！");
+
+        }
+    });
+
+    // 通过此函数来确定具体的裁剪坐标点（起始坐标点，要裁剪的宽度和高度）
+    var x,y,w,h;
+    function showCoords(obj){
+    	x = obj.x;
+    	y = obj.y;
+    	w = obj.w;
+    	h = obj.h;
+
+    	console.log(x+':'+y+':'+w+':'+h);
+    }
+
+    // 当确定了裁剪尺寸，将裁剪尺寸传值到服务器端，要服务器PHP进行图片裁剪操作
+    $('#sure').click(function(){
+    	$.post('{:U('User/doCrop')}',{x:x,y:y,w:w,h:h,picname:picname},function(msg){
+    		// console.log(msg);
+    		// 假设图片裁剪成功,让图片重新加载一次
+    		$('#box123').html('<img src="__PUBLIC__/'+picname+'?id='+Math.random()+'" alt="" />');
+			alert("裁剪成功");
+		})
+    })
+})
+		</script>
+
+
+
+	</div>
+
+</block>

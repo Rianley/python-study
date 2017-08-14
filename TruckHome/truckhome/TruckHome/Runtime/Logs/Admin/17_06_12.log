@@ -1,0 +1,7 @@
+[ 2017-06-12T13:45:55+08:00 ] ::1 /TruckHome/truckhome/index.php/Admin/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: DESCRIBE truck_area [ RunTime:0.008000s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.002000s ]
+

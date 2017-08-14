@@ -1,0 +1,464 @@
+[ 2016-01-26T09:10:08+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005155s ]
+SQL: DESCRIBE truck_area [ RunTime:0.059858s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.041172s ]
+
+[ 2016-01-26T09:10:19+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003324s ]
+SQL: DESCRIBE truck_area [ RunTime:0.008615s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.001329s ]
+
+[ 2016-01-26T09:10:22+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003100s ]
+SQL: DESCRIBE truck_area [ RunTime:0.007475s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.001178s ]
+
+[ 2016-01-26T09:10:25+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004156s ]
+SQL: DESCRIBE truck_area [ RunTime:0.007131s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.001216s ]
+
+[ 2016-01-26T09:10:32+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009399s ]
+SQL: DESCRIBE truck_area [ RunTime:0.007855s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.001159s ]
+
+[ 2016-01-26T09:10:35+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003118s ]
+SQL: DESCRIBE truck_area [ RunTime:0.007652s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.001443s ]
+
+[ 2016-01-26T09:10:39+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003668s ]
+SQL: DESCRIBE truck_area [ RunTime:0.007361s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.001230s ]
+
+[ 2016-01-26T09:10:44+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008449s ]
+SQL: DESCRIBE truck_area [ RunTime:0.007706s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.001455s ]
+
+[ 2016-01-26T09:10:46+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005394s ]
+SQL: DESCRIBE truck_area [ RunTime:0.009421s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.001351s ]
+
+[ 2016-01-26T09:10:50+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004892s ]
+SQL: DESCRIBE truck_area [ RunTime:0.008341s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.001251s ]
+
+[ 2016-01-26T09:10:54+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004636s ]
+SQL: DESCRIBE truck_area [ RunTime:0.007467s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.001205s ]
+
+[ 2016-01-26T09:10:58+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003080s ]
+SQL: DESCRIBE truck_area [ RunTime:0.007593s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.001403s ]
+
+[ 2016-01-26T09:11:04+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003618s ]
+SQL: DESCRIBE truck_area [ RunTime:0.010616s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.001765s ]
+
+[ 2016-01-26T09:11:07+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015134s ]
+SQL: DESCRIBE truck_area [ RunTime:0.008626s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.001201s ]
+
+[ 2016-01-26T09:11:17+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003615s ]
+SQL: DESCRIBE truck_area [ RunTime:0.007944s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.001991s ]
+
+[ 2016-01-26T09:11:21+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003092s ]
+SQL: DESCRIBE truck_area [ RunTime:0.007628s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=2 )  [ RunTime:0.001083s ]
+
+[ 2016-01-26T09:11:23+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002906s ]
+SQL: DESCRIBE truck_area [ RunTime:0.008515s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=55 )  [ RunTime:0.001178s ]
+
+[ 2016-01-26T09:11:24+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003097s ]
+SQL: DESCRIBE truck_area [ RunTime:0.007307s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=883 )  [ RunTime:0.000804s ]
+
+[ 2016-01-26T09:11:32+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003405s ]
+SQL: DESCRIBE truck_area [ RunTime:0.007477s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.001243s ]
+
+[ 2016-01-26T17:06:48+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/userpost.html
+ERR: 模板不存在:./TruckHome/Home/View/User/userpost.html
+
+[ 2016-01-26T17:08:35+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/Lcol/index.html
+ERR: 模板不存在:./TruckHome/Home/View/User/lcollect.html
+
+[ 2016-01-26T17:09:31+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/Lpost/insert.html
+ERR: 非法数据对象！:[count=>3]
+
+[ 2016-01-26T17:15:05+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/%E8%AE%BA%E5%9D%9B%E9%A6%96%E9%A1%B5
+ERR: 非法操作:论坛首页
+
+[ 2016-01-26T17:17:35+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/%E8%AE%BA%E5%9D%9B%E9%A6%96%E9%A1%B5
+ERR: 非法操作:论坛首页
+
+[ 2016-01-26T17:18:37+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/%E8%AE%BA%E5%9D%9B%E9%A6%96%E9%A1%B5
+ERR: 非法操作:论坛首页
+
+[ 2016-01-26T19:19:10+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001856s ]
+SQL: DESCRIBE truck_area [ RunTime:0.021592s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.061564s ]
+
+[ 2016-01-26T19:59:43+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002052s ]
+SQL: DESCRIBE truck_area [ RunTime:0.003781s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.000473s ]
+
+[ 2016-01-26T20:00:12+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/valUserName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+SQL: DESCRIBE truck_user [ RunTime:0.003602s ]
+SQL: SELECT * FROM `truck_user` WHERE `username` = '李敏镐' AND `cate` = 2 LIMIT 1   [ RunTime:0.000418s ]
+
+[ 2016-01-26T20:00:37+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+SQL: DESCRIBE truck_area [ RunTime:0.003056s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=2 )  [ RunTime:0.000461s ]
+
+[ 2016-01-26T20:00:39+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+SQL: DESCRIBE truck_area [ RunTime:0.004343s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=59 )  [ RunTime:0.000412s ]
+
+[ 2016-01-26T20:00:40+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+SQL: DESCRIBE truck_area [ RunTime:0.003045s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=933 )  [ RunTime:0.000291s ]
+
+[ 2016-01-26T20:00:45+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/valCode1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002473s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001687s ]
+
+[ 2016-01-26T20:00:52+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/checkPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003715s ]
+SQL: DESCRIBE truck_user [ RunTime:0.040346s ]
+SQL: SELECT * FROM `truck_user` WHERE `phone` = '15172764834' LIMIT 1   [ RunTime:0.000754s ]
+
+[ 2016-01-26T20:00:59+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/checkPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+SQL: DESCRIBE truck_user [ RunTime:0.002817s ]
+SQL: SELECT * FROM `truck_user` WHERE `phone` = '15613553728' LIMIT 1   [ RunTime:0.000375s ]
+
+[ 2016-01-26T20:01:01+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/getPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+
+[ 2016-01-26T20:01:21+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/yzMessage.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000761s ]
+
+[ 2016-01-26T20:02:01+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/checkPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001166s ]
+SQL: DESCRIBE truck_user [ RunTime:0.002967s ]
+SQL: SELECT * FROM `truck_user` WHERE `phone` = '15613553728' LIMIT 1   [ RunTime:0.000393s ]
+
+[ 2016-01-26T20:02:04+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/getPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+
+[ 2016-01-26T20:02:23+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/yzMessage.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000868s ]
+
+[ 2016-01-26T20:03:30+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005815s ]
+SQL: DESCRIBE truck_area [ RunTime:0.005838s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.000803s ]
+
+[ 2016-01-26T20:03:56+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001143s ]
+SQL: DESCRIBE truck_area [ RunTime:0.002640s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=2 )  [ RunTime:0.000408s ]
+
+[ 2016-01-26T20:03:57+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
+SQL: DESCRIBE truck_area [ RunTime:0.003122s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=56 )  [ RunTime:0.000466s ]
+
+[ 2016-01-26T20:03:58+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+SQL: DESCRIBE truck_area [ RunTime:0.002933s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=889 )  [ RunTime:0.000277s ]
+
+[ 2016-01-26T20:04:12+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001539s ]
+SQL: DESCRIBE truck_area [ RunTime:0.006815s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.000667s ]
+
+[ 2016-01-26T20:05:37+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/doCrop.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003793s ]
+
+[ 2016-01-26T20:05:49+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/getOld.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+SQL: DESCRIBE truck_user [ RunTime:0.003430s ]
+SQL: SELECT * FROM `truck_user` WHERE `id` = 13 AND `password` = 'a1234578!' LIMIT 1   [ RunTime:0.000349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2016-01-26T20:05:56+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/getOld.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+SQL: DESCRIBE truck_user [ RunTime:0.003967s ]
+SQL: SELECT * FROM `truck_user` WHERE `id` = 13 AND `password` = 'a12345678!' LIMIT 1   [ RunTime:0.000483s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000909s ]
+
+[ 2016-01-26T20:06:10+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+SQL: DESCRIBE truck_area [ RunTime:0.002986s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.000990s ]
+
+[ 2016-01-26T20:06:34+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/sendEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+
+[ 2016-01-26T20:06:44+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/checkEmail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000787s ]
+
+[ 2016-01-26T20:21:48+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+SQL: DESCRIBE truck_area [ RunTime:0.007202s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.000766s ]
+
+[ 2016-01-26T20:55:51+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+SQL: DESCRIBE truck_area [ RunTime:0.003861s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.001009s ]
+
+[ 2016-01-26T20:55:54+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+SQL: DESCRIBE truck_area [ RunTime:0.002562s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=1 )  [ RunTime:0.000626s ]
+
+[ 2016-01-26T20:55:57+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005088s ]
+SQL: DESCRIBE truck_area [ RunTime:0.007336s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=37 )  [ RunTime:0.001125s ]
+
+[ 2016-01-26T20:55:58+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004715s ]
+SQL: DESCRIBE truck_area [ RunTime:0.006691s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=567 )  [ RunTime:0.000534s ]
+
+[ 2016-01-26T20:56:35+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006474s ]
+SQL: DESCRIBE truck_area [ RunTime:0.005217s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.000512s ]
+
+[ 2016-01-26T20:59:29+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001766s ]
+SQL: DESCRIBE truck_area [ RunTime:0.003892s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.000737s ]
+
+[ 2016-01-26T21:02:51+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001324s ]
+SQL: DESCRIBE truck_area [ RunTime:0.006764s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.001082s ]
+
+[ 2016-01-26T21:02:54+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+SQL: DESCRIBE truck_area [ RunTime:0.003391s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=1 )  [ RunTime:0.001542s ]
+
+[ 2016-01-26T21:02:56+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+SQL: DESCRIBE truck_area [ RunTime:0.005554s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=37 )  [ RunTime:0.000499s ]
+
+[ 2016-01-26T21:02:57+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+SQL: DESCRIBE truck_area [ RunTime:0.002506s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=568 )  [ RunTime:0.000294s ]
+
+[ 2016-01-26T21:02:59+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+SQL: DESCRIBE truck_area [ RunTime:0.003274s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=3 )  [ RunTime:0.000847s ]
+
+[ 2016-01-26T21:03:00+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001174s ]
+SQL: DESCRIBE truck_area [ RunTime:0.002859s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=73 )  [ RunTime:0.000446s ]
+
+[ 2016-01-26T21:03:01+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+SQL: DESCRIBE truck_area [ RunTime:0.002754s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=1126 )  [ RunTime:0.000455s ]
+
+[ 2016-01-26T21:03:06+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+SQL: DESCRIBE truck_area [ RunTime:0.003081s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.000673s ]
+
+[ 2016-01-26T21:03:11+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001184s ]
+SQL: DESCRIBE truck_area [ RunTime:0.003352s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=2 )  [ RunTime:0.001090s ]
+
+[ 2016-01-26T21:14:20+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005669s ]
+SQL: DESCRIBE truck_area [ RunTime:0.007678s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.001063s ]
+
+[ 2016-01-26T21:22:54+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+SQL: DESCRIBE truck_area [ RunTime:0.005062s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.000752s ]
+
+[ 2016-01-26T21:22:56+08:00 ] 127.0.0.1 /twoall/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001662s ]
+SQL: DESCRIBE truck_area [ RunTime:0.006890s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.001456s ]
+

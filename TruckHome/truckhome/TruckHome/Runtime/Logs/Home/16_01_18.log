@@ -1,0 +1,13 @@
+[ 2016-01-18T16:59:03+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002434s ]
+SQL: DESCRIBE truck_area [ RunTime:0.056753s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.051221s ]
+
+[ 2016-01-18T19:06:11+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/User/.get.return%7Cbase64_decode
+ERR: 非法操作:.get.return|base64_decode
+
+[ 2016-01-18T19:13:24+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/User/.get.return%7Cbase64_decode
+ERR: 非法操作:.get.return|base64_decode
+

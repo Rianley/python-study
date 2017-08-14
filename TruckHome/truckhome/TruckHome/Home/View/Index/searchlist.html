@@ -1,0 +1,121 @@
+<extend name="Public/base"/>
+<block name="main">
+<link rel="stylesheet" href="__PUBLIC__/home/news/css/zxindex.css"/>
+<link rel="stylesheet" href="__PUBLIC__/home/news/css/searchlist.css"/>
+<!--品牌系列页头 start-->
+
+		{:W('Menu/header')}
+		<!--品牌系列页头  end-->
+	     <!--ad start-->
+		<div class="clear"></div>
+		<div class="adimg">
+			<img src="__PUBLIC__/home/news/images/0f000PLHkw0DvVB-7ncy8s.png" title="" alt="" border="0" height="60" width="1000">
+			<img src="__PUBLIC__/home/news/images/0f0007y4C92PM9ofoxXbr6.jpg" title="" alt="" border="0" height="60" width="1000">
+		</div>
+		<div class="clear"></div>
+		<!--ad end-->
+		<!--map_bane start-->
+		<div class="map_bane">
+			<div class="mapdizhi">
+				<a href="{:U('Xarticle/index')}" target="_blank">卡车新闻频道</a>
+			</div>
+			<div class="mapdz" style="padding-left: 20px;">
+				您的当前位置：<a href="{:U('Index/index')}" class="gred6">首页</a> &gt;
+				卡车新闻
+			</div>
+			<!--搜索-->
+			<div class="serch">
+				<form accept-charset="UTF-8" method="get"  action="" target="_blank">
+					<span>
+						<input  placeholder="请输入您要搜索的内容" class="inp1" type="text" name="pname" value="{:I('get.pname')}">
+
+						<input class="btn1" value="搜索" type="submit">
+					</span>
+				</form>
+			</div>
+		</div>
+		<!-- map_bane end-->
+		<div class="clear"></div>
+		<!--productbox start-->
+		<div class="productbox">
+			<div class="contan fn_clear contan_xll2">
+				<div class="contan_b" id="DaoHangDiv">
+					<ul>
+						<li class="action"><a href="{:U('Index/searchlist')}" target="_self"><span>全部</span></a></li>
+						<volist name="data1" id="vo">
+							<li><a href="{:U('Index/searchlist',array('id'=>$vo['id']))}" target="_self"><span>{$vo['name']}</span></a></li>
+						</volist>
+					</ul>
+				</div>
+			</div>
+			<div class="main_pro_box fl">
+				<div class="ft m_p_boxa fl">
+					<div class="sppic">
+					  <div class="sppic_tit">
+						  <h4><a href=""></a></h4>
+						  <strong><a href="{:U('Index/searchlist')}" target="_bank">查看全部&gt;&gt;</a></strong>
+					  </div>
+
+					  <!-- 视频部分 div start -->
+					<div class="video_cen">
+						<div class="video_cen01">
+								<volist name="product" id="vo">
+									<div class="video_rt1 ">
+										  <dl>
+
+											<dt>
+												<a href="{:U('Xproduct/prodetail',array('id'=>$vo['id']))}" title="" target="_bank">
+													<img alt="" src="__PUBLIC__{$vo['picname']}" height="145" width="240">
+												</a>
+											</dt>
+											<dd>
+												<div class="one1"><a href="{:U('Xproduct/prodetail',array('id'=>$vo['id']))}" target="_blank" title="">{$vo['pname']|msubstr=0,24,'utf-8',true}</a></div>
+												<div class="two" style="color:#000;">公告型号：{$vo['announcement']}</div>
+												<div class="two" >报价：<span style="color:red;font-weight:bold;">{$vo['price']}万</span></div>
+											</dd>
+										  </dl>
+									</div>
+								</volist>
+
+						</div>
+					</div>
+					  <!-- 视频部分 div end -->
+					</div>
+
+					<div class="pageboxtom">
+						<div class="pages">
+							{$show}
+						</div>
+
+					</div>
+
+
+				</div>
+			</div>
+			<div class="fr m_p_boxb">
+				<div class="m_p_rbox">
+					<div class="cennerh3"><h3>卡车新闻一周热门文章</h3></div>
+						<ul class="numbphc numbphcnew">
+							<volist name="data2" id="vo" key="i">
+								<li>
+									<em class="orange{$i}"></em>
+									<div class="hotttie">
+										<a href="{:U('Xarticle/zxdetail',array('id'=>$vo['id']))}" target="_blank" class="gred3" title="{$vo['title']}">{$vo['title']|msubstr=0,10,'utf-8',true}</a>
+									</div>
+									<!-- <label>
+										<a href="" target="_blank"><em class="pinglun"></em>{$vo['count']}</a>
+									</label> -->
+								</li>
+							</volist>
+
+						</ul>
+				</div>
+
+
+			</div>
+		</div>
+
+
+		<div class="clear"></div>
+
+</block>

@@ -1,0 +1,94 @@
+<extend name="Public/userbase"/>
+
+<block name="main">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/shop/home/css/ecshop_pcenter.css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/shop/home/css/ecshop_common.css">
+	<script src="__PUBLIC__/My97DatePicker/WdatePicker.js"></script>
+	<script src="__PUBLIC__/Plupload/plupload.full.min.js"></script>
+	<script src="__PUBLIC__/Jcrop/js/jquery.Jcrop.js"></script>
+	{:W('Menu/userleft')}
+	<div class="prefirght">
+
+		<div class="jymx2" style="width:770px">
+			<div class="jymx_a">收件地址</div>
+			<div class="allin">
+				<div class="dd_bar">
+					<span class="bar1" style="">编号</span>
+
+					<span class="bar3" style="width:130px">收件人</span>
+					<span class="bar4" style="width:130px">手机号</span>
+					<span class="bar4" style="width:150px">地址</span>
+
+					<span class="bar6" style="width:120px">邮编</span>
+					<span class="bar7">操作</span>
+				</div>
+				<foreach name="data" item="vo">
+				<div class="jymx_b_ver2">
+
+					<div class="jymx_c_l_ver2_1">
+						<table width="100%" border="0" cellpadding="0" cellspacing="0">
+							<tbody>
+								<tr style="height:70px" data="{$vo['id']}">
+									<td style="border-right:1px solid #ccc;width:1px">
+										<div class="jymx_c_l_ver2">
+											<a href="user.php?act=order_detail&amp;order_id=38942" class="f6">{$vo['id']}</a>
+										</div>
+									</td>
+
+									<td class="amount">
+										<div>{$vo['getman']}</div>
+									</td>
+									<td class="amount">
+										<b>{$vo['phonenum']}</b>
+
+									</td>
+									<td class="amount"> <b>{$vo['area']}{$vo['address']}</b>
+
+									</td>
+
+									<td class="status">
+
+										<span class="condi1">{$vo['code']}</span>
+
+									</td>
+
+									<td class="oprate">
+
+										<div class="oprate_n">
+											<a href="{:U('Saddress/edit',array('id'=>$vo['id']))}" class="del">编辑</a>
+										</div>
+										<div class="oprate_n">
+											<a href="javascrip:;"  class="del delete">删除</a>
+										</div>
+
+									</td>
+
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				</foreach>
+
+			</div>
+
+		</div>
+</div>
+<script type="text/javascript">
+	$('.delete').click(function(){
+
+		var id=$(this).parent().parent().parent('tr').attr('data');
+		console.log(id);
+		$.post("{:U('Saddress/del')}",{id:id},function(msg){
+			if(msg=='yes'){
+				$('tr[data='+id+']').remove();
+			}else{
+				alert('失败');
+			}
+		})
+
+	})
+</script>
+
+
+</block>

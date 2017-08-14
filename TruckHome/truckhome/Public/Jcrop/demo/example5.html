@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="description" content="jQuery图像照片剪裁插件Jcrop" />
+<meta name="description" content="张鑫旭web前端学习之jQuery" />
+<meta name="keywords" content="张鑫旭,鑫空间-鑫生活,博客,web前端,css,JavaScript,jQuery,插件,demo页面,学习" />
+<meta name="author" content="张鑫旭,zhangxixnu" />
+<title>jQuery图像照片剪裁插件Jcrop</title>
+<link rel="shortcut icon" href="http://www.zhangxinxu.com/zxx_ico.png" />
+<link rel="stylesheet" href="../css/common.css" type="text/css" />
+<link rel="stylesheet" href="../css/jquery.Jcrop.css" type="text/css" />
+<script type="text/javascript" src="../js/jquery-1.3.2-min.js"></script>
+<script type="text/javascript" src="../js/jquery.Jcrop.js"></script>
+<style type="text/css">
+.img_pos{padding:0 0 20px 12%;}
+.animate_btns{padding-top:20px; padding-bottom:20px;}
+.field_set{width:460px; padding:10px; font-size:0.9em;}
+.select_list{width:49.6%; float:left;}
+.select_list input{vertical-align:-2px;}
+</style>
+<script type="text/javascript">
+	$(document).ready(function(){
+		var jcrop_api;
+		var i, ac;
+		initJcrop();
+		function initJcrop(){
+			jcrop_api = $.Jcrop("#xuwanting");
+			$("#can_click,#can_move,#can_size").attr("checked","checked");
+			$("#ar_lock,#size_lock,#bg_swap").attr("checked",false);
+		};
+
+		// 处理程序阻止事件的继续进行，可能不是必须的，但是原作者(Kelly Hallman)很喜欢
+		function nothing(e){
+			e.stopPropagation();
+			e.preventDefault();
+			return false;
+		};
+
+		// 使用API找到需要修剪的尺寸，然后产生一个随机的选区
+		// 此函数主要用于"随机选区"和"随机动画"这两个按钮，主要目的是演示示范
+		function getRandom(){
+			var dim = jcrop_api.getBounds();
+			return [
+				Math.round(Math.random() * dim[0]),
+				Math.round(Math.random() * dim[1]),
+				Math.round(Math.random() * dim[0]),
+				Math.round(Math.random() * dim[1])
+			];
+		};
+
+		// 界面显示的一些按钮，这些看上去有不少代码，其实都是很简单的
+		$("#setSelect").click(function(e){
+			jcrop_api.setSelect(getRandom()); //设置一个随机的选区
+		});
+		$("#animateTo").click(function(e){
+			jcrop_api.animateTo(getRandom()); //以动画方式形成随机选区
+		});
+		$("#release").click(function(e){
+			jcrop_api.release(); //使用release方法清除选区
+		});
+		/*简单的按钮显示与隐藏，API可用不可用*/
+		$("#disable").click(function(e){
+			jcrop_api.disable();
+			$("#enable").show();
+			$(".requiresjcrop").hide();
+		});
+		$("#enable").click(function(e){
+			jcrop_api.enable();
+			$("#enable").hide();
+			$(".requiresjcrop").show();
+		});
+		/*简单的按钮的显示与隐藏，API的销毁还是初始化*/
+		$("#rehook").click(function(e){
+			initJcrop();
+			$("#rehook,#enable").hide();
+			$("#unhook,.requiresjcrop").show();
+			return nothing(e);
+		});
+		$("#unhook").click(function(e){
+			jcrop_api.destroy();
+			$("#unhook,#enable,.requiresjcrop").hide();
+			$("#rehook").show();
+			return nothing(e);
+		});
+
+		//这些复选框简单的设置一些选项是基于自身是否被选中的，选项通过传递一个新的选项对象而发生改变
+		//当然，为了防止一些奇怪的行为，那些与Jcrop默认状态相匹配的选项一开始就是是被选中的。
+		$("#can_click").change(function(e){
+			jcrop_api.setOptions({allowSelect: !!this.checked});
+			jcrop_api.focus();
+		});
+		$("#can_move").change(function(e){
+			jcrop_api.setOptions({allowMove: !!this.checked});
+			jcrop_api.focus();
+		});
+		$("#can_size").change(function(e){
+			jcrop_api.setOptions({allowResize: !!this.checked});
+			jcrop_api.focus();
+		});
+		$("#ar_lock").change(function(e){
+			jcrop_api.setOptions(this.checked?{aspectRatio:4/3}:{aspectRatio:0});
+			jcrop_api.focus();
+		});
+		$("#size_lock").change(function(e){
+			jcrop_api.setOptions(this.checked?{
+				minSize:[80, 80],
+				maxSize:[350, 350]
+			}:{
+				minSize:[0, 0],
+				maxSize:[0, 0]
+			});
+			jcrop_api.focus();
+		});
+		$("#bg_swap").change(function(e){
+			jcrop_api.setOptions( this.checked?{
+				outerImage:"../image/xuwanting_gray.jpg",
+				bgOpacity:1
+			}:{
+				outerImage:"../image/xuwanting.jpg",
+				bgOpacity:.6
+			});
+			jcrop_api.release();
+		});
+
+	});
+</script>
+</head>
+
+<body>
+<div class="zxx_out_box">
+    <div class="zxx_in_box">
+        <div class="zxx_header">
+            <a href="http://www.zhangxinxu.com/">
+                <img class="l" src="http://www.zhangxinxu.com/wordpress/wp-content/themes/default/images/index_logo.gif" />
+            </a>
+            <span class="zxx_author_time">by zhangxinxu 2009-11-12 16:17</span>
+        </div> 
+        <h1 class="zxx_title">Jcrop照片剪裁插件高级API演示</h1>
+        <div class="zxx_main_con">
+        	<div class="zxx_test_list">
+                <div class="img_pos">
+                	<img id="xuwanting" src="../image/xuwanting.jpg" />
+                    <div class="animate_btns"> 
+                        <span class="requiresjcrop">       	
+                            <input type="button" value="随机选区" id="setSelect" />
+                            <input type="button" value="随机动画" id="animateTo" />
+                            <input type="button" value="释放解除" id="release" />
+                            <input type="button" value="选择禁用" id="disable" />
+                        </span> 
+                        <input type="button" value="选择可用" id="enable" class="dn" />
+                        <input type="button" value="事件销毁" id="unhook" />
+                        <input type="button" value="附加Jcrop" id="rehook" class="dn" />    
+                    </div>
+                    <fieldset class="field_set requiresjcrop">
+                        <legend class="g3"><strong>选项切换</strong></legend>
+                        <div class="select_list">
+                        	<input type="checkbox" id="can_click" /><label for="can_click">允许新的选区</label><br />
+                            <input type="checkbox" id="can_move" /><label for="can_move">选区可被移动</label><br />
+                            <input type="checkbox" id="can_size" /><label for="can_size">选区可以大小改变</label>
+                        </div>
+                        <div class="select_list">
+                        	<input type="checkbox" id="ar_lock" /><label for="ar_lock">比例固定</label><br />
+                            <input type="checkbox" id="size_lock" /><label for="size_lock">最小/最大尺寸限制</label><br />
+                            <input type="checkbox" id="bg_swap" /><label for="bg_swap">改变外部包围图片</label>
+                        </div>
+                    </fieldset>
+                    <p class="mt20">一些说明见JavaScript代码注释。此处JavaScript代码比较长，这里就不在页面展示了！</p>
+                	<p class="mt20 mb20"><a href="../index.html">&lt;&lt; 返回Demo实例首页</a></p>
+                </div>    
+            </div>
+        </div>
+        <div class="zxx_footer">
+            Copyright &copy; by <a href="http://www.zhangxinxu.com/">张鑫旭-鑫空间-鑫生活</a>
+            |
+            <a href="http://www.zhangxinxu.com/wordpress/?p=359">该篇相关文章</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

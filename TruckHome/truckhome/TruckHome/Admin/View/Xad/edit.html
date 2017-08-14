@@ -1,0 +1,45 @@
+<!-- <extend name="Public/base"/> -->
+<block name="main">
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="panel panel-default">
+				<div class="panel-heading">修改文章</div>
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-lg-12">
+							<form class="form-horizontal" action="{:U('Xad/update')}" method="post" enctype="multipart/form-data">
+								<div class="form-group">
+									<label for="inputEmail3" class="col-sm-2 control-label">标题：</label>
+									<div class="col-sm-10">
+										<input type="text" class="form-control" value="{$data['title']}" style="width:50%" id="title" placeholder="标题" name="title">
+										<input type="hidden" class="form-control" value="{$data['id']}" style="width:50%" id="id" placeholder="" name="id">
+									</div>
+								</div>
+
+								<div class="form-group">
+									<label for="inputEmail3" class="col-sm-2 control-label">Url地址：</label>
+									<div class="col-sm-10">
+										<input type="text" class="form-control" style="width:50%" id="editor" placeholder="Url地址" name="url" value="{$data['url']}"></div>
+								</div>
+								<div class="form-group">
+    								<label for="exampleInputFile" class="col-sm-2 control-label">上传图片：</label>
+    								<div class="col-sm-10">
+    									<input type="file" name="picname"  class="">
+										<img src="{$data['picname']}"  height="60px"/>
+    								</div>
+  								</div>
+								<div class="form-group">
+									<div class="col-sm-offset-2 col-sm-10">
+										<button type="submit" class="btn btn-primary">修改</button>
+
+										<button onclick="javascript:location.href='{:U('Xad/index')}';" class="btn btn-primary" type="button">&nbsp;&nbsp;取消&nbsp;&nbsp;</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</block>

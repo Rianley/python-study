@@ -1,0 +1,80 @@
+<extend name="Public/Lbase"/>
+<block name="main">
+	<div class="jlbtn">
+		<a id="fjump" class="jlbtn-xg1" href="">卡车论坛</a>
+		<div class="dengluhou">
+
+			<cite>
+				<a href="" class="noborder">{$_SESSION['user']['username']}</a>
+			</cite>
+			|
+			<a href="{:U('User/userindex')}">个人中心</a>
+			<if condition="$_SESSION['user'] neq null">
+			|
+			<a href="{:U('User/logout')}">退出</a>
+			</if>
+		</div>
+	</div>
+
+	<div class="jlbtiezlie">
+		<div class="jlbtiezliel">
+			<span style='color:red'>{$tname['catename']}</span>&nbsp;论坛帖子列表
+		</div>
+
+		<div class="jlbtiezlier j-add">
+			<div class="jlbtiefabu">
+
+				<span id="newspecialtmp" class="libi_faie nof">
+					<a href="{:U('Lpost/add')}">&nbsp;&nbsp;&nbsp;发&nbsp;&nbsp;帖</a>
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div class="jlbtiezilie">
+		<div id="threadlist" class="threadlist datalist" style="position: relative;">
+			<table summary="" class="datatable" cellpadding="0" cellspacing="0">
+				<tbody>
+					<tr>
+						<td class="folder2"></td>
+						<td class="subject2">标题</td>
+						<td class="subject3">作者</td>
+						<td class="subject3">发表时间</td>
+
+					</tr>
+				</tbody>
+				<tbody>
+					<volist name="data" id='vo'>
+						<tr>
+							<td class="folder2">
+								<if condition="($vo['state1']) eq 1">
+									<a href="" target="" title="新窗口打开" class="official">
+										<img src="__PUBLIC__/bbs/images/pin_3.gif" alt="全局置顶"></a>
+								</if>
+							</td>
+							<th class="subject hot">
+								<span>
+									<a href="{:U('Lpost/detail',array('id'=>$vo['id']))}" target="">{$vo['title']|msubstr=0,26,'utf-8',true}</a>
+								</span>
+
+							</th>
+							<td class="author">
+								<span>{$vo['username']}</span>
+							</td>
+							<th class="subject hot">
+								<span>{:date('Y-m-d H:i:s',$vo['ctime'])}</span>
+							</th>
+						</tr>
+					</volist>
+				</tbody>
+			</table>
+			<span >
+				<a style="display:block;float:right;background:#4182c8;width:90px;height:30px;line-height:30px;margin-top:3px;color:#fff;font-size:14px;font-weight:bold" href="{:U('Lindex/index')}">&nbsp;返回首页&nbsp;</a>
+			</span>
+
+		</div>
+	</div>
+
+	<div style="height:30px"></div>
+
+</block>

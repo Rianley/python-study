@@ -1,0 +1,55 @@
+<extend name="Public/base" />
+
+<block name="main">
+	<div class="row">
+		<div class="col-lg-12">
+			<h1 class="page-header">添加分类</h1>
+		</div>
+		<!-- /.col-lg-12 -->
+	</div>
+	<!-- /.row -->
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="panel panel-defauslt">
+				<div class="panel-heading">添加分类</div>
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-lg-12">
+							<form role="form" class="form-horizontal" method="post" action="{:U('Scategory/update')}">
+								<input type="hidden" name="id" value="{$data['id']}">
+								<div class="form-group">
+									<label class="col-sm-1">类名</label>
+									<div class="col-sm-6">
+										<input class="form-control" name="catename" value="{$data['catename']}">
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-sm-1">分类</label>
+									<div class="col-sm-6">
+										<select name="pid">
+											<option value="">--请选择--</option>
+											<volist name="list" id="vo">
+												<option value="{$vo['id']}" {$vo['id']==$data['pid'] ? 'selected disabled' : '' } {$vo['id']==$data['id'] ? 'disabled' : ''} style="text-indent: {$vo['level']*30}px">
+													|-- {$vo['catename']}
+												</option>
+											</volist>
+										</select>
+									</div>
+								</div>
+								<div class="text-center">
+									<button type="submit" class="btn btn-primary  btn-lg">提交</button>
+								</div>
+							</form>
+						</div>
+						<!-- /.col-lg-6 (nested) -->
+					</div>
+					<!-- /.row (nested) -->
+				</div>
+				<!-- /.panel-body -->
+			</div>
+			<!-- /.panel -->
+		</div>
+		<!-- /.col-lg-12 -->
+	</div>
+	<!-- /.row -->
+</block>

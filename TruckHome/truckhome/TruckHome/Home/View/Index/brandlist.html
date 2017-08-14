@@ -1,0 +1,107 @@
+<extend name="Public/base"/>
+<block name="main">
+	<link rel="stylesheet" href="__PUBLIC__/home/news/css/zxindex.css"/>
+	<link rel="stylesheet" href="__PUBLIC__/home/news/css/searchlist.css"/>
+	<link rel="stylesheet" href="__PUBLIC__/home/news/css/brandlist.css"/>
+	<!--品牌系列页头 start-->
+	{:W('Menu/header')}
+	<!--品牌系列页头  end-->
+	<!--ad start-->
+	<div class="clear"></div>
+	<div class="adimg">
+		<img src="__PUBLIC__/home/news/images/0f000PLHkw0DvVB-7ncy8s.png" title="" alt="" border="0" height="60" width="1000">
+		<img src="__PUBLIC__/home/news/images/0f0007y4C92PM9ofoxXbr6.jpg" title="" alt="" border="0" height="60" width="1000"></div>
+	<div class="clear"></div>
+	<!--ad end-->
+	<!--map_bane start-->
+	<div class="map_bane">
+		<div class="mapdizhi">
+			<a href="{:U('Index/brandlist')}" target="_blank">卡车品牌频道</a>
+		</div>
+		<div class="mapdz" style="padding-left: 20px;">
+			您的当前位置：
+			<a href="{:U('Index/index')}" class="gred6">首页</a>
+			&gt;品牌车型
+
+		</div>
+		<!--搜索-->
+		<div class="serch">
+			<form accept-charset="UTF-8" method="get"  action="" target="_blank">
+				<span>
+					<input  placeholder="请输入您要搜索的内容" class="inp1" type="text" name="name" value="{:I('get.name')}">
+
+					<input class="btn1" value="搜索" type="submit"></span>
+			</form>
+		</div>
+	</div>
+	<!-- map_bane end-->
+	<div class="clear"></div>
+	<!--productbox start-->
+	<div class="productbox">
+		<div class="contan fn_clear contan_xll2">
+			<div class="contan_b" id="DaoHangDiv">
+				<ul>
+					<li class="action">
+						<a href="{:U('Index/brandlist')}" target="_self">
+							<span>全部</span>
+						</a>
+					</li>
+					<volist name="data1" id="vo">
+						<li>
+							<a href="{:U('Index/brandlist',array('id'=>
+								$vo['id']))}">
+								<span>{$vo['name']}</span>
+							</a>
+						</li>
+					</volist>
+				</ul>
+			</div>
+		</div>
+		<div class="main_pro_box fl">
+
+
+				<div class="brandall">
+					<div class="like_ymor">
+						<div class="cennerh3">
+							<h3>热门车型</h3>
+							<a href="javascript:void(0);" onclick="hypmethod()" class="more" id="hyp" target="_self">&gt;&gt;</a>
+						</div>
+						<div class="cenboxtopnew2" id="containfloder">
+							<volist name="product" id="vo">
+							<dl>
+								<dt>
+									<a target="_blank" href="{:U('Xproduct/prodetail',array('id'=>$vo['id']))}" title="{$vo['pname']}">
+										<img src="{$vo['picname']}" alt="{$vo['pname']}" border="0" height="100" width="150"></a>
+								</dt>
+								<dd>
+									<div class="one">
+										<a target="_blank" href="{:U('Xproduct/prodetail',array('id'=>$vo['id']))}" title="{$vo['pname']}">
+											{$vo['pname']|msubstr=0,20,'utf-8',true}
+											<span>
+												<!-- [ <b>112</b>
+												张] -->
+											</span>
+										</a>
+									</div>
+								</dd>
+							</dl>
+						</volist>
+
+
+
+						</div>
+					</div>
+				</div>
+				<div class="pageboxtom">
+					<div class="pages">{$show}</div>
+
+				</div>
+
+
+		</div>
+
+	</div>
+
+	<div class="clear"></div>
+
+</block>

@@ -1,0 +1,24 @@
+[ 2016-01-16T23:27:59+08:00 ] 127.0.0.1 /two/ThinkPHP/Home/Xarticle
+ERR: 模板不存在:./TruckHome/Home/View/Xarticle/login.html
+
+[ 2016-01-16T23:28:27+08:00 ] 127.0.0.1 /two/ThinkPHP/Home/Xarticle/index.html
+ERR: 模板不存在:./TruckHome/Home/View/Xarticle/login.html
+
+[ 2016-01-16T23:38:52+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xarticl/index.html
+ERR: 无法加载控制器:Xarticl
+
+[ 2016-01-16T23:39:12+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xarticl/index.html
+ERR: 无法加载控制器:Xarticl
+
+[ 2016-01-16T23:44:07+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xarticle/index.html/pid/4
+ERR: 非法操作:index.html
+
+[ 2016-01-16T23:58:58+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xarticle/index.html?pid=4
+ERR: 表达式错误:in 
+
+[ 2016-01-16T23:59:18+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xarticle/index.html?pid=4
+ERR: 表达式错误:in 
+
+[ 2016-01-16T23:59:25+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xarticle/index.html?pid=4
+ERR: 表达式错误:in 
+

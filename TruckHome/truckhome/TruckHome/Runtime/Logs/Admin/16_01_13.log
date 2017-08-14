@@ -1,0 +1,12 @@
+[ 2016-01-13T19:14:38+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Admin/xarticlecate/edit/id/16/pid/1/name/%E5%9B%BD%E4%BA%A7%E6%96%B0%E8%BD%A6/path/0%2C1.html
+ERR: Think\Controller:assigin方法不存在！
+
+[ 2016-01-13T19:25:27+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Admin/xarticlecate/edit.html
+ERR: 参数错误或者未定义:id
+
+[ 2016-01-13T19:26:52+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Admin/xarticlecate/edit.html
+ERR: 参数错误或者未定义:id
+
+[ 2016-01-13T19:28:11+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Admin/xarticlecate/edit.html
+ERR: 参数错误或者未定义:id
+

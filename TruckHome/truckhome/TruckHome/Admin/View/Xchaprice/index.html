@@ -1,0 +1,153 @@
+<extend name="Public/base"/>
+<block name="main">
+<!-- <link rel="stylesheet" type="text/css" href="__PUBLIC__/page/css.css" media="all" /> -->
+	<div class="row">
+		 <div class="col-lg-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            询价管理
+                        </div>
+                        <!-- /.panel-heading -->
+
+                        <div class="panel-body">
+                            <div class="table-responsive table-bordered">
+                                <table class="table table-bordered table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th class="text-center"><label class="checkbox-inline">
+                                        <input type="checkbox" id="checkall" value="">全选
+                                        </label></th>
+                                            <th class="text-center">id</th>
+                                            <th class="text-center">意向车型</th>
+                                            <th class="text-center">提车地区</th>
+                                            <th class="text-center">联系人</th>
+                                            <th class="text-center">性别</th>
+                                            <th class="text-center">手机号码</th>
+
+                                            <th class="text-center">查询时间</th>
+
+                                            <th class="text-center">操作</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="vocheck">
+
+										<volist name="data" id="vo" key="k">
+											<tr class="text-center " >
+                                                <td  style="vertical-align:middle;">
+
+
+                                                        <input type="checkbox" id="check{$k}" value="{$vo['id']}" aria-label="..." name="ckvalue{$k}">
+
+                                                </td>
+
+	                                            <td style="vertical-align:middle;">{$vo['id']}</td>
+                                                <td style="vertical-align:middle;">{$vo['pname']|msubstr=0,16,'utf-8',true}</td>
+	                                            <td style="vertical-align:middle;">{$vo['address']}</td>
+	                                            <td style="vertical-align:middle;">{$vo['name']}</td>
+	                                            <td style="vertical-align:middle;">{$vo['sex']==1?"男":"女"}</td>
+                                                <td style="vertical-align:middle;">{$vo['phone']}</td>
+	                                            <td style="vertical-align:middle;">{:date("Y-m-d",$vo['addtime'])}</td>
+	                                            <td style="vertical-align:middle;">
+	                                               <a href="{:U('Xchaprice/detail',array('id'=>$vo['id']))}" class="btn btn-primary">查看详情</a>
+                                                   <a href="{:U('Xchaprice/delete',array('id'=>$vo['id']))}" class="btn btn-danger">删除</a>
+	                                               <!-- <a href="{:U('Xchaprice/daochu',array('id'=>$vo['id']))}">到处表格</a> -->
+
+	                                            </td>
+                                        </tr>
+
+										</volist>
+
+										<tr>
+											<td colspan="9" class="text-center">
+
+												{$show}
+
+											</td>
+
+										</tr>
+
+                                        <tr>
+                                            <td colspan="9" class="text-left">
+                                            <a class="btn btn-danger" href="javascript:;" id="delbtn"/>批量删除</a>
+
+                                            <a  class="btn btn-success" id="exportbtn" href="{:U('Xchaprice/exprotExcel')}">导出数据备份</a>
+
+
+                                               <!--  <input type="submit" class="btn btn-danger" value="批量删除"/>
+
+                                                <input type="submit"  class="btn btn-success" value="导出表格"/> -->
+
+
+                                            </td>
+
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+
+                                <script>
+                                $(function(){
+                                    //全选 开始
+                                    $("table thead th input:checkbox").on("click" , function(){
+                                    $(this).closest("table").find("tr > td:first-child input:checkbox").prop("checked",$("table thead th input:checkbox").prop("checked"));
+                                    });
+                                    //全选结束
+                                    $('#delbtn').click(function(){
+                                         var arr = [];
+                                        // 遍历被选中的复选框
+                                        $('input:checked').each(function(){
+                                            arr.push($(this).val());
+                                        });
+                                        for(var i = 0; i < arr.length; i++) {
+                                            if(arr[i].length == 0) arr.splice(i,1);
+                                        }
+                                        //console.log(arr);
+                                        var params = arr.join(',');
+                                        //console.log(params);
+                                        $.post("{:U('Xchaprice/betchDel')}",'params='+params,function(msg){
+                                            if(msg=="ok"){
+                                                alert("删除成功了");
+                                                window.location.reload();
+                                            }else{
+                                                alert("删除失败了");
+                                            }
+                                        })
+                                    });
+                                    // $('#exportbtn').click(function(){
+                                    //      var arr = [];
+                                    //     // 遍历被选中的复选框
+                                    //     $('input:checked').each(function(){
+                                    //         arr.push($(this).val());
+                                    //     });
+                                    //     for(var i = 0; i < arr.length; i++) {
+                                    //         if(arr[i].length == 0) arr.splice(i,1);
+                                    //     }
+                                    //     console.log(arr);
+                                    //     var params = arr.join(',');
+                                    //     console.log(params);
+                                    //     $.get("{:U('Xchaprice/exprotExcel')}",'params='+params,function(msg){
+                                    //         console.log(msg);
+                                    //         if(msg!=null){
+                                    //             alert("导出成功了");
+                                    //             // window.location.reload();
+                                    //         }else{
+                                    //             alert("导出失败了");
+                                    //         }
+
+                                    //     });
+                                   // });
+
+
+                                })
+
+                                </script>
+                            </div>
+                            <!-- /.table-responsive -->
+                        </div>
+                        <!-- /.panel-body -->
+
+                    </div>
+                    <!-- /.panel -->
+                </div>
+	</div>
+</block>

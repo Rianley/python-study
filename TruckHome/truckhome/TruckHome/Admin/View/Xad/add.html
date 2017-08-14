@@ -1,0 +1,41 @@
+<extend name="Public/base"/>
+<block name="main">
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="panel panel-default">
+				<div class="panel-heading">添加广告</div>
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-lg-12">
+							<form class="form-horizontal" action="{:U('Xad/insert')}" method="post" enctype="multipart/form-data">
+								<div class="form-group">
+									<label for="inputEmail3" class="col-sm-2 control-label">标题：</label>
+									<div class="col-sm-10">
+										<input type="text" class="form-control" style="width:50%" id="title" placeholder="标题" name="title"></div>
+								</div>
+
+								<div class="form-group">
+									<label for="inputEmail3" class="col-sm-2 control-label">url：</label>
+									<div class="col-sm-10">
+										<input type="text" class="form-control" style="width:50%" id="editor" placeholder="链接地址" name="url">
+									</div>
+								</div>
+								<div class="form-group">
+    								<label for="exampleInputFile" class="col-sm-2 control-label">上传图片：</label>
+    								<div class="col-sm-10">
+    									<input type="file" name="picname"  class="">
+    								</div>
+  								</div>
+								<div class="form-group">
+									<div class="col-sm-offset-2 col-sm-10">
+										<button type="submit" class="btn btn-default">添加</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</block>

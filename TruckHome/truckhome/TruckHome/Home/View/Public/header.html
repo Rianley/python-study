@@ -1,0 +1,39 @@
+<!--品牌系列页头 start-->
+		<div class="pinp_top">
+			<div class="pinp_tlogo">
+				<a title="卡车之家品牌车系" href="">
+				<img src="__PUBLIC__/home/news/images/logoall.jpg" alt="卡车之家品牌车系" height="61" width="112"></a>
+			</div>
+			<div class="pinp_list p_l_wiha">
+				<ul>
+					<volist name="data1" id="vo">
+				 		 <li>
+				 		 	<a target="" href="{:U('Xarticle/index',array("id"=>$vo['id']))}">{$vo['name']}</a>
+				 		 </li>
+					</volist>
+				</ul>
+			</div>
+			<div class="pinp_list p_l_wihb">
+				<ul>
+				  <li><strong><a  href="{:Xproduct/index}">产品库</a></strong></li>
+				  <li><a  href="{:U('Xproduct/imgindex')}">卡车图库</a></li>
+				  <li><a  href="{:U('Index/brandlist')}">品牌大全</a></li>
+				  <li><a  href="{:U('Xarticle/index')}">文章列表</a></li>
+				  <li><a  href="{:U('Xproduct/chaprice')}">卡车报价</a></li>
+				  <volist name="shopdata" id="vo">
+				  	<li><a  href="{:U('Sproduct/index',array('cid'=>$vo['id']))}">{$vo['catename']}</a></li>
+					</volist>
+				</ul>
+			 </div>
+			 <div class="pinp_list p_l_wihc">
+				<ul>
+				  <li class="wd_wihc"><strong><a target="_blank" href="{:U('Lindex/index')}">论坛</a></strong></li>
+
+					<volist name="postdata" id="vo">
+				  <li class="wd_wihc"><a target="_blank" href="{:U('Lpost/index',array('id'=>$vo['id']))}">{$vo['catename']}</a></li>
+					</volist>
+
+				</ul>
+			</div>
+		</div>
+		<!--品牌系列页头  end-->

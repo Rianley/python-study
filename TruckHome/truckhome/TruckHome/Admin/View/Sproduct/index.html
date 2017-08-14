@@ -1,0 +1,77 @@
+<extend name="Public/base" />
+
+<block name="main">
+<style>
+	.num,.prev,.next,.first,.end{
+		margin:0 3px;
+	}
+	img{
+		width:80px;
+	}
+</style>
+	<div class="row">
+		<div class="col-lg-12">
+			<h1 class="page-header">商品管理</h1>
+			<div>
+			<form method="get" action="{:U('Sproduct/index')}">
+				<input type="text" name="proname" placeholder="请输入商品名">
+				<input type="submit" value="搜索">
+			</form>
+			</div>
+		</div>
+		<!-- /.col-lg-12 -->
+	</div>
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="panel panel-default">
+				<div class="panel-heading">商品管理</div>
+				<!-- /.panel-heading -->
+				<div class="panel-body">
+					<div class="table-responsive">
+						<table class="table table-striped table-bordered table-hover  text-center" >
+							<thead>
+								<tr>
+									<th>编号</th>
+									<th>商品名</th>
+									<th>图片</th>
+									<th>店价</th>
+									<th>库存</th>
+									<th>销量</th>
+									<th>操作</th>
+								</tr>
+							</thead>
+
+							<tbody>
+								<foreach name="data" item="vo">
+
+									<tr>
+										<td>{$vo['id']}</td>
+										<td>{$vo['proname']|msubstr=0,30,'utf-8',true}</td>
+										<td><img src="__PUBLIC__/shop/{$vo['image']}"/></td>
+										<td>{$vo['price']}</td>
+										<td>{$vo['storage']}</td>
+										<td>{$vo['salenum']}</td>
+										<td>
+											<a href="{:U('Sproduct/edit',array('id'=>$vo['id']))}" class="btn btn-warning btn-xs ">修改</a>
+											<a href="{:U('Sproduct/detail',array('id'=>$vo['id']))}" class="btn btn-warning btn-xs">查看详情</a>
+											<a href="{:U('Sproduct/toRecycle',array('id'=>$vo['id']))}" class="btn btn-danger btn-xs">放入回收站</a>
+										</td>
+									</tr>
+
+								</foreach>
+							</tbody>
+							<tr>
+								<td colspan="12" class="text-right">{$show}</td>
+							</tr>
+						</table>
+					</div>
+					<!-- /.table-responsive -->
+				</div>
+				<!-- /.panel-body -->
+			</div>
+			<!-- /.panel -->
+		</div>
+		<!-- /.col-lg-6 -->
+	</div>
+	<!-- /.row -->
+</block>

@@ -1,0 +1,92 @@
+
+<extend name="Public/base"/>
+<block name="main">
+<meta charset="utf-8"/>
+	<!-- <div class="row">
+			<div class="col-lg-12">
+				<h1 class="page-header">Tables</h1>
+			</div>
+
+	</div> -->
+	<div class="row">
+		 <div class="col-lg-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            产品管理
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div class="table-responsive table-bordered">
+                                <table class="table table-bordered table-hover">
+                                    <thead>
+                                        <form style="border:0;">
+                                            <tr style="border-top:0;">
+                                                <th  style="border-top:0;" class="text-center" colspan="8">
+                                                商品名称:
+                                                <span style="padding:0 10px;">
+                                                    <input type="text" value="{:I('get.pname')}" name="pname" style="width:150px"/>
+                                                 </span>
+                                                 <span style="padding:0 10px;" style="display:none;">
+                                                   <input style="width:150px;display:none;" value="{:I('get.addtime')}" type="text" name="addtime" value="{:I('get.addtime')}" onClick="WdatePicker('Y-m-d H:i:s')">
+                                                 </span>
+
+                                                 <span style="padding:0 10px;">
+
+                                                   <span>最低价格：</span><input type="text" name="start" value="{:I('get.start')}" style="width:50px;"/>
+                                                   <span style="margin-left: 15px;">最高价格：</span><input type="text" name="end" value="{:I('get.end')}" style="width:50px;"/>
+                                                 </span>
+                                                 <input type="submit" class="btn btn-success" value="查询"/>
+                                                </th>
+
+                                            </tr>
+
+                                        </form>
+                                        <tr>
+                                            <th class="text-center">产品id</th>
+                                            <th class="text-center">产品名称</th>
+                                            <th class="text-center">产品价格</th>
+                                            <th class="text-center">轴距</th>
+                                            <th class="text-center">最大马力</th>
+                                            <th class="text-center">公告型号</th>
+                                            <th class="text-center">产品图片</th>
+                                            <th class="text-center">操作</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+										<volist name="data" id="vo">
+											<tr class="text-center">
+	                                            <td style="vertical-align:middle;">{$vo['id']}</td>
+	                                            <td style="vertical-align:middle;" class="jiequ"><a href="{:U('Xproduct/edit',array('id'=>$vo['id']))}">{$vo['pname']|msubstr=0,10,'utf-8',true}</a></td>
+	                                            <td style="vertical-align:middle;">{$vo['price']}</td>
+                                                <td style="vertical-align:middle;">{$vo['wheelbase']}</td>
+                                                <td style="vertical-align:middle;">{$vo['horsepower']}</td>
+                                                <td style="vertical-align:middle;">{$vo['announcement']}</td>
+	                                            <td>
+	                                               <img src="{$vo['picname']}" height="50px"/>
+	                                            </td>
+	                                            <td style="vertical-align:middle;">
+	                                            <a href="{:U('Xproduct/edit',array('id'=>$vo['id']))}" class="btn btn-primary">编辑</a>
+	                                             <a href="{:U('Xproduct/delete',array('id'=>$vo['id']))}" class="btn btn-danger">删除</a>
+
+	                                            </td>
+                                        </tr>
+
+										</volist>
+
+										<tr>
+											<td colspan="8" class="text-center">{$show}</td>
+
+										</tr>
+
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- /.table-responsive -->
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+	</div>
+</block>

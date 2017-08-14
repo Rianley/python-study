@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<meta name="Generator" content="ECSHOP v2.7.3">
+	<meta http-equiv="Content-Type" content="text/html; charset=gbk">
+	<meta name="Keywords" content="正品卡车汽配,卡车之家车标,卡车配件,正品卡车配件,滤清器,3M产品,底盘配 件,加热器,饮水机,网购卡车配件,卡车之家商城">
+	<meta name="Description" content="卡车之家商城领先的卡车配件网上购物商城,专为卡车人服务,只卖正品卡车配件,柴油滤清器,汽油滤清器,空气滤芯,3M,挂车配件,卡车之家车标等,想买正品卡车配件就上卡车之家商城.">
+	<title>新信息】卡车之家商城_只卖正品卡车配件_正品卡车汽配【您有</title>
+	<script src="__PUBLIC__/shop/home/js/jquery-1.8.3.min.js"></script>
+	<link href="__PUBLIC__/shop/home/css/s_index.css" rel="stylesheet" type="text/css">
+	<link href="__PUBLIC__/shop/home/css/s_public.css" rel="stylesheet" type="text/css">
+
+
+	<meta http-equiv="Content-Type" content="text/html; charset=gbk">
+
+	<meta http-equiv="content-type" content="text/html; charset=gbk">
+
+</head>
+<body>
+	<div class="xll_dbbudong">
+		<div class="autheader">
+			<div class="autmain">
+				<div class="autmain_left">
+					<a href="{:U('Index/index')}" target="" class="gred9">卡车之家首页</a>
+					<span>|</span>
+					<div id="append_parent" style="display:none"></div>
+					<meta http-equiv="content-type" content="text/html; charset=gbk">
+					<if condition="$_SESSION['user']['id'] eq null">
+						<span class="login">
+						<a href="{:U('User/login')}">[登录]</a>
+						<a href="{:U('User/register')}" >[注册]</a>
+					</span>
+					<else/>
+						<span style="color:red">您好,{$_SESSION['user']['username']},欢迎访问本商城</span>
+						<a href="{:U('User/logout')}">退出</a>
+					</if>
+				</div>
+				<div class="autmain_right">
+					<span>|</span>
+					<a href="" class="gred9">帮助</a>
+					<span>|</span>
+					<a href="" class="gred9">反馈</a>
+					<span>|</span>
+					<span class="ytdianh">400-880-6283</span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="logoheard">
+		<div class="logo_hd ft">
+			<a href="">
+				<img src="__PUBLIC__/shop/home/images/logo.jpg"></a>
+		</div>
+		<div class="searchbox ft" id="search">
+			<form id="searchForm" name="searchForm" method="get" action="{:U('Sproduct/index')}" onsubmit="return checkSearchForm()">
+				<div class="searba">
+					<div class="searba1">
+						<input name="proname" id="keywords" class="ico_txt" placeholder="输入商品名称" type="text"></div>
+					<input value="搜 索" class="ico_anniu" type="submit"></div>
+				<div class="searbb">
+					热门搜索：
+					<foreach name="search" item="vo">
+					<a href="{:U('Sproduct/index',array('cid'=>$vo['cid']))}">{$vo['catename']}</a>
+					｜
+					</foreach>
+					<!-- <a href="{:U('Sproduct/index',array('cid'=>12))}">柴油精滤</a>
+					｜
+					<a href="{:U('Sproduct/index',array('cid'=>21))}">挂车配件</a>
+					｜
+					<a href="{:U('Sproduct/index',array('cid'=>19))}" onclick="sw('防盗螺丝')">防盗螺丝</a>
+					｜
+					<a href="{:U('Sproduct/index',array('cid'=>23))}" class="red">回位弹簧</a>
+					｜
+					<a href="{:U('Sproduct/index',array('cid'=>22))}">干燥器</a> -->
+				</div>
+			</form>
+		</div>
+		<div class="fr useboxner">
+			<ul>
+				<li>
+					<a href="{:U('User/userindex')}" target="_blank"> <em class="ueic1"></em>
+						我的商城
+					</a>
+				</li>
+				<li class="useline"></li>
+				<li>
+					<a href="{:U('Scart/index')}" target="_blank"> <em class="ueic2"></em>
+						购物车结算
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="bannerol">
+		<div class="bannerola">
+			<span class="banra">全部商品分类</span>
+			<span class="banrb">
+				<img src="__PUBLIC__/shop/home/images/icona1.png"></span>
+		</div>
+		<div class="bannerolb">
+			<a target="_blank" href="{:U('Sindex/index')}" class="redico">商城首页</a>
+
+					<a target="_blank" href="{:U('Sproduct/index',array('cid'=>11))}">
+						柴油粗滤
+					</a>
+					<a target="_blank" href="{:U('Sproduct/index',array('cid'=>12))}">
+						柴油精滤
+					</a>
+					<a target="_blank" href="{:U('Sproduct/index',array('cid'=>10))}">
+						机油滤芯
+					</a>
+					<a target="_blank" href="{:U('Sproduct/index',array('cid'=>15))}">
+						空气滤芯
+					</a>
+					<a target="_blank" href="{:U('Sproduct/index',array('cid'=>14))}">
+						柴虑配件
+					</a>
+
+		</div>
+	</div>
+	<div class="fullSlide">
+
+		<div class="neirbo">
+			<div class="neirbo_a">
+				<div class="neibo_a1">
+				<foreach name="list" item="nav">
+
+					<div class="neirbo_a1a" >
+						<div class="neirbo_a1a1">{$nav['catename']}</div>
+
+						<div class="neirbo_a1a2">
+						<volist name="nav['subcat']" id="vo">
+							<a target="_blank" href="{:U('Sproduct/index',array('cid'=>$vo['id']))}"><span style="width:55px;float:left">{$vo['catename']}</span></a>
+						</volist>
+
+						</div>
+
+					</div>
+
+				</foreach>
+				</div>
+			</div>
+			<div class="neirbo_b">
+				<div class="neirbo_b1">
+					<a href="" target="_blank">
+						<img src="__PUBLIC__/shop/home/images/G01.jpg" alt=""></a>
+				</div>
+				<div class="neirbo_b1">
+					<a href="" target="_blank">
+						<img src="__PUBLIC__/shop/home/images/G02.jpg" alt=""></a>
+				</div>
+				<div class="neirbo_b1">
+					<a href="" target="_blank">
+						<img src="__PUBLIC__/shop/home/images/0526113423.jpg" alt=""></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="banner">
+		<div class="slides">
+			<ul class="slide-pic" id="box3">
+			<volist name="data" id="vo">
+				<li style="display: block;" class="">
+					<a href="" target="_blank">
+						<img src="__PUBLIC__/{$vo['pic']}" alt=""></a>
+				</li>
+			</volist>
+
+			</ul>
+			<!-- <ul class="slide-li op">
+				<li class=""></li>
+			</ul> -->
+			<ul class="slide-li slide-txt" id="box2">
+			<for start='1' end='$dataCount+1'>
+				<li class="" style="border-radius:12px;text-align:center;height:25px;line-height:25px">
+					{$i}
+				</li>
+			</for>
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(function(){
+	// 让图片动起来
+	var i = 1;
+	var s = null;
+
+	function run(){
+		s = setInterval(function(){
+			// 1.初始化
+			$('#box3>li:eq('+i+')').css('display','block').siblings('li').css('display','none');
+			$('#box2>li:eq('+i+')').css('background','red').siblings('li').css('background','#ccc');
+
+
+			i++;
+
+			// 判断界限
+			if (i >= $('#box3>li').length) {
+				i = 0;
+			}
+		}, 1000)
+	}
+	run();	//首次调用
+
+	// 鼠标移入
+	$('#box3>li').mouseover(function(){
+		clearInterval(s);
+	}).mouseout(function(){
+		run();
+	})
+
+	// 数字的移入
+	$('#box2>li').mouseover(function(){
+		// 清除定时任务
+		clearInterval(s);
+
+		// 显示当前数字的图片
+		// 获取当前的数字
+		i = $(this).index();
+
+		// 初始化，让当前数字背景颜色改变，图片显示
+		$('#box3>li:eq('+i+')').css('display','block').siblings('li').css('display','none');
+		$('#box2>li:eq('+i+')').css('background','red').siblings('li').css('background','#ccc');
+
+	})
+
+})
+	</script>
+	<div class="zxx_test_list_list">
+		<ul class="tablist">
+			<li class="tab" id="ph2">
+				<a href="javascript:void(0)" class="tab_a tab_on tabJustHover" >热门商品</a>
+			</li>
+			<li class="tab" id="ph3" >
+				<a  href="javascript:void(0)" class="tab_a tabJustHover">特价推荐</a>
+			</li>
+		</ul>
+		<div class="tab_content">
+			<div id="panelHover1" class="tabpanel" style="display:block;">
+				<div class="hotbox1">
+					<div class="hotbox1a">
+					<foreach name="hot" item="voHot">
+						<div style="width:178px;height:280px;float:left;border:1px solid #ccc;margin:5px">
+						<a href="{:U('Sproduct/proDetail',array('id'=>$voHot['id']))}" target="_blank">
+							<img src="__PUBLIC__/shop/{$voHot['image']}" title=""style="height:180px;width:178px;color:#ccc;margin-top:5px"></a>
+							<a href="{:U('Sproduct/proDetail',array('id'=>$voHot['id']))}"style="display:block;font-size:15px;width:170px;height:50px;float:left;margin-top:10px;font-weight:bold;" target="_blank">{$voHot['proname']|msubstr=0,30,'utf-8',false}</a>
+							<span style="display:block;color:red;font-size:20px;width:176px;height:30px;float:left;font-weight:bold"><span style="font-size:15px">￥</span> {$voHot['price']} 元</span>
+						</div>
+					</foreach>
+
+					</div>
+					<div class="hotbox2a">
+						<a href="" target="_blank">
+							<img src="__PUBLIC__/shop/home/images/G04.jpg" alt="" style="margin-bottom:1px;"></a>
+						<a href="" target="_blank">
+							<img src="__PUBLIC__/shop/home/images/G05.jpg" alt="" style="margin-bottom:1px;"></a>
+					</div>
+				</div>
+			</div>
+			<div id="panelHover2" class="tabpanel" style="display:none;">
+				<div class="hotbox1">
+					<div class="hotbox1a">
+					<foreach name="promotion" item="voProm">
+						<div style="width:178px;height:280px;float:left;border:1px solid #ccc;margin:5px">
+						<a href="{:U('Sproduct/proDetail',array('id'=>$voProm['id']))}" target="_blank">
+							<img src="__PUBLIC__/shop/{$voProm['image']}" title=""style="height:180px;width:178px;color:#ccc;margin-top:5px">
+						</a>
+							<a href="{:U('Sproduct/proDetail',array('id'=>$voHot['id']))}" style="display:block;font-size:15px;width:170px;height:50px;float:left;margin-top:10px;font-weight:bold;border:null" target="_blank">{$voProm['proname']|msubstr=0,30,'utf-8',false}</a>
+							<span style="display:block;color:red;font-size:20px;width:176px;height:30px;float:left;font-weight:bold"><span style="font-size:15px">￥</span> {$voProm['price']} 元</span>
+						</div>
+					</foreach>
+						<!-- <a href="" target="_blank">
+							<img src="__PUBLIC__/shop/home/images/I01.jpg" title=""></a>
+						<a href="" target="_blank">
+							<img src="__PUBLIC__/shop/home/images/I03.jpg" title=""></a>
+						<a href="" target="_blank">
+							<img src="__PUBLIC__/shop/home/images/I04.jpg" title=""></a>
+						<a href="" target="_blank">
+							<img src="__PUBLIC__/shop/home/images/I05.jpg" title=""></a>
+						<a href="" target="_blank">
+							<img src="__PUBLIC__/shop/home/images/I06.jpg" title=""></a>
+						<a href="" target="_blank">
+							<img src="__PUBLIC__/shop/home/images/I07.jpg" title=""></a>
+						<a href="" target="_blank">
+							<img src="__PUBLIC__/shop/home/images/I08.jpg" title=""></a>
+						<a href="" target="_blank">
+							<img src="__PUBLIC__/shop/home/images/I09.jpg" title=""></a>
+						<a href="" target="_blank">
+							<img src="__PUBLIC__/shop/home/images/I10.jpg" title=""></a>
+						<a href="" target="_blank">
+							<img src="__PUBLIC__/shop/home/images/I02.jpg" title=""></a>-->
+					</div>
+					<div class="hotbox2a">
+						<a href="" target="_blank">
+							<img src="__PUBLIC__/shop/home/images/G04.jpg" alt="" style="margin-bottom:1px;"></a>
+						<a href="" target="_blank">
+							<img src="__PUBLIC__/shop/home/images/G05.jpg" alt="" style="margin-bottom:1px;"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+
+	<div class="lou_ceng">
+		<div class="lou_ceng1">
+			<span>1F </span>
+			 滤清器
+		</div>
+		<div class="lou_ceng2">
+
+
+			<foreach name="data1" item="vo1">
+
+			<a target="_blank" href="{:U('Sproduct/index',array('cid'=>$vo1['id']))}">{$vo1['catename']}</a>
+			</foreach>
+
+
+			<!-- <a target="_blank" href="">柴油粗滤</a>
+			<a target="_blank" href="">柴油精滤</a>
+			<a target="_blank" href="">加装总成</a>
+			<a target="_blank" href="">空气滤芯</a> -->
+		</div>
+
+	</div>
+	<div class="lou_cebox">
+
+		<div class="lou_ceboxa">
+			<a href="http://mai.360che.com/category-53-b0.html" target="_blank">
+				<img src="__PUBLIC__/shop/home/images/G11.jpg" title=""></a>
+		</div>
+		<foreach name="data11" item="vo11">
+			<div class="lou_ceboxa">
+				<dl>
+					<dt>
+						<a href="{:U('Sproduct/proDetail',array('id'=>$vo11['id']))}" target="_blank">
+							<img src="__PUBLIC__/shop/{$vo11['image']}" alt="{$vo11['proname']|msubstr=0,30,'utf-8',false}"></a>
+					</dt>
+					<dd>
+						<a href="{:U('Sproduct/proDetail',array('id'=>$vo11['id']))}" target="_blank">{$vo11['proname']|msubstr=0,30,'utf-8',false}</a>
+						<br>
+						<span class="heng_xian"></span>
+						<br>
+						<span class="jiage"> <font></font>
+						</span>
+					</dd>
+				</dl>
+			</div>
+		</foreach>
+		<!-- <div class="lou_ceboxa">
+			<dl>
+				<dt>
+					<a href="http://mai.360che.com/goods-87.html" target="_blank">
+						<img src="__PUBLIC__/shop/home/images/F02.jpg" alt="派克粗虑088042PS"></a>
+				</dt>
+				<dd>
+					<a href="http://mai.360che.com/goods-87.html" target="_blank">派克粗虑088042PS</a>
+					<br>
+					<span class="heng_xian"></span>
+					<br>
+					<span class="jiage"> <font></font>
+					</span>
+				</dd>
+			</dl>
+		</div>
+		<div class="lou_ceboxa">
+			<dl>
+				<dt>
+					<a href="http://mai.360che.com/goods-66.html" target="_blank">
+						<img src="__PUBLIC__/shop/home/images/F03.jpg" alt="派克R120P 西康ISM适用"></a>
+				</dt>
+				<dd>
+					<a href="http://mai.360che.com/goods-66.html" target="_blank">派克R120P 西康ISM适用</a>
+					<br>
+					<span class="heng_xian"></span>
+					<br>
+					<span class="jiage">
+						<font></font>
+					</span>
+				</dd>
+			</dl>
+		</div>
+		<div class="lou_ceboxa">
+			<dl>
+				<dt>
+					<a href="http://mai.360che.com/goods-83.html" target="_blank">
+						<img src="__PUBLIC__/shop/home/images/F04.jpg" alt="雷诺dCi/6DL套装"></a>
+				</dt>
+				<dd>
+					<a href="http://mai.360che.com/goods-83.html" target="_blank">雷诺dCi/6DL套装</a>
+					<br>
+					<span class="heng_xian"></span>
+					<br>
+					<span class="jiage">
+						<font></font>
+					</span>
+				</dd>
+			</dl>
+		</div>
+		<div class="lou_ceboxa">
+			<dl>
+				<dt>
+					<a href="http://mai.360che.com/goods-18.html" target="_blank">
+						<img src="__PUBLIC__/shop/home/images/F05.jpg" alt="派克滤芯2020PM30微米"></a>
+				</dt>
+				<dd>
+					<a href="http://mai.360che.com/goods-18.html" target="_blank">派克滤芯2020PM30微米</a>
+					<br>
+					<span class="heng_xian"></span>
+					<br>
+					<span class="jiage">
+						<font></font>
+					</span>
+				</dd>
+			</dl>
+		</div> -->
+	</div>
+
+	<div class="lou_ceng">
+		<div class="lou_ceng1">
+			<span>2F </span>
+			 底盘部件
+		</div>
+		<div class="lou_ceng2">
+
+
+			<foreach name="data2" item="vo2">
+			<a target="_blank" href="{:U('Sproduct/index',array('cid'=>$vo2['id']))}">{$vo2['catename']}</a>
+			</foreach>
+
+
+			<!-- <a target="_blank" href="">柴油粗滤</a>
+			<a target="_blank" href="">柴油精滤</a>
+			<a target="_blank" href="">加装总成</a>
+			<a target="_blank" href="">空气滤芯</a> -->
+		</div>
+
+	</div>
+	<div class="lou_cebox">
+		<div class="lou_ceboxa">
+			<a href="http://mai.360che.com/goods-99.html" target="_blank">
+				<img src="__PUBLIC__/shop/home/images/G08.jpg" title=""></a>
+		</div>
+		<foreach name="data22" item="vo22">
+		<div class="lou_ceboxa">
+			<dl>
+				<dt>
+					<a href="{:U('Sproduct/proDetail',array('id'=>$vo22['id']))}" target="_blank">
+						<img src="__PUBLIC__/shop/{$vo22['image']}" alt="{$vo22['proname']}"></a>
+				</dt>
+				<dd>
+					<a href="{:U('Sproduct/proDetail',array('id'=>$vo22['id']))}" target="_blank">{$vo22['proname']|msubstr=0,30,'utf-8',false}</a>
+					<br>
+					<span class="heng_xian"></span>
+					<br>
+					<span class="jiage">
+						<font></font>
+					</span>
+				</dd>
+			</dl>
+		</div>
+		</foreach>
+		<!-- <div class="lou_ceboxa">
+			<dl>
+				<dt>
+					<a href="http://mai.360che.com/goods-100.html" target="_blank">
+						<img src="__PUBLIC__/shop/home/images/B02.jpg" alt="紧急继动阀 三桥同步阀"></a>
+				</dt>
+				<dd>
+					<a href="http://mai.360che.com/goods-100.html" target="_blank">紧急继动阀 三桥同步阀</a>
+					<br>
+					<span class="heng_xian"></span>
+					<br>
+					<span class="jiage">
+						<font></font>
+					</span>
+				</dd>
+			</dl>
+		</div>
+		<div class="lou_ceboxa">
+			<dl>
+				<dt>
+					<a href="http://mai.360che.com/goods-113.html" target="_blank">
+						<img src="__PUBLIC__/shop/home/images/B01.jpg" alt="威伯科半挂车手制动阀"></a>
+				</dt>
+				<dd>
+					<a href="http://mai.360che.com/goods-113.html" target="_blank">威伯科半挂车手制动阀</a>
+					<br>
+					<span class="heng_xian"></span>
+					<br>
+					<span class="jiage">
+						<font></font>
+					</span>
+				</dd>
+			</dl>
+		</div>
+		<div class="lou_ceboxa">
+			<dl>
+				<dt>
+					<a href="http://mai.360che.com/goods-102.html" target="_blank">
+						<img src="__PUBLIC__/shop/home/images/B05.jpg" alt="威伯科ABS轮速传感器"></a>
+				</dt>
+				<dd>
+					<a href="http://mai.360che.com/goods-102.html" target="_blank">威伯科ABS轮速传感器</a>
+					<br>
+					<span class="heng_xian"></span>
+					<br>
+					<span class="jiage">
+						<font></font>
+					</span>
+				</dd>
+			</dl>
+		</div>
+		<div class="lou_ceboxa">
+			<dl>
+				<dt>
+					<a href="http://mai.360che.com/goods-98.html" target="_blank">
+						<img src="__PUBLIC__/shop/home/images/B04.jpg" alt="威伯科挂车ABS螺旋线"></a>
+				</dt>
+				<dd>
+					<a href="http://mai.360che.com/goods-98.html" target="_blank">威伯科挂车ABS螺旋线</a>
+					<br>
+					<span class="heng_xian"></span>
+					<br>
+					<span class="jiage">
+						<font></font>
+					</span>
+				</dd>
+			</dl>
+		</div> -->
+	</div>
+	<div class="lou_ceng">
+		<div class="lou_ceng1">
+			<span>3F </span>
+			 文化主题
+		</div>
+		<div class="lou_ceng2">
+
+
+			<foreach name="data3" item="vo3">
+			<a target="_blank" href="{:U('Sproduct/index',array('cid'=>$vo3['id']))}">{$vo3['catename']}</a>
+			</foreach>
+
+
+			<!-- <a target="_blank" href="">柴油粗滤</a>
+			<a target="_blank" href="">柴油精滤</a>
+			<a target="_blank" href="">加装总成</a>
+			<a target="_blank" href="">空气滤芯</a> -->
+		</div>
+
+	</div>
+	<div class="lou_cebox">
+		<div class="lou_ceboxa">
+			<a href="http://mai.360che.com/category-69-b0.html" target="_blank">
+				<img src="__PUBLIC__/shop/home/images/G09.jpg" title=""></a>
+		</div>
+		<foreach name="data33" item="vo33">
+		<div class="lou_ceboxa">
+			<dl>
+				<dt>
+					<a href="{:U('Sproduct/proDetail',array('id'=>$vo33['id']))}" target="_blank">
+						<img src="__PUBLIC__/shop/{$vo33['image']}" alt="{$vo33['proname']}"></a>
+				</dt>
+				<dd>
+					<a href="{:U('Sproduct/proDetail',array('id'=>$vo33['id']))}" target="_blank">{$vo33['proname']|msubstr=0,30,'utf-8',false}</a>
+					<br>
+					<span class="heng_xian"></span>
+					<br>
+					<span class="jiage">
+						<font></font>
+					</span>
+				</dd>
+			</dl>
+		</div>
+		</foreach>
+		<!-- <div class="lou_ceboxa">
+			<dl>
+				<dt>
+					<a href="http://mai.360che.com/goods-110.html" target="_blank">
+						<img src="__PUBLIC__/shop/home/images/C02.jpg" alt="弗列加机滤 LF16285机滤"></a>
+				</dt>
+				<dd>
+					<a href="http://mai.360che.com/goods-110.html" target="_blank">弗列加机滤 LF16285机滤</a>
+					<br>
+					<span class="heng_xian"></span>
+					<br>
+					<span class="jiage">
+						<font></font>
+					</span>
+				</dd>
+			</dl>
+		</div>
+		<div class="lou_ceboxa">
+			<dl>
+				<dt>
+					<a href="http://mai.360che.com/goods-136.html" target="_blank">
+						<img src="__PUBLIC__/shop/home/images/C03.jpg" alt="弗列加机滤 LF16294机滤"></a>
+				</dt>
+				<dd>
+					<a href="http://mai.360che.com/goods-136.html" target="_blank">弗列加机滤 LF16294机滤</a>
+					<br>
+					<span class="heng_xian"></span>
+					<br>
+					<span class="jiage">
+						<font></font>
+					</span>
+				</dd>
+			</dl>
+		</div>
+		<div class="lou_ceboxa">
+			<dl>
+				<dt>
+					<a href="http://mai.360che.com/goods-111.html" target="_blank">
+						<img src="__PUBLIC__/shop/home/images/C04.jpg" alt="弗列加机滤 LF16327机滤"></a>
+				</dt>
+				<dd>
+					<a href="http://mai.360che.com/goods-111.html" target="_blank">弗列加机滤 LF16327机滤</a>
+					<br>
+					<span class="heng_xian"></span>
+					<br>
+					<span class="jiage">
+						<font></font>
+					</span>
+				</dd>
+			</dl>
+		</div>
+		<div class="lou_ceboxa">
+			<dl>
+				<dt>
+					<a href="http://mai.360che.com/goods-138.html" target="_blank">
+						<img src="__PUBLIC__/shop/home/images/C05.jpg" alt="弗列加机滤 LF16329机滤"></a>
+				</dt>
+				<dd>
+					<a href="http://mai.360che.com/goods-138.html" target="_blank">弗列加机滤 LF16329机滤</a>
+					<br>
+					<span class="heng_xian"></span>
+					<br>
+					<span class="jiage">
+						<font></font>
+					</span>
+				</dd>
+			</dl>
+		</div> -->
+	</div>
+	<div class="lou_ceng">
+		<div class="lou_ceng1">
+			<span>4F</span>
+			安全防护
+		</div>
+		<div class="lou_ceng2">
+			<foreach name="data4" item="vo4">
+			<a target="_blank" href="{:U('Sproduct/index',array('cid'=>$vo4['id']))}">{$vo4['catename']}</a>
+			</foreach>
+		</div>
+
+	</div>
+	<div class="lou_cebox">
+		<div class="lou_ceboxa">
+			<a href="http://bx.360che.com/" target="_blank">
+				<img src="__PUBLIC__/shop/home/images/0828192039.jpg" title=""></a>
+		</div>
+		<foreach name="data44" item="vo44">
+		<div class="lou_ceboxa">
+			<dl>
+				<dt>
+					<a href="{:U('Sproduct/proDetail',array('id'=>$vo44['id']))}" target="_blank">
+						<img src="__PUBLIC__/shop/{$vo44['image']}" alt="{$vo44['proname']}"></a>
+				</dt>
+				<dd>
+					<a href="{:U('Sproduct/proDetail',array('id'=>$vo44['id']))}" target="_blank">{$vo44['proname']|msubstr=0,30,'utf-8',false}</a>
+					<br>
+					<span class="heng_xian"></span>
+					<br>
+					<span class="jiage">
+						<font></font>
+					</span>
+				</dd>
+			</dl>
+		</div>
+		</foreach>
+		<!-- <div class="lou_ceboxa">
+			<dl>
+				<dt>
+					<a href="http://mai.360che.com/goods-159.html" target="_blank">
+						<img src="__PUBLIC__/shop/home/images/A02.jpg" alt="3M车尾标志板"></a>
+				</dt>
+				<dd>
+					<a href="http://mai.360che.com/goods-159.html" target="_blank">3M车尾标志板</a>
+					<br>
+					<span class="heng_xian"></span>
+					<br>
+					<span class="jiage">
+						<font></font>
+					</span>
+				</dd>
+			</dl>
+		</div>
+		<div class="lou_ceboxa">
+			<dl>
+				<dt>
+					<a href="http://mai.360che.com/goods-37.html" target="_blank">
+						<img src="__PUBLIC__/shop/home/images/A03.jpg" alt="3M 绑扎带 282MM"></a>
+				</dt>
+				<dd>
+					<a href="http://mai.360che.com/goods-37.html" target="_blank">3M 绑扎带 282MM</a>
+					<br>
+					<span class="heng_xian"></span>
+					<br>
+					<span class="jiage">
+						<font></font>
+					</span>
+				</dd>
+			</dl>
+		</div>
+		<div class="lou_ceboxa">
+			<dl>
+				<dt>
+					<a href="http://mai.360che.com/goods-20.html" target="_blank">
+						<img src="__PUBLIC__/shop/home/images/A05.jpg" alt="军工品质 分泵回位弹簧"></a>
+				</dt>
+				<dd>
+					<a href="http://mai.360che.com/goods-20.html" target="_blank">军工品质 分泵回位弹簧</a>
+					<br>
+					<span class="heng_xian"></span>
+					<br>
+					<span class="jiage">
+						<font></font>
+					</span>
+				</dd>
+			</dl>
+		</div>
+		<div class="lou_ceboxa">
+			<dl>
+				<dt>
+					<a href="http://mai.360che.com/goods-56.html" target="_blank">
+						<img src="__PUBLIC__/shop/home/images/A04.jpg" alt="轮胎防盗螺丝"></a>
+				</dt>
+				<dd>
+					<a href="http://mai.360che.com/goods-56.html" target="_blank">轮胎防盗螺丝</a>
+					<br>
+					<span class="heng_xian"></span>
+					<br>
+					<span class="jiage">
+						<font></font>
+					</span>
+				</dd>
+			</dl>
+		</div> -->
+	</div>
+
+	<div class="lou_ceng">
+		<div class="lou_ceng1">
+			<span>5F</span>
+			行车必备
+		</div>
+		<div class="lou_ceng2">
+			<foreach name="data5" item="vo5">
+			<a target="_blank" href="{:U('Sproduct/index',array('cid'=>$vo5['id']))}">{$vo5['catename']}</a>
+			</foreach>
+		</div>
+
+	</div>
+	<div class="lou_cebox">
+		<div class="lou_ceboxa">
+			<a href="http://mai.360che.com/goods-120.html" target="_blank">
+				<img src="__PUBLIC__/shop/home/images/G07.jpg" title=""></a>
+		</div>
+		<foreach name="data55" item="vo55">
+		<div class="lou_ceboxa">
+			<dl>
+				<dt>
+					<a href="{:U('Sproduct/proDetail',array('id'=>$vo55['id']))}" target="_blank">
+						<img src="__PUBLIC__/shop/{$vo55['image']}" alt="{$vo55['proname']}"></a>
+				</dt>
+				<dd>
+					<a href="{:U('Sproduct/proDetail',array('id'=>$vo55['id']))}" target="_blank">{$vo55['proname']|msubstr=0,30,'utf-8',false}</a>
+					<br>
+					<span class="heng_xian"></span>
+					<br>
+					<span class="jiage">
+						<font></font>
+					</span>
+				</dd>
+			</dl>
+		</div>
+		</foreach>
+		<!-- <div class="lou_ceboxa">
+			<dl>
+				<dt>
+					<a href="http://mai.360che.com/goods-117.html" target="_blank">
+						<img src="__PUBLIC__/shop/home/images/E02.jpg" alt="油箱加热器套装"></a>
+				</dt>
+				<dd>
+					<a href="http://mai.360che.com/goods-117.html" target="_blank">油箱加热器套装</a>
+					<br>
+					<span class="heng_xian"></span>
+					<br>
+					<span class="jiage">
+						<font></font>
+					</span>
+				</dd>
+			</dl>
+		</div>
+		<div class="lou_ceboxa">
+			<dl>
+				<dt>
+					<a href="http://mai.360che.com/goods-206.html" target="_blank">
+						<img src="__PUBLIC__/shop/home/images/0204143918.jpg" alt="东风天锦 大包围脚垫"></a>
+				</dt>
+				<dd>
+					<a href="http://mai.360che.com/goods-206.html" target="_blank">东风天锦 大包围脚垫</a>
+					<br>
+					<span class="heng_xian"></span>
+					<br>
+					<span class="jiage">
+						<font></font>
+					</span>
+				</dd>
+			</dl>
+		</div>
+		<div class="lou_ceboxa">
+			<dl>
+				<dt>
+					<a href="http://mai.360che.com/goods-176.html" target="_blank">
+						<img src="__PUBLIC__/shop/home/images/E04.jpg" alt="东风老天龙 乳胶软质脚垫"></a>
+				</dt>
+				<dd>
+					<a href="http://mai.360che.com/goods-176.html" target="_blank">东风老天龙 乳胶软质脚垫</a>
+					<br>
+					<span class="heng_xian"></span>
+					<br>
+					<span class="jiage">
+						<font></font>
+					</span>
+				</dd>
+			</dl>
+		</div>
+		<div class="lou_ceboxa">
+			<dl>
+				<dt>
+					<a href="http://mai.360che.com/goods-115.html" target="_blank">
+						<img src="__PUBLIC__/shop/home/images/G21.jpg" alt="卡车之家定制反光背心"></a>
+				</dt>
+				<dd>
+					<a href="http://mai.360che.com/goods-115.html" target="_blank">卡车之家定制反光背心</a>
+					<br>
+					<span class="heng_xian"></span>
+					<br>
+					<span class="jiage">
+						<font></font>
+					</span>
+				</dd>
+			</dl>
+		</div> -->
+	</div>
+	<div class="footer_a">
+		<div class="footer_a1">
+			<a target="_blank" href="http://www.360che.com/help/about/">
+				<img src="__PUBLIC__/shop/home/images/help1.jpg"></a>
+			<img src="__PUBLIC__/shop/home/images/backline.jpg">
+			<a target="_blank" href="http://mai.360che.com/article_cat-12.html">
+				<img src="__PUBLIC__/shop/home/images/help2.jpg"></a>
+			<img src="__PUBLIC__/shop/home/images/backline.jpg">
+			<a target="_blank" href="http://www.360che.com/help/suggest/index.html">
+				<img src="__PUBLIC__/shop/home/images/help3.jpg"></a>
+			<img src="__PUBLIC__/shop/home/images/backline.jpg">
+			<img style="margin-top:19px;" src="__PUBLIC__/shop/home/images/help4.jpg"></div>
+	</div>
+	<include file="Public/sfooter" />
+
+
+
+		<script>
+			$(function(){
+
+				$('#ph2').mouseover(function(){
+					$('#panelHover1').css("display","block");
+					$('#panelHover2').css("display","none");
+					$('#ph2 a').attr('class','tab_a tab_on tabJustHover');
+					$('#ph3 a').attr('class','tab_a  tabJustHover');
+
+
+				});
+				$('#ph3').mouseover(function(){
+					$('#panelHover2').css("display","block");
+					$('#panelHover1').css("display","none");
+					$('#ph3 a').attr('class','tab_a tab_on tabJustHover');
+					$('#ph2 a').attr('class','tab_a  tabJustHover');
+
+
+				});
+			})
+
+		</script>
+
+</body>
+</html>

@@ -1,0 +1,1717 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- saved from url=(0056)http://www.cnblogs.com/2050/p/3913184.html#plupload_doc1 -->
+<html lang="zh-cn"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>前端上传组件Plupload使用指南 - 无双 - 博客园</title>
+<link type="text/css" rel="stylesheet" href="./前端上传组件Plupload使用指南 - 无双 - 博客园_files/blog-common.css">
+<link id="MainCss" type="text/css" rel="stylesheet" href="./前端上传组件Plupload使用指南 - 无双 - 博客园_files/bundle-marvin2-brown.css">
+<link type="text/css" rel="stylesheet" href="./前端上传组件Plupload使用指南 - 无双 - 博客园_files/70308.css">
+<link title="RSS" type="application/rss+xml" rel="alternate" href="http://www.cnblogs.com/2050/rss">
+<link title="RSD" type="application/rsd+xml" rel="EditURI" href="http://www.cnblogs.com/2050/rsd.xml">
+<link type="application/wlwmanifest+xml" rel="wlwmanifest" href="http://www.cnblogs.com/2050/wlwmanifest.xml">
+<script type="text/javascript" src="./前端上传组件Plupload使用指南 - 无双 - 博客园_files/encoder.js"></script><script src="./前端上传组件Plupload使用指南 - 无双 - 博客园_files/jquery.js" type="text/javascript"></script>  
+<script type="text/javascript">var currentBlogApp = '2050', cb_enable_mathjax=false;</script>
+<script src="./前端上传组件Plupload使用指南 - 无双 - 博客园_files/blog-common.js" type="text/javascript"></script>
+</head>
+<body>
+<a name="top"></a>
+
+<div id="top">
+
+<h1><a id="Header1_HeaderTitle" class="headermaintitle" href="http://www.cnblogs.com/2050/">无双</a></h1>
+<p id="tagline">博学善思，自强不息</p>
+</div>
+<div id="leftmenu">
+
+	
+<h3>导航</h3>
+<ul>
+	<li>
+		<a id="MyLinks1_HomeLink" href="http://www.cnblogs.com/">博客园</a>
+	</li><li><a id="MyLinks1_MyHomeLink" href="http://www.cnblogs.com/2050/">首页</a></li>
+	<li><a id="MyLinks1_NewPostLink" rel="nofollow" href="http://i.cnblogs.com/EditPosts.aspx?opt=1">新随笔</a></li>
+	<li>
+		<a id="MyLinks1_ContactLink" accesskey="9" rel="nofollow" href="http://msg.cnblogs.com/send/%E6%97%A0%E5%8F%8C">联系</a>
+	</li><li>
+		<a id="MyLinks1_Syndication" href="http://www.cnblogs.com/2050/rss">订阅</a><a id="MyLinks1_XMLLink" href="http://www.cnblogs.com/2050/rss"><img src="./前端上传组件Plupload使用指南 - 无双 - 博客园_files/xml.gif" alt="订阅"></a>
+	</li><li>
+		<a id="MyLinks1_Admin" rel="nofollow" href="http://i.cnblogs.com/">管理</a></li>
+</ul>
+
+	<div id="blog-calendar" style=""><table id="blogCalendar" class="Cal" cellspacing="0" cellpadding="0" title="日历">
+	<tbody><tr><td colspan="7"><table class="CalTitle" cellspacing="0">
+		<tbody><tr><td class="CalNextPrev"><a href="javascript:void(0);" onclick="loadBlogCalendar(&#39;2015/09/01&#39;);return false;">&lt;</a></td><td align="center">2015年10月</td><td class="CalNextPrev" align="right"><a href="javascript:void(0);" onclick="loadBlogCalendar(&#39;2015/11/01&#39;);return false;">&gt;</a></td></tr>
+	</tbody></table></td></tr><tr><th class="CalDayHeader" align="center" abbr="日" scope="col">日</th><th class="CalDayHeader" align="center" abbr="一" scope="col">一</th><th class="CalDayHeader" align="center" abbr="二" scope="col">二</th><th class="CalDayHeader" align="center" abbr="三" scope="col">三</th><th class="CalDayHeader" align="center" abbr="四" scope="col">四</th><th class="CalDayHeader" align="center" abbr="五" scope="col">五</th><th class="CalDayHeader" align="center" abbr="六" scope="col">六</th></tr><tr><td class="CalOtherMonthDay" align="center">27</td><td class="CalOtherMonthDay" align="center">28</td><td class="CalOtherMonthDay" align="center">29</td><td class="CalOtherMonthDay" align="center">30</td><td align="center">1</td><td align="center">2</td><td class="CalWeekendDay" align="center">3</td></tr><tr><td class="CalWeekendDay" align="center">4</td><td align="center">5</td><td align="center">6</td><td align="center">7</td><td align="center">8</td><td align="center">9</td><td class="CalWeekendDay" align="center">10</td></tr><tr><td class="CalWeekendDay" align="center">11</td><td align="center">12</td><td align="center">13</td><td align="center">14</td><td align="center">15</td><td align="center">16</td><td class="CalWeekendDay" align="center">17</td></tr><tr><td class="CalWeekendDay" align="center">18</td><td align="center">19</td><td align="center">20</td><td align="center">21</td><td class="CalTodayDay" align="center">22</td><td align="center">23</td><td class="CalWeekendDay" align="center">24</td></tr><tr><td class="CalWeekendDay" align="center">25</td><td align="center">26</td><td align="center">27</td><td align="center">28</td><td align="center">29</td><td align="center">30</td><td class="CalWeekendDay" align="center">31</td></tr><tr><td class="CalOtherMonthDay" align="center">1</td><td class="CalOtherMonthDay" align="center">2</td><td class="CalOtherMonthDay" align="center">3</td><td class="CalOtherMonthDay" align="center">4</td><td class="CalOtherMonthDay" align="center">5</td><td class="CalOtherMonthDay" align="center">6</td><td class="CalOtherMonthDay" align="center">7</td></tr>
+</tbody></table></div><script type="text/javascript">loadBlogDefaultCalendar();</script>
+	
+<h3>统计</h3>
+<ul>
+	<li>
+		随笔 -
+		117
+	</li><li>
+		文章 -
+		0
+	</li><li>
+		评论 -
+		409
+	</li><li>
+		引用 -
+		0
+	</li>
+</ul>
+
+	
+<h3>公告</h3>
+	<div id="blog-news">本博客文章如无特别注明，均为原创，欢迎转载、传阅，共同交流~<div id="profile_block">昵称：<a href="http://home.cnblogs.com/u/2050/">无双</a><br>园龄：<a href="http://home.cnblogs.com/u/2050/" title="入园时间：2010-05-03">5年5个月</a><br>粉丝：<a href="http://home.cnblogs.com/u/2050/followers/">525</a><br>关注：<a href="http://home.cnblogs.com/u/2050/followees/">3</a><div id="p_b_follow"><a href="javascript:void(0);" onclick="cnblogs.UserManager.FollowBlogger(&#39;8c3fc9fe-9856-df11-ba8f-001cf0cd104b&#39;)">+加关注</a></div></div></div><script type="text/javascript">loadBlogNews();</script>
+
+	<div id="blog-sidecolumn"><div id="sidebar_search" class="sidebar-block">
+<div id="sidebar_search" class="mySearch">
+<h3 class="catListTitle">搜索</h3>
+<div id="sidebar_search_box">
+<div id="widget_my_zzk" class="div_my_zzk"><input type="text" id="q" onkeydown="return zzk_go_enter(event);" class="input_my_zzk">&nbsp;<input onclick="zzk_go()" type="button" value="找找看" id="btnZzk" class="btn_my_zzk"></div>
+<div id="widget_my_google" class="div_my_zzk"><input type="text" name="google_q" id="google_q" onkeydown="return google_go_enter(event)" class="input_my_zzk">&nbsp;<input onclick="google_go()" type="button" value="谷歌搜索" class="btn_my_zzk"></div>
+</div>
+</div>
+
+</div><div id="sidebar_shortcut" class="sidebar-block">
+<h3 class="catListTitle">常用链接</h3>
+<ul>
+<li><a href="http://www.cnblogs.com/2050/p/" title="我的博客的随笔列表">我的随笔</a></li><li><a href="http://www.cnblogs.com/2050/MyComments.html" title="我发表过的评论列表">我的评论</a></li><li><a href="http://www.cnblogs.com/2050/OtherPosts.html" title="我评论过的随笔列表">我的参与</a></li><li><a href="http://www.cnblogs.com/2050/RecentComments.html" title="我的博客的评论列表">最新评论</a></li><li><a href="http://www.cnblogs.com/2050/tag/" title="我的博客的标签列表">我的标签</a></li>
+</ul>
+<div id="itemListLin_con" style="display:none;">
+
+</div></div><div id="sidebar_toptags" class="sidebar-block">
+<h3 class="catListTitle">我的标签</h3>
+<div id="MyTag">
+<ul>
+<li><a href="http://www.cnblogs.com/2050/tag/flappy%20bird/">flappy bird</a>(2)</li><li><a href="http://www.cnblogs.com/2050/tag/html5/">html5</a>(2)</li><li><a href="http://www.cnblogs.com/2050/tag/phaser/">phaser</a>(2)</li><li><a href="http://www.cnblogs.com/2050/tag/titanium%20%E5%AE%89%E5%8D%93%20%E6%8E%A8%E9%80%81/">titanium 安卓 推送</a>(1)</li><li><a href="http://www.cnblogs.com/2050/tag/%E7%BB%9D%E5%AF%B9%E5%AE%9A%E4%BD%8D%20bottom/">绝对定位 bottom</a>(1)</li><li><a href="http://www.cnblogs.com/2050/tag/js%E5%8A%A0%E8%BD%BD/">js加载</a>(1)</li><li><a href="http://www.cnblogs.com/2050/tag/css3%20%E5%8A%A8%E7%94%BB%20animate/">css3 动画 animate</a>(1)</li>
+</ul>
+</div></div><div id="sidebar_categories">
+		<h3>随笔分类<span style="font-size:11px;font-weight:normal">(95)</span></h3>
+		
+				<ul>
+			
+				<li><a id="CatList_LinkList_0_Link_0" href="http://www.cnblogs.com/2050/category/248460.html">ae</a> </li>
+			
+				<li><a id="CatList_LinkList_0_Link_1" href="http://www.cnblogs.com/2050/category/248462.html">as(9)</a> </li>
+			
+				<li><a id="CatList_LinkList_0_Link_2" href="http://www.cnblogs.com/2050/category/245709.html">css+html(30)</a> </li>
+			
+				<li><a id="CatList_LinkList_0_Link_3" href="http://www.cnblogs.com/2050/category/245566.html">js(48)</a> </li>
+			
+				<li><a id="CatList_LinkList_0_Link_4" href="http://www.cnblogs.com/2050/category/248463.html">php(4)</a> </li>
+			
+				<li><a id="CatList_LinkList_0_Link_5" href="http://www.cnblogs.com/2050/category/248461.html">ps(2)</a> </li>
+			
+				<li><a id="CatList_LinkList_0_Link_6" href="http://www.cnblogs.com/2050/category/541821.html">titanium(2)</a> </li>
+			
+				</ul>
+			
+	
+		<h3>随笔档案<span style="font-size:11px;font-weight:normal">(117)</span></h3>
+		
+				<ul>
+			
+				<li><a id="CatList_LinkList_1_Link_0" href="http://www.cnblogs.com/2050/archive/2015/02.html">2015年2月 (1)</a> </li>
+			
+				<li><a id="CatList_LinkList_1_Link_1" href="http://www.cnblogs.com/2050/archive/2014/10.html">2014年10月 (1)</a> </li>
+			
+				<li><a id="CatList_LinkList_1_Link_2" href="http://www.cnblogs.com/2050/archive/2014/08.html">2014年8月 (1)</a> </li>
+			
+				<li><a id="CatList_LinkList_1_Link_3" href="http://www.cnblogs.com/2050/archive/2014/07.html">2014年7月 (3)</a> </li>
+			
+				<li><a id="CatList_LinkList_1_Link_4" href="http://www.cnblogs.com/2050/archive/2014/06.html">2014年6月 (2)</a> </li>
+			
+				<li><a id="CatList_LinkList_1_Link_5" href="http://www.cnblogs.com/2050/archive/2014/02.html">2014年2月 (2)</a> </li>
+			
+				<li><a id="CatList_LinkList_1_Link_6" href="http://www.cnblogs.com/2050/archive/2013/12.html">2013年12月 (2)</a> </li>
+			
+				<li><a id="CatList_LinkList_1_Link_7" href="http://www.cnblogs.com/2050/archive/2013/11.html">2013年11月 (1)</a> </li>
+			
+				<li><a id="CatList_LinkList_1_Link_8" href="http://www.cnblogs.com/2050/archive/2013/10.html">2013年10月 (2)</a> </li>
+			
+				<li><a id="CatList_LinkList_1_Link_9" href="http://www.cnblogs.com/2050/archive/2013/07.html">2013年7月 (1)</a> </li>
+			
+				<li><a id="CatList_LinkList_1_Link_10" href="http://www.cnblogs.com/2050/archive/2013/05.html">2013年5月 (1)</a> </li>
+			
+				<li><a id="CatList_LinkList_1_Link_11" href="http://www.cnblogs.com/2050/archive/2013/04.html">2013年4月 (1)</a> </li>
+			
+				<li><a id="CatList_LinkList_1_Link_12" href="http://www.cnblogs.com/2050/archive/2013/03.html">2013年3月 (1)</a> </li>
+			
+				<li><a id="CatList_LinkList_1_Link_13" href="http://www.cnblogs.com/2050/archive/2013/01.html">2013年1月 (2)</a> </li>
+			
+				<li><a id="CatList_LinkList_1_Link_14" href="http://www.cnblogs.com/2050/archive/2012/11.html">2012年11月 (1)</a> </li>
+			
+				<li><a id="CatList_LinkList_1_Link_15" href="http://www.cnblogs.com/2050/archive/2012/08.html">2012年8月 (4)</a> </li>
+			
+				<li><a id="CatList_LinkList_1_Link_16" href="http://www.cnblogs.com/2050/archive/2012/07.html">2012年7月 (6)</a> </li>
+			
+				<li><a id="CatList_LinkList_1_Link_17" href="http://www.cnblogs.com/2050/archive/2012/06.html">2012年6月 (4)</a> </li>
+			
+				<li><a id="CatList_LinkList_1_Link_18" href="http://www.cnblogs.com/2050/archive/2012/05.html">2012年5月 (2)</a> </li>
+			
+				<li><a id="CatList_LinkList_1_Link_19" href="http://www.cnblogs.com/2050/archive/2012/04.html">2012年4月 (3)</a> </li>
+			
+				<li><a id="CatList_LinkList_1_Link_20" href="http://www.cnblogs.com/2050/archive/2012/02.html">2012年2月 (1)</a> </li>
+			
+				<li><a id="CatList_LinkList_1_Link_21" href="http://www.cnblogs.com/2050/archive/2012/01.html">2012年1月 (1)</a> </li>
+			
+				<li><a id="CatList_LinkList_1_Link_22" href="http://www.cnblogs.com/2050/archive/2011/12.html">2011年12月 (1)</a> </li>
+			
+				<li><a id="CatList_LinkList_1_Link_23" href="http://www.cnblogs.com/2050/archive/2011/03.html">2011年3月 (3)</a> </li>
+			
+				<li><a id="CatList_LinkList_1_Link_24" href="http://www.cnblogs.com/2050/archive/2011/02.html">2011年2月 (7)</a> </li>
+			
+				<li><a id="CatList_LinkList_1_Link_25" href="http://www.cnblogs.com/2050/archive/2011/01.html">2011年1月 (2)</a> </li>
+			
+				<li><a id="CatList_LinkList_1_Link_26" href="http://www.cnblogs.com/2050/archive/2010/12.html">2010年12月 (1)</a> </li>
+			
+				<li><a id="CatList_LinkList_1_Link_27" href="http://www.cnblogs.com/2050/archive/2010/11.html">2010年11月 (3)</a> </li>
+			
+				<li><a id="CatList_LinkList_1_Link_28" href="http://www.cnblogs.com/2050/archive/2010/10.html">2010年10月 (8)</a> </li>
+			
+				<li><a id="CatList_LinkList_1_Link_29" href="http://www.cnblogs.com/2050/archive/2010/09.html">2010年9月 (3)</a> </li>
+			
+				<li><a id="CatList_LinkList_1_Link_30" href="http://www.cnblogs.com/2050/archive/2010/08.html">2010年8月 (17)</a> </li>
+			
+				<li><a id="CatList_LinkList_1_Link_31" href="http://www.cnblogs.com/2050/archive/2010/07.html">2010年7月 (16)</a> </li>
+			
+				<li><a id="CatList_LinkList_1_Link_32" href="http://www.cnblogs.com/2050/archive/2010/06.html">2010年6月 (1)</a> </li>
+			
+				<li><a id="CatList_LinkList_1_Link_33" href="http://www.cnblogs.com/2050/archive/2010/05.html">2010年5月 (12)</a> </li>
+			
+				</ul>
+			
+	</div><div id="sidebar_recentcomments" class="sidebar-block"><div id="recent_comments_wrap">
+<h3 class="catListTitle">最新评论</h3>
+<div class="RecentComment" id="RecentComments">
+	<div id="RecentCommentsBlock"><ul>
+    <li class="recent_comment_title"><a href="http://www.cnblogs.com/2050/p/4198792.html#3289300">1. Re:前端构建工具gulpjs的使用介绍及技巧</a></li>
+    <li class="recent_comment_body">写的好详细，学习了，楼主辛苦了</li>
+    <li class="recent_comment_author">--awt萌司令</li>
+    <li class="recent_comment_title"><a href="http://www.cnblogs.com/2050/p/4198792.html#3285589">2. Re:前端构建工具gulpjs的使用介绍及技巧</a></li>
+    <li class="recent_comment_body">赞一个，这个写的很详细。</li>
+    <li class="recent_comment_author">--豪情</li>
+    <li class="recent_comment_title"><a href="http://www.cnblogs.com/2050/p/3913184.html#3285391">3. Re:前端上传组件Plupload使用指南</a></li>
+    <li class="recent_comment_body">有人知道为何resize属性设置了无效么，知道的麻烦指导一下</li>
+    <li class="recent_comment_author">--han_xingyuan</li>
+    <li class="recent_comment_title"><a href="http://www.cnblogs.com/2050/p/3913184.html#3284660">4. Re:前端上传组件Plupload使用指南</a></li>
+    <li class="recent_comment_body">方便的话可以加Q：1151589049指导指导我么</li>
+    <li class="recent_comment_author">--han_xingyuan</li>
+    <li class="recent_comment_title"><a href="http://www.cnblogs.com/2050/p/4198792.html#3283839">5. Re:前端构建工具gulpjs的使用介绍及技巧</a></li>
+    <li class="recent_comment_body">赞一个，写的很好~</li>
+    <li class="recent_comment_author">--Chang1ng</li>
+</ul>
+</div>
+</div>
+</div></div><div id="sidebar_topviewedposts" class="sidebar-block"><div id="topview_posts_wrap">
+<h3 class="catListTitle">阅读排行榜</h3>
+<div class="RecentComment" id="TopViewPosts"> 
+	<div id="TopViewPostsBlock"><ul><li><a href="http://www.cnblogs.com/2050/archive/2012/08/29/2662932.html">1. 文件上传利器SWFUpload使用指南(116269)</a></li><li><a href="http://www.cnblogs.com/2050/p/3191744.html">2. js中几种实用的跨域方法原理详解(51088)</a></li><li><a href="http://www.cnblogs.com/2050/p/3877280.html">3. 移动前端开发之viewport的深入理解(48236)</a></li><li><a href="http://www.cnblogs.com/2050/p/3913184.html">4. 前端上传组件Plupload使用指南(46695)</a></li><li><a href="http://www.cnblogs.com/2050/p/3409129.html">5. css3动画简介以及动画库animate.css的使用(34719)</a></li></ul></div>
+</div>
+</div></div><div id="sidebar_topcommentedposts" class="sidebar-block"><div id="topfeedback_posts_wrap">
+<h3 class="catListTitle">评论排行榜</h3>
+<div class="RecentComment" id="TopCommentsPosts">
+	<div id="TopFeedbackPostsBlock"><ul><li><a href="http://www.cnblogs.com/2050/p/3913184.html">1. 前端上传组件Plupload使用指南(129)</a></li><li><a href="http://www.cnblogs.com/2050/p/3392803.html">2. CSS布局奇淫技巧之--各种居中(31)</a></li><li><a href="http://www.cnblogs.com/2050/archive/2012/08/29/2662932.html">3. 文件上传利器SWFUpload使用指南(26)</a></li><li><a href="http://www.cnblogs.com/2050/archive/2012/05/03/2480702.html">4. Jquery瀑布流插件(24)</a></li><li><a href="http://www.cnblogs.com/2050/p/3877280.html">5. 移动前端开发之viewport的深入理解(24)</a></li></ul></div>
+</div></div></div><div id="sidebar_topdiggedposts" class="sidebar-block"><div id="topdigg_posts_wrap">
+<h3 class="catListTitle">推荐排行榜</h3>
+<div class="RecentComment">
+	<div id="TopDiggPostsBlock"><ul><li><a href="http://www.cnblogs.com/2050/p/3392803.html">1. CSS布局奇淫技巧之--各种居中(63)</a></li><li><a href="http://www.cnblogs.com/2050/p/3877280.html">2. 移动前端开发之viewport的深入理解(49)</a></li><li><a href="http://www.cnblogs.com/2050/p/3191744.html">3. js中几种实用的跨域方法原理详解(36)</a></li><li><a href="http://www.cnblogs.com/2050/archive/2012/08/29/2662932.html">4. 文件上传利器SWFUpload使用指南(31)</a></li><li><a href="http://www.cnblogs.com/2050/p/3913184.html">5. 前端上传组件Plupload使用指南(24)</a></li></ul></div>
+</div></div></div></div><script type="text/javascript">loadBlogSideColumn();</script>
+
+</div>
+<div id="main">
+	
+<div id="post_detail">
+	<div class="post">
+		<h2>
+			<a id="cb_post_title_url" href="http://www.cnblogs.com/2050/p/3913184.html">前端上传组件Plupload使用指南</a>
+		</h2>
+		<div id="cnblogs_post_body"><p>我之前写过一篇文章《<a href="http://www.cnblogs.com/2050/archive/2012/08/29/2662932.html" target="_blank">文件上传利器SWFUpload使用指南</a>》，里面介绍了上传组件SWFUpload的使用方法，但现在随着html5技术的逐渐推广和普及，再去使用以flash为上传手段的SWFUpload显然就有点过时了，毕竟html5原生的就给我们提供了文件上传的API。<a href="https://github.com/moxiecode/plupload" target="_blank">Plupload</a>是一款由著名的web编辑器<a href="http://www.tinymce.com/" target="_blank">TinyMCE</a>团队开发的上传组件，简单易用且功能强大，我们完全可以使用Plupload来代替以前的SWFUpload。</p>
+<p><strong>Plupload有以下功能和特点：</strong></p>
+<p>1、拥有多种上传方式：HTML5、flash、silverlight以及传统的&lt;input type=”file” /&gt;。Plupload会自动侦测当前的环境，选择最合适的上传方式，并且会优先使用HTML5的方式。所以你完全不用去操心当前的浏览器支持哪些上传方式，Plupload会自动为你选择最合适的方式。</p>
+<p>2、支持以拖拽的方式来选取要上传的文件</p>
+<p>3、支持在前端压缩图片，即在图片文件还未上传之前就对它进行压缩</p>
+<p>4、可以直接读取原生的文件数据，这样的好处就是例如可以在图片文件还未上传之前就能把它显示在页面上预览</p>
+<p>5、支持把大文件切割成小片进行上传，因为有些浏览器对很大的文件比如几G的一些文件无法上传。</p>
+<p>&nbsp;</p>
+<p><strong>Plupload的使用方法也与SWFUpload非常类似，可以分为以下几步：</strong></p>
+<p>1、引入js文件，plupload的源文件可以到<a href="https://github.com/moxiecode/plupload/tree/master/js" target="_blank">github</a>上去下载</p>
+<p>2、实例化一个plupload对象，传入一个配置参数对象进行各方面的配置。</p>
+<p>3、调用plupload实例对象的init()方法进行初始化</p>
+<p>4、在plupload实例对象上注册各种你需要的事件。plupload从选取文件到文件上传完成这个过程中，会触发很多事件。我们可以通过这些事件来跟plupload进行交互。</p>
+<p>5、实现你自己所注册的那些事件的监听函数，利用这些监听函数来进行更新UI、提示上传进度等工作。</p>
+<p>大家可以到<a title="http://chaping.github.io/plupload/demo/" href="http://chaping.github.io/plupload/demo/" target="_blank">http://chaping.github.io/plupload/demo/</a>看一下我写的关于plupload的几个上传demo。</p>
+<p>下面用一段代码来说明Plupload的使用方法。</p>
+<p>首先看下我的目录结构</p>
+<p><a href="http://images.cnitblog.com/blog/130623/201408/141813451396368.png"><img style="display: inline; border-width: 0px;" title="目录结构" src="./前端上传组件Plupload使用指南 - 无双 - 博客园_files/141813455612197.png" alt="目录结构" width="171" height="142" border="0"></a></p>
+<p>index.html的代码如下：</p>
+<div class="cnblogs_code" style="background-color: #f5f5f5; border: #cccccc 1px solid; padding: 5px;"><div class="cnblogs_code_toolbar"><span class="cnblogs_code_copy"><a href="javascript:void(0);" onclick="copyCnblogsCode(this)" title="复制代码"><img src="./前端上传组件Plupload使用指南 - 无双 - 博客园_files/copycode.gif" alt="复制代码"></a></span></div>
+<pre><span style="color: #0000ff;">&lt;!</span><span style="color: #ff00ff;">DOCTYPE html</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #0000ff;">&lt;</span><span style="color: #800000;">html</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #0000ff;">&lt;</span><span style="color: #800000;">head</span><span style="color: #0000ff;">&gt;</span>
+    <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">meta </span><span style="color: #ff0000;">charset</span><span style="color: #0000ff;">="UTF-8"</span><span style="color: #0000ff;">&gt;</span>
+    <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">title</span><span style="color: #0000ff;">&gt;</span>Plupload使用指南<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">title</span><span style="color: #0000ff;">&gt;</span>
+    <span style="color: #008000;">&lt;!--</span><span style="color: #008000;"> 首先需要引入plupload的源代码 </span><span style="color: #008000;">--&gt;</span>
+    <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">script </span><span style="color: #ff0000;">src</span><span style="color: #0000ff;">="js/plupload.full.min.js"</span><span style="color: #0000ff;">&gt;&lt;/</span><span style="color: #800000;">script</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">head</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #0000ff;">&lt;</span><span style="color: #800000;">body</span><span style="color: #0000ff;">&gt;</span>
+    <span style="color: #008000;">&lt;!--</span><span style="color: #008000;"> 这里我们只使用最基本的html结构：一个选择文件的按钮，一个开始上传文件的按钮(甚至该按钮也可以不要) </span><span style="color: #008000;">--&gt;</span>
+    <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>
+        <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">button </span><span style="color: #ff0000;">id</span><span style="color: #0000ff;">="browse"</span><span style="color: #0000ff;">&gt;</span>选择文件<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">button</span><span style="color: #0000ff;">&gt;</span>
+        <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">button </span><span style="color: #ff0000;">id</span><span style="color: #0000ff;">="start_upload"</span><span style="color: #0000ff;">&gt;</span>开始上传<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">button</span><span style="color: #0000ff;">&gt;</span>
+    <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">p</span><span style="color: #0000ff;">&gt;</span>
+    <span style="color: #0000ff;">&lt;</span><span style="color: #800000;">script</span><span style="color: #0000ff;">&gt;</span>
+
+    <span style="background-color: #f5f5f5; color: #008000;">//</span><span style="background-color: #f5f5f5; color: #008000;">实例化一个plupload上传对象</span>
+    <span style="background-color: #f5f5f5; color: #0000ff;">var</span><span style="background-color: #f5f5f5; color: #000000;"> uploader </span><span style="background-color: #f5f5f5; color: #000000;">=</span> <span style="background-color: #f5f5f5; color: #0000ff;">new</span><span style="background-color: #f5f5f5; color: #000000;"> plupload.Uploader({
+        browse_button : </span><span style="background-color: #f5f5f5; color: #000000;">'</span><span style="background-color: #f5f5f5; color: #000000;">browse</span><span style="background-color: #f5f5f5; color: #000000;">'</span><span style="background-color: #f5f5f5; color: #000000;">, </span><span style="background-color: #f5f5f5; color: #008000;">//</span><span style="background-color: #f5f5f5; color: #008000;">触发文件选择对话框的按钮，为那个元素id</span>
+<span style="background-color: #f5f5f5; color: #000000;">        url : </span><span style="background-color: #f5f5f5; color: #000000;">'</span><span style="background-color: #f5f5f5; color: #000000;">upload.php</span><span style="background-color: #f5f5f5; color: #000000;">'</span><span style="background-color: #f5f5f5; color: #000000;">, </span><span style="background-color: #f5f5f5; color: #008000;">//</span><span style="background-color: #f5f5f5; color: #008000;">服务器端的上传页面地址</span>
+<span style="background-color: #f5f5f5; color: #000000;">        flash_swf_url : </span><span style="background-color: #f5f5f5; color: #000000;">'</span><span style="background-color: #f5f5f5; color: #000000;">js/Moxie.swf</span><span style="background-color: #f5f5f5; color: #000000;">'</span><span style="background-color: #f5f5f5; color: #000000;">, </span><span style="background-color: #f5f5f5; color: #008000;">//</span><span style="background-color: #f5f5f5; color: #008000;">swf文件，当需要使用swf方式进行上传时需要配置该参数</span>
+<span style="background-color: #f5f5f5; color: #000000;">        silverlight_xap_url : </span><span style="background-color: #f5f5f5; color: #000000;">'</span><span style="background-color: #f5f5f5; color: #000000;">js/Moxie.xap</span><span style="background-color: #f5f5f5; color: #000000;">'</span> <span style="background-color: #f5f5f5; color: #008000;">//</span><span style="background-color: #f5f5f5; color: #008000;">silverlight文件，当需要使用silverlight方式进行上传时需要配置该参数</span>
+<span style="background-color: #f5f5f5; color: #000000;">    });    
+
+    </span><span style="background-color: #f5f5f5; color: #008000;">//</span><span style="background-color: #f5f5f5; color: #008000;">在实例对象上调用init()方法进行初始化</span>
+<span style="background-color: #f5f5f5; color: #000000;">    uploader.init();
+
+    </span><span style="background-color: #f5f5f5; color: #008000;">//</span><span style="background-color: #f5f5f5; color: #008000;">绑定各种事件，并在事件监听函数中做你想做的事</span>
+<span style="background-color: #f5f5f5; color: #000000;">    uploader.bind(</span><span style="background-color: #f5f5f5; color: #000000;">'</span><span style="background-color: #f5f5f5; color: #000000;">FilesAdded</span><span style="background-color: #f5f5f5; color: #000000;">'</span><span style="background-color: #f5f5f5; color: #000000;">,</span><span style="background-color: #f5f5f5; color: #0000ff;">function</span><span style="background-color: #f5f5f5; color: #000000;">(uploader,files){
+        </span><span style="background-color: #f5f5f5; color: #008000;">//</span><span style="background-color: #f5f5f5; color: #008000;">每个事件监听函数都会传入一些很有用的参数，</span>
+        <span style="background-color: #f5f5f5; color: #008000;">//</span><span style="background-color: #f5f5f5; color: #008000;">我们可以利用这些参数提供的信息来做比如更新UI，提示上传进度等操作</span>
+<span style="background-color: #f5f5f5; color: #000000;">    });
+    uploader.bind(</span><span style="background-color: #f5f5f5; color: #000000;">'</span><span style="background-color: #f5f5f5; color: #000000;">UploadProgress</span><span style="background-color: #f5f5f5; color: #000000;">'</span><span style="background-color: #f5f5f5; color: #000000;">,</span><span style="background-color: #f5f5f5; color: #0000ff;">function</span><span style="background-color: #f5f5f5; color: #000000;">(uploader,file){
+        </span><span style="background-color: #f5f5f5; color: #008000;">//</span><span style="background-color: #f5f5f5; color: #008000;">每个事件监听函数都会传入一些很有用的参数，</span>
+        <span style="background-color: #f5f5f5; color: #008000;">//</span><span style="background-color: #f5f5f5; color: #008000;">我们可以利用这些参数提供的信息来做比如更新UI，提示上传进度等操作</span>
+<span style="background-color: #f5f5f5; color: #000000;">    });
+    </span><span style="background-color: #f5f5f5; color: #008000;">//</span><span style="background-color: #f5f5f5; color: #008000;">......</span>
+    <span style="background-color: #f5f5f5; color: #008000;">//</span><span style="background-color: #f5f5f5; color: #008000;">......</span>
+
+    <span style="background-color: #f5f5f5; color: #008000;">//</span><span style="background-color: #f5f5f5; color: #008000;">最后给"开始上传"按钮注册事件</span>
+<span style="background-color: #f5f5f5; color: #000000;">    document.getElementById(</span><span style="background-color: #f5f5f5; color: #000000;">'</span><span style="background-color: #f5f5f5; color: #000000;">start_upload</span><span style="background-color: #f5f5f5; color: #000000;">'</span><span style="background-color: #f5f5f5; color: #000000;">).onclick </span><span style="background-color: #f5f5f5; color: #000000;">=</span> <span style="background-color: #f5f5f5; color: #0000ff;">function</span><span style="background-color: #f5f5f5; color: #000000;">(){
+        uploader.start(); </span><span style="background-color: #f5f5f5; color: #008000;">//</span><span style="background-color: #f5f5f5; color: #008000;">调用实例对象的start()方法开始上传文件，当然你也可以在其他地方调用该方法</span>
+<span style="background-color: #f5f5f5; color: #000000;">    }
+
+    </span><span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">script</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">body</span><span style="color: #0000ff;">&gt;</span>
+<span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">html</span><span style="color: #0000ff;">&gt;</span></pre>
+<div class="cnblogs_code_toolbar"><span class="cnblogs_code_copy"><a href="javascript:void(0);" onclick="copyCnblogsCode(this)" title="复制代码"><img src="./前端上传组件Plupload使用指南 - 无双 - 博客园_files/copycode.gif" alt="复制代码"></a></span></div></div>
+<p>&nbsp;</p>
+<p>使用Plupload的关键是了解它众多的配置参数、事件以及属性和方法。我把它官网上的文档翻译成了中文并整理如下。我也把它放到了github上，你可以到<a title="http://chaping.github.io/plupload/doc/" href="http://chaping.github.io/plupload/doc/" target="_blank">http://chaping.github.io/plupload/doc/</a>去查阅。</p>
+<p>目录：</p>
+<style><!--
+#cnblogs_post_body table.mytable { border-collapse: collapse; border-spacing: 0; font-size: 14px; }
+#cnblogs_post_body table.mytable a{ color:#214fa3;font-size:14px}
+#cnblogs_post_body table.mytable td{ color:#666;}
+#cnblogs_post_body table.mytable,#cnblogs_post_body .mytable th,#cnblogs_post_body .mytable td { border-width: 1px; border-style: solid; margin: 0; font-family:'Microsoft Yahei', tahoma, arial!important; font-family:'宋体', tahoma, arial; }
+#cnblogs_post_body table.mytable { table-layout: fixed; width: 100%; margin-bottom: 6px; padding: 0 1px 1px 0; border-spacing: 0; border-collapse: separate; *border-collapse:collapse; border-color: #abb8ce; background: #ededed; }
+#cnblogs_post_body .mytable th { padding: 10px 4px; font-weight: bold; border-color: #f8f8f8 #abb8ce #abb8ce #f8f8f8; text-align: left; text-shadow: 1px 1px 0 #e4edfb; vertical-align: middle; background: #d0dbee; }
+#cnblogs_post_body .mytable thead th { text-align:center; vertical-align:middle; }
+#cnblogs_post_body .mytable th strong { color:#090; border-bottom:1px dashed #090;  text-decoration:underline; }
+#cnblogs_post_body .mytable th b{ color:#666; font-weight:normal;}
+#cnblogs_post_body .mytable td { padding:0; }
+#cnblogs_post_body .mytable th.separate { text-align:center; border-color: #e1f196 #aecd1b #aecd1b #f3fad6; background-color: #f3f7fd; }
+#cnblogs_post_body .mytable td { padding: 4px; font: 14px consolas, "Courier New", courier, monospace; text-align: left; vertical-align: middle; }
+#cnblogs_post_body .mytable td { border-color: #f8f8f8 #abb8ce #abb8ce #f8f8f8; background: #e0e8f5; }
+#cnblogs_post_body .mytable tr.odd th { background: #dbe4f4; }
+#cnblogs_post_body .mytable tr.odd td { background: #e6eef9; }
+#cnblogs_post_body .mytable br { margin-bottom:1.8em; }
+#cnblogs_post_body .mytable.method th a span{ font-weight:normal; color:#2592eb; padding:0 3px;}
+#cnblogs_post_body .mytable.event p b{ color:#777}
+#cnblogs_post_body table.mytable .parameter,#cnblogs_post_body table.mytable .type,#cnblogs_post_body table.mytable .default { width:7em; }
+#cnblogs_post_body .mytable code{ background: #f7f7f9; border:1px solid #e1e1e8; padding: 1px 4px; color: #777; white-space: nowrap; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; font-family: monaco, menlo, consolas, "Courier New", monospace;}
+#cnblogs_post_body .mytable pre{ background: #f7f7f9; border:1px solid #e1e1e8; padding: 1px 4px; color: #666;-moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; font-family: monaco, menlo, consolas, "Courier New", monospace;}
+--></style>
+<p><a href="./前端上传组件Plupload使用指南 - 无双 - 博客园_files/前端上传组件Plupload使用指南 - 无双 - 博客园.html">一、配置参数</a></p>
+<p><a href="http://www.cnblogs.com/2050/p/3913184.html#plupload_doc2">二、各种事件说明</a></p>
+<p><a href="http://www.cnblogs.com/2050/p/3913184.html#plupload_doc3">三、Plupload实例的属性</a></p>
+<p><a href="http://www.cnblogs.com/2050/p/3913184.html#plupload_doc4">四、Plupload实例的方法</a></p>
+<p><a href="http://www.cnblogs.com/2050/p/3913184.html#plupload_doc5">五、文件对象的属性和方法</a></p>
+<p><a href="http://www.cnblogs.com/2050/p/3913184.html#plupload_doc6">六、QueueProgress 对象的属性</a></p>
+<p><a href="http://www.cnblogs.com/2050/p/3913184.html#plupload_doc7">七、plupload命名空间上的一些属性</a></p>
+<p id="plupload_doc1"><strong>一、配置参数</strong></p>
+<p>实例化一个plupload对象时，也就是 <code>new plupload.Uploader()</code>，需要传入一个对象作为配置参数。后面内容中出现的plupload实例均是指<code>new plupload.Uploader()</code>得到的实例对象</p>
+<table class="mytable" style="width: 98%;" border="1">
+<tbody>
+<tr><th width="160">属性</th><th width="100">类型</th><th width="90">默认值</th><th>描述</th></tr>
+<tr><th><a>browse_button</a></th>
+<td>String / DOM</td>
+<td>&nbsp;</td>
+<td>触发文件选择对话框的DOM元素，当点击该元素后便后弹出文件选择对话框。该值可以是DOM元素对象本身，也可以是该DOM元素的id</td>
+</tr>
+<tr><th><a>url</a></th>
+<td>String</td>
+<td>&nbsp;</td>
+<td>服务器端接收和处理上传文件的脚本地址，可以是相对路径(相对于当前调用Plupload的文档)，也可以是绝对路径</td>
+</tr>
+<tr><th><a>filters</a></th>
+<td>Object</td>
+<td>{ }</td>
+<td>可以使用该参数来限制上传文件的类型，大小等，该参数以对象的形式传入，它包括三个属性：
+<p><strong>mime_types：</strong>用来限定上传文件的类型，为一个数组，该数组的每个元素又是一个对象，该对象有title和extensions两个属性，title为该过滤器的名称，extensions为文件扩展名，有多个时用逗号隔开。该属性默认为一个空数组，即不做限制。</p>
+<p><strong>max_file_size：</strong>用来限定上传文件的大小，如果文件体积超过了该值，则不能被选取。值可以为一个数字，单位为b,也可以是一个字符串，由数字和单位组成，如'200kb'</p>
+<p><strong>prevent_duplicates：</strong>是否允许选取重复的文件，为true时表示不允许，为false时表示允许，默认为false。如果两个文件的文件名和大小都相同，则会被认为是重复的文件</p>
+<p>filters完整的配置示例如下(当然也可以只配置其中的某一项)：</p>
+<pre>filters: {
+  mime_types : [ //只允许上传图片和zip文件
+    { title : "Image files", extensions : "jpg,gif,png" }, 
+    { title : "Zip files", extensions : "zip" }
+  ],
+  max_file_size : '400kb', //最大只能上传400kb的文件
+  prevent_duplicates : true //不允许选取重复文件
+}
+					</pre>
+</td>
+</tr>
+<tr><th><a>headers</a></th>
+<td>Object</td>
+<td>&nbsp;</td>
+<td>设置上传时的自定义头信息，以键/值对的形式传入，键代表头信息属性名，键代表属性值。html4上传方式不支持设置该属性。</td>
+</tr>
+<tr><th><a>multipart</a></th>
+<td>Boolean</td>
+<td>true</td>
+<td>为<code>true</code>时将以<code>multipart/form-data</code>的形式来上传文件，为false时则以二进制的格式来上传文件。html4上传方式不支持以二进制格式来上传文件，在flash上传方式中，二进制上传也有点问题。并且二进制格式上传还需要在服务器端做特殊的处理。一般我们用multipart/form-data的形式来上传文件就足够了。</td>
+</tr>
+<tr><th><a>multipart_params</a></th>
+<td>Object</td>
+<td>&nbsp;</td>
+<td>上传时的附加参数，以键/值对的形式传入，服务器端可是使用$_POST来获取这些参数(以php为例)。比如：
+<pre>multipart_params: {
+  one: '1',
+  two: '2',
+  three: { //值还可以是一个字面量对象
+    a: '4',
+    b: '5'
+  },
+  four: ['6', '7', '8']  //也可以是一个数组
+}
+					</pre>
+</td>
+</tr>
+<tr><th><a>max_retries</a></th>
+<td>Number</td>
+<td>0</td>
+<td>当发生<code>plupload.HTTP_ERROR</code>错误时的重试次数，为0时表示不重试</td>
+</tr>
+<tr><th><a>chunk_size</a></th>
+<td>Number/String</td>
+<td>0</td>
+<td>分片上传文件时，每片文件被切割成的大小，为数字时单位为字节。也可以使用一个带单位的字符串，如<code>"200kb"</code>。当该值为0时表示不使用分片上传功能</td>
+</tr>
+<tr><th><a>resize</a></th>
+<td>Object</td>
+<td>&nbsp;</td>
+<td>可以使用该参数对将要上传的图片进行压缩，该参数是一个对象，里面包括5个属性：
+<p><strong>width：</strong>指定压缩后图片的宽度，如果没有设置该属性则默认为原始图片的宽度</p>
+<p><strong>height：</strong>指定压缩后图片的高度，如果没有设置该属性则默认为原始图片的高度</p>
+<p><strong>crop：</strong>是否裁剪图片</p>
+<p><strong>quality：</strong>压缩后图片的质量，只对jpg格式的图片有效，默认为90。<code>quality</code>可以跟<code>width</code>和<code>height</code>一起使用，但也可以单独使用，单独使用时，压缩后图片的宽高不会变化，但由于质量降低了，所以体积也会变小</p>
+<p><strong>preserve_headers：</strong>压缩后是否保留图片的元数据，<code>true</code>为保留，<code>false</code>为不保留,默认为<code>true</code>。删除图片的元数据能使图片的体积减小一点点</p>
+<p>resize参数的配置示例如下：</p>
+<pre>resize: {
+  width: 100,
+  height: 100,
+  crop: true,
+  quality: 60,
+  preserve_headers: false
+}
+					</pre>
+</td>
+</tr>
+<tr><th><a>drop_element</a></th>
+<td>DOM/String/Array</td>
+<td>&nbsp;</td>
+<td>指定了使用拖拽方式来选择上传文件时的拖拽区域，即可以把文件拖拽到这个区域的方式来选择文件。该参数的值可以为一个DOM元素的id,也可是DOM元素本身，还可以是一个包括多个DOM元素的数组。如果不设置该参数则拖拽上传功能不可用。目前只有html5上传方式才支持拖拽上传。</td>
+</tr>
+<tr><th><a>multi_selection</a></th>
+<td>Boolean</td>
+<td>true</td>
+<td>是否可以在文件浏览对话框中选择多个文件，true为可以，false为不可以。默认true，即可以选择多个文件。需要注意的是，在某些不支持多选文件的环境中，默认值是false。比如在ios7的safari浏览器中，由于存在bug，造成不能多选文件。当然，在html4上传方式中，也是无法多选文件的。</td>
+</tr>
+<tr><th><a>required_features</a></th>
+<td>Mix</td>
+<td>&nbsp;</td>
+<td>可以使用该参数来设置你必须需要的一些功能特征，Plupload会根据你的设置来选择合适的上传方式。因为，不同的上传方式，支持的功能是不同的，比如拖拽上传只有html5上传方式支持，图片压缩则只有html5,flash,silverlight上传方式支持。该参数的值是一个混合类型，可以是一个以逗号分隔的字符串，</td>
+</tr>
+<tr><th><a>unique_names</a></th>
+<td>Boolean</td>
+<td>false</td>
+<td>当值为true时会为每个上传的文件生成一个唯一的文件名，并作为额外的参数post到服务器端，参数明为<code>name</code>,值为生成的文件名。</td>
+</tr>
+<tr><th><a>runtimes</a></th>
+<td>String</td>
+<td>html5,flash,<br>silverlight,<br>html4</td>
+<td>用来指定上传方式，指定多个上传方式请使用逗号隔开。一般情况下，你不需要配置该参数，因为Plupload默认会根据你的其他的参数配置来选择最合适的上传方式。如果没有特殊要求的话，Plupload会首先选择html5上传方式，如果浏览器不支持html5，则会使用flash或silverlight，如果前面两者也都不支持，则会使用最传统的html4上传方式。如果你想指定使用某个上传方式，或改变上传方式的优先顺序，则你可以配置该参数。</td>
+
+
+
+
+</tr>
+<tr><th><a>file_data_name</a> </th>
+<td>String</td>
+<td>file</td>
+<td>指定文件上传时文件域的名称，默认为<code>file</code>,例如在php中你可以使用<code>$_FILES['file']</code>来获取上传的文件信息</td>
+
+
+
+
+</tr>
+<tr><th><a>container</a> </th>
+<td>DOM/String</td>
+<td>&nbsp;</td>
+<td>用来指定Plupload所创建的html结构的父容器，默认为前面指定的<code>browse_button</code>的父元素。该参数的值可以是一个元素的id,也可以是DOM元素本身。</td>
+
+
+
+
+</tr>
+<tr><th><a>flash_swf_url</a> </th>
+<td>String</td>
+<td>js/Moxie.swf</td>
+<td>flash上传组件的url地址，如果是相对路径，则相对的是调用Plupload的html文档。当使用flash上传方式会用到该参数。</td>
+
+
+
+
+</tr>
+<tr><th><a>silverlight_xap_url</a> </th>
+<td>String</td>
+<td>js/Moxie.xap</td>
+<td>silverlight上传组件的url地址，如果是相对路径，则相对的是调用Plupload的html文档。当使用silverlight上传方式会用到该参数。</td>
+
+
+
+
+</tr>
+
+
+
+
+</tbody>
+
+
+
+
+</table>
+<p id="plupload_doc2"><strong>二、各种事件说明</strong> </p>
+<p>要了解plupload的运行状况，靠的就是在这些事件了</p>
+<table class="mytable event" style="width: 98%;" border="1">
+<tbody>
+<tr><th><a>Init</a></th></tr>
+<tr>
+<td>当Plupload初始化完成后触发
+<p>监听函数参数：<strong>(uploader)</strong></p>
+<p><code>uploader</code>为当前的plupload实例对象</p>
+
+
+
+
+</td>
+
+
+
+
+</tr>
+<tr><th><a>PostInit</a></th></tr>
+<tr>
+<td>当Init事件发生后触发
+<p>监听函数参数：<strong>(uploader)</strong></p>
+<p><code>uploader</code>为当前的plupload实例对象</p>
+
+
+
+
+</td>
+
+
+
+
+</tr>
+<tr><th><a>OptionChanged</a></th></tr>
+<tr>
+<td>当使用Plupload实例的setOption()方法改变当前配置参数后触发
+<p>监听函数参数：<strong>(uploader,option_name,new_value,old_value)</strong></p>
+<p><code>uploader</code>为当前的plupload实例对象，<code>option_name</code>为发生改变的参数名称，<code>new_value</code>为改变后的值，<code>old_value</code>为改变前的值</p>
+
+
+
+
+</td>
+
+
+
+
+</tr>
+<tr><th><a>Refresh</a></th></tr>
+<tr>
+<td>当调用plupload实例的refresh()方法后会触发该事件，暂时不清楚还有什么其他动作会触发该事件，但据我测试，把文件添加到上传队列后也会触发该事件。
+<p>监听函数参数：<strong>(uploader)</strong></p>
+<p><code>uploader</code>为当前的plupload实例对象</p>
+
+
+
+
+</td>
+
+
+
+
+</tr>
+<tr><th><a>StateChanged</a></th></tr>
+<tr>
+<td>当上传队列的状态发生改变时触发
+<p>监听函数参数：<strong>(uploader)</strong></p>
+<p><code>uploader</code>为当前的plupload实例对象</p>
+
+
+
+
+</td>
+
+
+
+
+</tr>
+<tr><th><a>UploadFile</a></th></tr>
+<tr>
+<td>当上传队列中某一个文件开始上传后触发
+<p>监听函数参数：<strong>(uploader,file)</strong></p>
+<p><code>uploader</code>为当前的plupload实例对象，<code>file</code>为触发此事件的文件对象</p>
+
+
+
+
+</td>
+
+
+
+
+</tr>
+<tr><th><a>BeforeUpload</a></th></tr>
+<tr>
+<td>当队列中的某一个文件正要开始上传前触发
+<p>监听函数参数：<strong>(uploader,file)</strong></p>
+<p><code>uploader</code>为当前的plupload实例对象，<code>file</code>为触发此事件的文件对象</p>
+
+
+
+
+</td>
+
+
+
+
+</tr>
+<tr><th><a>QueueChanged</a></th></tr>
+<tr>
+<td>当上传队列发生变化后触发，即上传队列新增了文件或移除了文件。QueueChanged事件会比FilesAdded或FilesRemoved事件先触发
+<p>监听函数参数：<strong>(uploader)</strong></p>
+<p><code>uploader</code>为当前的plupload实例对象</p>
+
+
+
+
+</td>
+
+
+
+
+</tr>
+<tr><th><a>UploadProgress</a></th></tr>
+<tr>
+<td>会在文件上传过程中不断触发，可以用此事件来显示上传进度
+<p>监听函数参数：<strong>(uploader,file)</strong></p>
+<p><code>uploader</code>为当前的plupload实例对象，<code>file</code>为触发此事件的文件对象</p>
+
+
+
+
+</td>
+
+
+
+
+</tr>
+<tr><th><a>FilesRemoved</a></th></tr>
+<tr>
+<td>当文件从上传队列移除后触发
+<p>监听函数参数：<strong>(uploader,files)</strong></p>
+<p><code>uploader</code>为当前的plupload实例对象，<code>files</code>为一个数组，里面的元素为本次事件所移除的文件对象</p>
+
+
+
+
+</td>
+
+
+
+
+</tr>
+<tr><th><a>FileFiltered</a></th></tr>
+<tr>
+<td>暂不清楚该事件的意义，但根据测试得出，该事件会在每一个文件被添加到上传队列前触发
+<p>监听函数参数：<strong>(uploader,file)</strong></p>
+<p><code>uploader</code>为当前的plupload实例对象，<code>file</code>为触发此事件的文件对象</p>
+
+
+
+
+</td>
+
+
+
+
+</tr>
+<tr><th><a>FilesAdded</a></th></tr>
+<tr>
+<td>当文件添加到上传队列后触发
+<p>监听函数参数：<strong>(uploader,files)</strong></p>
+<p><code>uploader</code>为当前的plupload实例对象，<code>files</code>为一个数组，里面的元素为本次添加到上传队列里的文件对象</p>
+
+
+
+
+</td>
+
+
+
+
+</tr>
+<tr><th><a>FileUploaded</a></th></tr>
+<tr>
+<td>当队列中的某一个文件上传完成后触发
+<p>监听函数参数：<strong>(uploader,file,responseObject)</strong></p>
+<p><code>uploader</code>为当前的plupload实例对象，<code>file</code>为触发此事件的文件对象，<code>responseObject</code>为服务器返回的信息对象，它有以下3个属性：</p>
+<p><strong>response：</strong>服务器返回的文本</p>
+<p><strong>responseHeaders：</strong>服务器返回的头信息</p>
+<p><strong>status：</strong>服务器返回的http状态码，比如200</p>
+
+
+
+
+</td>
+
+
+
+
+</tr>
+<tr><th><a>ChunkUploaded</a></th></tr>
+<tr>
+<td>当使用文件小片上传功能时，每一个小片上传完成后触发
+<p>监听函数参数：<strong>(uploader,file,responseObject)</strong></p>
+<p><code>uploader</code>为当前的plupload实例对象，<code>file</code>为触发此事件的文件对象，<code>responseObject</code>为服务器返回的信息对象，它有以下5个属性：</p>
+<p><strong>offset：</strong>该文件小片在整体文件中的偏移量</p>
+<p><strong>response：</strong>服务器返回的文本</p>
+<p><strong>responseHeaders：</strong>服务器返回的头信息</p>
+<p><strong>status：</strong>服务器返回的http状态码，比如200</p>
+<p><strong>total：</strong>该文件(指的是被切割成了许多文件小片的那个文件)的总大小，单位为字节</p>
+
+
+
+
+</td>
+
+
+
+
+</tr>
+<tr><th><a>UploadComplete</a></th></tr>
+<tr>
+<td>当上传队列中所有文件都上传完成后触发
+<p>监听函数参数：<strong>(uploader,files)</strong></p>
+<p><code>uploader</code>为当前的plupload实例对象，<code>files</code>为一个数组，里面的元素为本次已完成上传的所有文件对象</p>
+
+
+
+
+</td>
+
+
+
+
+</tr>
+<tr><th><a>Error</a></th></tr>
+<tr>
+<td>当发生错误时触发
+<p>监听函数参数：<strong>(uploader,errObject)</strong></p>
+<p><code>uploader</code>为当前的plupload实例对象，<code>errObject</code>为错误对象，它至少包含以下3个属性(因为不同类型的错误，属性可能会不同)：</p>
+<p><strong>code：</strong>错误代码，具体请参考plupload上定义的表示错误代码的常量属性</p>
+<p><strong>file：</strong>与该错误相关的文件对象</p>
+<p><strong>message：</strong>错误信息</p>
+
+
+
+
+</td>
+
+
+
+
+</tr>
+<tr><th><a>Destroy</a></th></tr>
+<tr>
+<td>当调用destroy方法时触发
+<p>监听函数参数：<strong>(uploader)</strong></p>
+<p><code>uploader</code>为当前的plupload实例对象</p>
+
+
+
+
+</td>
+
+
+
+
+</tr>
+
+
+
+
+</tbody>
+
+
+
+
+</table>
+<p id="plupload_doc3"><strong>三、Plupload实例的属性</strong> </p>
+<table class="mytable" style="width: 98%;" border="1">
+<tbody>
+<tr><th width="200">属性</th><th>描述</th></tr>
+<tr><th><a>id</a></th>
+<td>Plupload实例的唯一标识id</td>
+
+
+
+
+</tr>
+<tr><th><a>state</a></th>
+<td>当前的上传状态，可能的值为<code>plupload.STARTED</code>或<code>plupload.STOPPED</code>，该值由Plupload实例的<code>stop()</code>或<code>statr()</code>方法控制。默认为<code>plupload.STOPPED</code></td>
+
+
+
+
+</tr>
+<tr><th><a>runtime</a></th>
+<td>当前使用的上传方式</td>
+
+
+
+
+</tr>
+<tr><th><a>files</a></th>
+<td>当前的上传队列，是一个由上传队列中的文件对象组成的数组</td>
+
+
+
+
+</tr>
+<tr><th><a>settings</a></th>
+<td>当前的配置参数对象</td>
+
+
+
+
+</tr>
+<tr><th><a>total</a></th>
+<td>表示总体进度信息的QueueProgress对象</td>
+
+
+
+
+</tr>
+
+
+
+
+</tbody>
+
+
+
+
+</table>
+<p id="plupload_doc4"><strong>四、Plupload实例的方法</strong> </p>
+<table class="mytable method" style="width: 98%;" border="1">
+<tbody>
+<tr><th width="200">方法</th><th>描述</th></tr>
+<tr><th><a>init()</a></th>
+<td>初始化Plupload实例</td>
+
+
+
+
+</tr>
+<tr><th><a>setOption(<span>option, [value]</span>)</a></th>
+<td>设置某个特定的配置参数,option为参数名称，value为要设置的参数值。option也可以为一个由参数名和参数值键/值对组成的对象，这样就可以一次设定多个参数，此时该方法的第二个参数value会被忽略。</td>
+
+
+
+
+</tr>
+<tr><th><a>getOption(<span>[option]</span>)</a></th>
+<td>获取当前的配置参数，参数option为需要获取的配置参数名称，如果没有指定option，则会获取所有的配置参数</td>
+
+
+
+
+</tr>
+<tr><th><a>refresh()</a></th>
+<td>刷新当前的plupload实例，暂时还不明白什么时候需要使用</td>
+
+
+
+
+</tr>
+<tr><th><a>start()</a></th>
+<td>开始上传队列中的文件</td>
+
+
+
+
+</tr>
+<tr><th><a>stop()</a></th>
+<td>停止队列中的文件上传</td>
+
+
+
+
+</tr>
+<tr><th><a>disableBrowse(<span>disable</span>)</a></th>
+<td>禁用或启用plupload的文件浏览按钮,参数<code>disable</code>为<code>true</code>时为禁用，为<code>false</code>时为启用。默认为<code>true</code></td>
+
+
+
+
+</tr>
+<tr><th><a>getFile(<span>id</span>)</a></th>
+<td>通过id来获取文件对象</td>
+
+
+
+
+</tr>
+<tr><th><a>addFile(<span>file, [fileName]</span>)</a></th>
+<td>向上传队列中添加文件，如果成功添加了文件，会触发<code>FilesAdded</code>事件。参数file为要添加的文件,可以是一个原生的文件,或者一个plupload文件对象,或者一个<code>input[type="file"]</code>元素,还可以是一个包括前面那几种东西的数组；fileName为给该文件指定的名称</td>
+
+
+
+
+</tr>
+<tr><th><a>removeFile(<span>file</span>)</a></th>
+<td>从上传队列中移除文件，参数<code>file</code>为plupload文件对象或先前指定的文件名称</td>
+
+
+
+
+</tr>
+<tr><th><a>splice(<span>start, length</span>)</a></th>
+<td>从上传队列中移除一部分文件，<code>start</code>为开始移除文件在队列中的索引，<code>length</code>为要移除的文件的数量，该方法的返回值为被移除的文件。该方法会触发<code>FilesRemoved </code>和<code>QueueChanged</code>事件</td>
+
+
+
+
+</tr>
+<tr><th><a>trigger(<span>name, Multiple</span>)</a></th>
+<td>触发某个事件。<code>name</code>为要触发的事件名称，<code>Multiple</code>为传给该事件监听函数的参数，是一个对象</td>
+
+
+
+
+</tr>
+<tr><th><a>hasEventListener(<span>name</span>)</a></th>
+<td>用来判断某个事件是否有监听函数，<code>name</code>为事件名称</td>
+
+
+
+
+</tr>
+<tr><th><a>bind(<span>name, func, scope</span>)</a></th>
+<td>给某个事件绑定监听函数，<code>name</code>为事件名，<code>func</code>为监听函数，<code>scope</code>为监听函数的作用域，也就是监听函数中this的指向</td>
+
+
+
+
+</tr>
+<tr><th><a>unbind(<span>name, func</span>)</a></th>
+<td>移除事件的监听函数，<code>name</code>为事件名称，<code>func</code>为要移除的监听函数</td>
+
+
+
+
+</tr>
+<tr><th><a>unbindAll()</a></th>
+<td>移除所有事件的所有监听函数</td>
+
+
+
+
+</tr>
+<tr><th><a>destroy()</a></th>
+<td>销毁plupload实例</td>
+
+
+
+
+</tr>
+
+
+
+
+</tbody>
+
+
+
+
+</table>
+<p id="plupload_doc5"><strong>五、文件对象的属性和方法</strong> </p>
+<p>在很多事件监听函数中，都会提供文件对象给你</p>
+<table class="mytable" style="width: 98%;" border="1">
+<tbody>
+<tr><th width="160">属性/方法</th><th>描述</th></tr>
+<tr><th><a>id</a> </th>
+<td>文件id</td>
+
+
+
+
+</tr>
+<tr><th><a>name</a> </th>
+<td>文件名，例如"myfile.gif"</td>
+
+
+
+
+</tr>
+<tr><th><a>type</a> </th>
+<td>文件类型，例如"image/jpeg"</td>
+
+
+
+
+</tr>
+<tr><th><a>size</a> </th>
+<td>文件大小，单位为字节，当启用了客户端压缩功能后，该值可能会改变</td>
+
+
+
+
+</tr>
+<tr><th><a>origSize</a> </th>
+<td>文件的原始大小，单位为字节</td>
+
+
+
+
+</tr>
+<tr><th><a>loaded</a> </th>
+<td>文件已上传部分的大小，单位为字节</td>
+
+
+
+
+</tr>
+<tr><th><a>percent</a> </th>
+<td>文件已上传部分所占的百分比，如50就代表已上传了50%</td>
+
+
+
+
+</tr>
+<tr><th><a>status</a> </th>
+<td>文件的状态，可能为以下几个值之一：<code>plupload.QUEUED</code>, <code>plupload.UPLOADING</code>, <code>plupload.FAILED</code>, <code>plupload.DONE</code></td>
+
+
+
+
+</tr>
+<tr><th><a>lastModifiedDate</a> </th>
+<td>文件最后修改的时间</td>
+
+
+
+
+</tr>
+<tr><th><a>getNative()</a> </th>
+<td>获取原生的文件对象</td>
+
+
+
+
+</tr>
+<tr><th><a>getSource()</a> </th>
+<td>获取mOxie.File 对象，想了解mOxie是什么东西，可以看下https://github.com/moxiecode/moxie/wiki/API</td>
+
+
+
+
+</tr>
+<tr><th><a>destroy()</a> </th>
+<td>销毁文件对象</td>
+
+
+
+
+</tr>
+
+
+
+
+</tbody>
+
+
+
+
+</table>
+<p id="plupload_doc6"><strong>六、QueueProgress 对象的属性</strong> </p>
+<p>plupload实例的total属性是一个QueueProgress对象</p>
+<table class="mytable" style="width: 98%;" border="1">
+<tbody>
+<tr><th width="160">属性</th><th>描述</th></tr>
+<tr><th><a>size</a> </th>
+<td>上传队列中所有文件加起来的总大小，单位为字节</td>
+
+
+
+
+</tr>
+<tr><th><a>loaded</a> </th>
+<td>队列中当前已上传文件加起来的总大小,单位为字节</td>
+
+
+
+
+</tr>
+<tr><th><a>uploaded</a> </th>
+<td>已完成上传的文件的数量</td>
+
+
+
+
+</tr>
+<tr><th><a>failed</a> </th>
+<td>上传失败的文件数量</td>
+
+
+
+
+</tr>
+<tr><th><a>queued</a> </th>
+<td>队列中剩下的(也就是除开已经完成上传的文件)需要上传的文件数量</td>
+
+
+
+
+</tr>
+<tr><th><a>percent</a> </th>
+<td>整个队列的已上传百分比，如50就代表50%</td>
+
+
+
+
+</tr>
+<tr><th><a>bytesPerSec</a> </th>
+<td>上传速率，单位为 byte/s，也就是 字节/秒</td>
+
+
+
+
+</tr>
+
+
+
+
+</tbody>
+
+
+
+
+</table>
+<p id="plupload_doc7"><strong>七、plupload命名空间上的一些属性</strong> </p>
+<p>plupload的命名空间上有一些属性，用来表示一些常量。记住，不是plupload实例的属性，而是plupload的属性</p>
+<table class="mytable" style="width: 98%;" border="1">
+<tbody>
+<tr><th width="370">属性名称</th><th>描述</th></tr>
+<tr><th><a>VERSION</a></th>
+<td>当前plupload的版本号 </td>
+
+
+
+
+</tr>
+<tr><th><a>STOPPED</a></th>
+<td>值为1，代表上传队列还未开始上传或者上传队列中的文件已经上传完毕时plupload实例的<code>state</code>属性值 </td>
+
+
+
+
+</tr>
+<tr><th><a>STARTED</a></th>
+<td>值为2，代表队列中的文件正在上传时plupload实例的<code>state</code>属性值 </td>
+
+
+
+
+</tr>
+<tr><th><a>QUEUED</a></th>
+<td>值为1，代表某个文件已经被添加进队列等待上传时该文件对象的<code>status</code>属性值 </td>
+
+
+
+
+</tr>
+<tr><th><a>UPLOADING</a></th>
+<td>值为2，代表某个文件正在上传时该文件对象的<code>status</code>属性值 </td>
+
+
+
+
+</tr>
+<tr><th><a>FAILED</a></th>
+<td>值为4，代表某个文件上传失败后该文件对象的<code>status</code>属性值 </td>
+
+
+
+
+</tr>
+<tr><th><a>DONE</a></th>
+<td>值为5，代表某个文件上传成功后该文件对象的<code>status</code>属性值 </td>
+
+
+
+
+</tr>
+<tr><th><a>GENERIC_ERROR</a></th>
+<td>值为-100，发生通用错误时的错误代码 </td>
+
+
+
+
+</tr>
+<tr><th><a>HTTP_ERROR</a></th>
+<td>值为-200，发生http网络错误时的错误代码，例如服务气端返回的状态码不是200 </td>
+
+
+
+
+</tr>
+<tr><th><a>IO_ERROR</a></th>
+<td>值为-300，发生磁盘读写错误时的错误代码，例如本地上某个文件不可读 </td>
+
+
+
+
+</tr>
+<tr><th><a>SECURITY_ERROR</a></th>
+<td>值为-400，发生因为安全问题而产生的错误时的错误代码 </td>
+
+
+
+
+</tr>
+<tr><th><a>INIT_ERROR</a></th>
+<td>值为-500，初始化时发生错误的错误代码 </td>
+
+
+
+
+</tr>
+<tr><th><a>FILE_SIZE_ERROR</a></th>
+<td>值为-600，当选择的文件太大时的错误代码 </td>
+
+
+
+
+</tr>
+<tr><th><a>FILE_EXTENSION_ERROR</a></th>
+<td>值为-601，当选择的文件类型不符合要求时的错误代码 </td>
+
+
+
+
+</tr>
+<tr><th><a>FILE_DUPLICATE_ERROR</a></th>
+<td>值为-602，当选取了重复的文件而配置中又不允许有重复文件时的错误代码 </td>
+
+
+
+
+</tr>
+<tr><th><a>IMAGE_FORMAT_ERROR </a></th>
+<td>值为-700，发生图片格式错误时的错误代码 </td>
+
+
+
+
+</tr>
+<tr><th><a>IMAGE_MEMORY_ERROR</a></th>
+<td>当发生内存错误时的错误代码 </td>
+
+
+
+
+</tr>
+<tr><th><a>IMAGE_DIMENSIONS_ERROR</a></th>
+<td>值为-702，当文件大小超过了plupload所能处理的最大值时的错误代码 </td>
+
+
+
+
+</tr>
+
+
+
+
+</tbody>
+
+
+
+
+</table></div><div id="MySignature"></div>
+<div class="clear"></div>
+<div id="blog_post_info_block">
+<div id="BlogPostCategory">分类: <a href="http://www.cnblogs.com/2050/category/245566.html">js</a></div>
+<div id="EntryTag"></div>
+<div id="blog_post_info"><div id="green_channel">
+<a href="javascript:void(0);" id="green_channel_digg" onclick="DiggIt(3913184,cb_blogId,1);green_channel_success(this,&#39;谢谢推荐！&#39;);">好文要顶</a>
+<a id="green_channel_follow" onclick="c_follow();" href="javascript:void(0);">关注我</a>
+<a id="green_channel_favorite" onclick="AddToWz(cb_entryId);return false;" href="javascript:void(0);">收藏该文</a><a id="green_channel_contact" href="http://msg.cnblogs.com/send/%E6%97%A0%E5%8F%8C" target="_blank">联系我</a>
+<a id="green_channel_weibo" href="javascript:void(0);" title="分享至新浪微博" onclick="ShareToTsina()"><img src="./前端上传组件Plupload使用指南 - 无双 - 博客园_files/icon_weibo_24.png" alt=""></a>
+<a id="green_channel_wechat" href="javascript:void(0);" title="分享至微信" onclick="shareOnWechat()"><img src="./前端上传组件Plupload使用指南 - 无双 - 博客园_files/wechat.png" alt=""></a>
+</div>
+<div id="author_profile">
+<div id="author_profile_info" class="author_profile_info">
+<a href="http://home.cnblogs.com/u/2050/" target="_blank"><img src="./前端上传组件Plupload使用指南 - 无双 - 博客园_files/u130623.jpg" class="author_avatar" alt=""></a>
+<div id="author_profile_detail" class="author_profile_info">
+<a href="http://home.cnblogs.com/u/2050/">无双</a><br>
+<a href="http://home.cnblogs.com/u/2050/followees">关注 - 3</a><br>
+<a href="http://home.cnblogs.com/u/2050/followers">粉丝 - 525</a>
+</div>
+</div>
+<div class="clear"></div>
+<div id="author_profile_honor"></div>
+<div id="author_profile_follow">
+    <a href="javascript:void(0);" onclick="c_follow();return false;">+加关注</a>
+</div>
+</div>
+<div id="div_digg">										
+    <div class="diggit" onclick="votePost(3913184,&#39;Digg&#39;)">
+        <span class="diggnum" id="digg_count">24</span>
+    </div>
+	<div class="buryit" onclick="votePost(3913184,&#39;Bury&#39;)"> 
+		<span class="burynum" id="bury_count">0</span>
+	</div>
+	<div class="clear"></div>	
+	<div class="diggword" id="digg_tips">
+    (请您对文章做出评价)
+    </div>	
+</div>
+</div>
+<div class="clear"></div>
+<div id="post_next_prev"><a href="http://www.cnblogs.com/2050/p/3877280.html" class="p_n_p_prefix">« </a> 上一篇：<a href="http://www.cnblogs.com/2050/p/3877280.html" title="发布于2014-07-30 09:59">移动前端开发之viewport的深入理解</a><br><a href="http://www.cnblogs.com/2050/p/4029656.html" class="p_n_p_prefix">» </a> 下一篇：<a href="http://www.cnblogs.com/2050/p/4029656.html" title="发布于2014-10-16 20:47">用js动态生成css代码</a><br></div>
+</div>
+
+
+		<p class="postfoot">
+			posted on <span id="post-date">2014-08-14 18:14</span> <a href="http://www.cnblogs.com/2050/">无双</a> 阅读(<span id="post_view_count">46697</span>) 评论(<span id="post_comment_count">129</span>)  <a href="http://i.cnblogs.com/EditPosts.aspx?postid=3913184" rel="nofollow">编辑</a> <a href="http://www.cnblogs.com/2050/p/3913184.html#" onclick="AddToWz(3913184);return false;">收藏</a>
+		</p>
+	</div>
+	<script type="text/javascript">var allowComments=true,isLogined=false,cb_blogId=70308,cb_entryId=3913184,cb_blogApp=currentBlogApp,cb_blogUserGuid='8c3fc9fe-9856-df11-ba8f-001cf0cd104b',cb_entryCreatedDate='2014/8/14 18:14:00';loadViewCount(cb_entryId);</script>
+	
+</div><a name="!comments"></a><div id="blog-comments-placeholder"><div id="comments_pager_top"><div class="pager"><a href="http://www.cnblogs.com/2050/p/3913184.html#!comments" onclick="commentManager.renderComments(2,50);return false;">&lt; Prev</a><a href="http://www.cnblogs.com/2050/p/3913184.html#!comments" onclick="commentManager.renderComments(1,50);return false;">1</a><a href="http://www.cnblogs.com/2050/p/3913184.html#!comments" onclick="commentManager.renderComments(2,50);return false;">2</a><span class="current">3</span></div></div>
+<a name="评论"></a>
+<div id="comments">
+<h3>评论</h3>
+	
+	
+			<h4>
+				<a href="http://www.cnblogs.com/2050/p/3913184.html#3173924" class="layer">#101楼</a><a name="3173924" id="comment_anchor_3173924"></a>
+					<span>
+						 <span class="comment_date">2015-04-30 16:37</span>
+					</span>
+				<a id="a_comment_author_3173924" href="http://home.cnblogs.com/u/580626/" target="_blank">山下灰太狼</a> <a href="http://msg.cnblogs.com/send/%E5%B1%B1%E4%B8%8B%E7%81%B0%E5%A4%AA%E7%8B%BC" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</h4>
+			<p>
+				</p><div id="comment_body_3173924" class="blog_comment_body"><b>绑定FileUploaded事件：</b><br>uploader.bind("FileUploaded", _fileCallback, uploader);后，无法unbind<br><b>绑定代码：</b><br>uploader.bind("FileUploaded", _fileCallback, uploader);//绑定<br><b>在UploadComplete事件中解绑：</b><br>　　uploader.bind("UploadComplete", function (up, files) {<br>　　      up.unbind("FileUploaded", _fileCallback);<br>　　}, uploader);<br><br>断点调试， up.unbind("FileUploaded", _fileCallback);这行代码能够执行。挣扎两天了，求博主解救　　　　</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(3173924,&#39;Digg&#39;,this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(3173924,&#39;Bury&#39;,this)">反对(0)</a></div>
+				&nbsp;&nbsp;<span class="comment_actions"></span>
+			<p></p>
+		
+			<h4>
+				<a href="http://www.cnblogs.com/2050/p/3913184.html#3173973" class="layer">#102楼</a><a name="3173973" id="comment_anchor_3173973"></a>[<span class="louzhu">楼主</span>]
+					<span>
+						 <span class="comment_date">2015-04-30 17:28</span>
+					</span>
+				<a id="a_comment_author_3173973" href="http://www.cnblogs.com/2050/" target="_blank">无双</a> <a href="http://msg.cnblogs.com/send/%E6%97%A0%E5%8F%8C" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</h4>
+			<p>
+				</p><div id="comment_body_3173973" class="blog_comment_body"><a href="http://www.cnblogs.com/2050/p/3913184.html#3173924" title="查看所回复的评论" onclick="commentManager.renderComments(0,50,3173924);">@</a>山下灰太狼<br>貌似确实是有这样的问题，你要急着解决的话，可以用自己的逻辑来控制函数的调用啊，意思就是FileUploaded事件还是让它绑定，但是可以在FileUploaded事件监听函数里作一下判断，什么时候里面的代码要执行，什么时候不执行</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(3173973,&#39;Digg&#39;,this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(3173973,&#39;Bury&#39;,this)">反对(0)</a></div><span id="comment_3173973_avatar" style="display:none;">http://pic.cnblogs.com/face/u130623.jpg?id=31110421</span>
+				&nbsp;&nbsp;<span class="comment_actions"></span>
+			<p></p>
+		
+			<h4>
+				<a href="http://www.cnblogs.com/2050/p/3913184.html#3204290" class="layer">#103楼</a><a name="3204290" id="comment_anchor_3204290"></a>
+					<span>
+						 <span class="comment_date">2015-06-09 10:01</span>
+					</span>
+				<a id="a_comment_author_3204290" href="http://www.cnblogs.com/lingjiao/" target="_blank">想起菱角</a> <a href="http://msg.cnblogs.com/send/%E6%83%B3%E8%B5%B7%E8%8F%B1%E8%A7%92" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</h4>
+			<p>
+				</p><div id="comment_body_3204290" class="blog_comment_body">大神，我现在遇到一个问题，ie10以下的版本上传的时候报错，但是在我本地上传不会报错，放到服务器上就报错，甚至我把你写的demo放服务器上，还是报错，错误代码如下：<br>【文件: script block (321)，行: 49，列: 5】<br>光标定位到return上<br>function __flash__addCallback(instance, name) {<br>  instance[name] = function () { <br>   /*光标错误定位到这里*/ return eval(instance.CallFunction("&lt;invoke name=\""+name+"\" returntype=\"javascript\"&gt;" + __flash__argumentsToXML(arguments,0) + "&lt;/invoke&gt;"));<br>  }<br>}</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(3204290,&#39;Digg&#39;,this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(3204290,&#39;Bury&#39;,this)">反对(0)</a></div><span id="comment_3204290_avatar" style="display:none;">http://pic.cnblogs.com/face/u448824.jpg?id=09110821</span>
+				&nbsp;&nbsp;<span class="comment_actions"></span>
+			<p></p>
+		
+			<h4>
+				<a href="http://www.cnblogs.com/2050/p/3913184.html#3207202" class="layer">#104楼</a><a name="3207202" id="comment_anchor_3207202"></a>
+					<span>
+						 <span class="comment_date">2015-06-12 18:03</span>
+					</span>
+				<a id="a_comment_author_3207202" href="http://www.cnblogs.com/lingjiao/" target="_blank">想起菱角</a> <a href="http://msg.cnblogs.com/send/%E6%83%B3%E8%B5%B7%E8%8F%B1%E8%A7%92" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</h4>
+			<p>
+				</p><div id="comment_body_3207202" class="blog_comment_body">上面的上传报错是因为flash上传的时候报错，可以跳过flash上传，<br>ps：我看博主的ie低版本上传的时候可以用flash上传，我研究了好久还是不行，一直报上面的错误，请博主有时间帮忙解惑下，是否和jquery版本有关系？或者和这些引用的文件的路径相关？我已经把引用的Moxie.swf和Moxie.xap设置为绝对路径了，html4上传只能单张进行，体验不是太好</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(3207202,&#39;Digg&#39;,this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(3207202,&#39;Bury&#39;,this)">反对(0)</a></div><span id="comment_3207202_avatar" style="display:none;">http://pic.cnblogs.com/face/u448824.jpg?id=09110821</span>
+				&nbsp;&nbsp;<span class="comment_actions"></span>
+			<p></p>
+		
+			<h4>
+				<a href="http://www.cnblogs.com/2050/p/3913184.html#3216911" class="layer">#105楼</a><a name="3216911" id="comment_anchor_3216911"></a>
+					<span>
+						 <span class="comment_date">2015-06-28 14:44</span>
+					</span>
+				<a id="a_comment_author_3216911" href="http://www.cnblogs.com/billbobo/" target="_blank">沈海波</a> <a href="http://msg.cnblogs.com/send/%E6%B2%88%E6%B5%B7%E6%B3%A2" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</h4>
+			<p>
+				</p><div id="comment_body_3216911" class="blog_comment_body">我在使Plupload上传大文件，前端设置参数chunk_size:"10mb"，但是上传后生成的分块文件，怎么每块都是10241KB，比10mb多1个KB，不知道哪里有问题，有碰到相同问题的吗？</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(3216911,&#39;Digg&#39;,this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(3216911,&#39;Bury&#39;,this)">反对(0)</a></div>
+				&nbsp;&nbsp;<span class="comment_actions"></span>
+			<p></p>
+		
+			<h4>
+				<a href="http://www.cnblogs.com/2050/p/3913184.html#3243681" class="layer">#106楼</a><a name="3243681" id="comment_anchor_3243681"></a>
+					<span>
+						 <span class="comment_date">2015-08-07 18:10</span>
+					</span>
+				<a id="a_comment_author_3243681" href="http://home.cnblogs.com/u/662643/" target="_blank">shl1988012</a> <a href="http://msg.cnblogs.com/send/shl1988012" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</h4>
+			<p>
+				</p><div id="comment_body_3243681" class="blog_comment_body">SCRIPT438: 对象不支持“pluploadQueue”属性或方法 <br><br><br>$("#uploader").pluploadQueue($.extend({		<br>			runtimes : "flash,html4,html5",<br>			url : url,<br>			max_file_size : max_file_size,<br>这是什么原因.... 代码从这开始报错</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(3243681,&#39;Digg&#39;,this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(3243681,&#39;Bury&#39;,this)">反对(0)</a></div>
+				&nbsp;&nbsp;<span class="comment_actions"></span>
+			<p></p>
+		
+			<h4>
+				<a href="http://www.cnblogs.com/2050/p/3913184.html#3243686" class="layer">#107楼</a><a name="3243686" id="comment_anchor_3243686"></a>[<span class="louzhu">楼主</span>]
+					<span>
+						 <span class="comment_date">2015-08-07 18:15</span>
+					</span>
+				<a id="a_comment_author_3243686" href="http://www.cnblogs.com/2050/" target="_blank">无双</a> <a href="http://msg.cnblogs.com/send/%E6%97%A0%E5%8F%8C" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</h4>
+			<p>
+				</p><div id="comment_body_3243686" class="blog_comment_body"><a href="http://www.cnblogs.com/2050/p/3913184.html#3243681" title="查看所回复的评论" onclick="commentManager.renderComments(0,50,3243681);">@</a>shl1988012<br>你这里是作为jQuery的插件来使用我不太清楚哦~，你可以尝试使用下不是jQuery插件版本的Plupload</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(3243686,&#39;Digg&#39;,this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(3243686,&#39;Bury&#39;,this)">反对(0)</a></div><span id="comment_3243686_avatar" style="display:none;">http://pic.cnblogs.com/face/u130623.jpg?id=31110421</span>
+				&nbsp;&nbsp;<span class="comment_actions"></span>
+			<p></p>
+		
+			<h4>
+				<a href="http://www.cnblogs.com/2050/p/3913184.html#3249957" class="layer">#108楼</a><a name="3249957" id="comment_anchor_3249957"></a>
+					<span>
+						 <span class="comment_date">2015-08-18 23:34</span>
+					</span>
+				<a id="a_comment_author_3249957" href="http://www.cnblogs.com/cl-blogs/" target="_blank">cl@cnblog</a> <a href="http://msg.cnblogs.com/send/cl%40cnblog" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</h4>
+			<p>
+				</p><div id="comment_body_3249957" class="blog_comment_body">麻烦大神把<a href="http://chaping.github.io/plupload/demo" target="_blank">http://chaping.github.io/plupload/demo</a> 这些demo后台源码能发一下好么，我邮箱 1509347139@qq.com</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(3249957,&#39;Digg&#39;,this)">支持(1)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(3249957,&#39;Bury&#39;,this)">反对(0)</a></div>
+				&nbsp;&nbsp;<span class="comment_actions"></span>
+			<p></p>
+		
+			<h4>
+				<a href="http://www.cnblogs.com/2050/p/3913184.html#3253203" class="layer">#109楼</a><a name="3253203" id="comment_anchor_3253203"></a>
+					<span>
+						 <span class="comment_date">2015-08-24 15:52</span>
+					</span>
+				<a id="a_comment_author_3253203" href="http://www.cnblogs.com/zyug/" target="_blank">LovlyPuppy</a> <a href="http://msg.cnblogs.com/send/LovlyPuppy" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</h4>
+			<p>
+				</p><div id="comment_body_3253203" class="blog_comment_body">找了好久，总算找到一个可以用的。感谢楼主。<br>项目中大部分都是单文件上传，然后返回处理消息小小的封装了一下，只传二个参数，上传路径与处理消息，直接写在plupload.min.js后面，代码奉上。再次感谢楼主<br><br><br><br><div class="cnblogs_Highlighter sh-gutter"><div><div id="highlighter_941846" class="syntaxhighlighter collapsed  javascript"><div class="toolbar"><span><a href="http://www.cnblogs.com/2050/p/3913184.html#" class="toolbar_item command_expandSource expandSource">+ View Code</a></span><span><a href="http://www.cnblogs.com/2050/p/3913184.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div><div class="line number13 index12 alt2">13</div><div class="line number14 index13 alt1">14</div><div class="line number15 index14 alt2">15</div><div class="line number16 index15 alt1">16</div><div class="line number17 index16 alt2">17</div><div class="line number18 index17 alt1">18</div><div class="line number19 index18 alt2">19</div><div class="line number20 index19 alt1">20</div><div class="line number21 index20 alt2">21</div><div class="line number22 index21 alt1">22</div><div class="line number23 index22 alt2">23</div><div class="line number24 index23 alt1">24</div><div class="line number25 index24 alt2">25</div><div class="line number26 index25 alt1">26</div><div class="line number27 index26 alt2">27</div><div class="line number28 index27 alt1">28</div><div class="line number29 index28 alt2">29</div><div class="line number30 index29 alt1">30</div><div class="line number31 index30 alt2">31</div><div class="line number32 index31 alt1">32</div><div class="line number33 index32 alt2">33</div><div class="line number34 index33 alt1">34</div><div class="line number35 index34 alt2">35</div><div class="line number36 index35 alt1">36</div><div class="line number37 index36 alt2">37</div><div class="line number38 index37 alt1">38</div><div class="line number39 index38 alt2">39</div><div class="line number40 index39 alt1">40</div><div class="line number41 index40 alt2">41</div><div class="line number42 index41 alt1">42</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="javascript plain">$.fn.plSingleUpload = </code><code class="javascript keyword">function</code> <code class="javascript plain">(options) {</code></div><div class="line number2 index1 alt1"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript keyword">var</code> <code class="javascript plain">settings = {</code></div><div class="line number3 index2 alt2"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript plain">flash_swf_url: </code><code class="javascript string">'/scripts/Moxie.swf'</code><code class="javascript plain">,</code></div><div class="line number4 index3 alt1"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript plain">silverlight_xap_url: </code><code class="javascript string">'/scripts/Moxie.xap'</code><code class="javascript plain">,</code></div><div class="line number5 index4 alt2"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript plain">multi_selection: </code><code class="javascript keyword">false</code></div><div class="line number6 index5 alt1"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript plain">};</code></div><div class="line number7 index6 alt2"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript plain">jQuery.extend(settings, options);</code></div><div class="line number8 index7 alt1"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript keyword">var</code> <code class="javascript plain">uploaders = </code><code class="javascript keyword">new</code> <code class="javascript plain">plupload.Uploader(settings);</code></div><div class="line number9 index8 alt2"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript keyword">if</code> <code class="javascript plain">(settings.success) {</code></div><div class="line number10 index9 alt1"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript plain">uploaders.bind(</code><code class="javascript string">'FileUploaded'</code><code class="javascript plain">, </code><code class="javascript keyword">function</code> <code class="javascript plain">(uploader, file, result) {</code></div><div class="line number11 index10 alt2"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript keyword">var</code> <code class="javascript plain">r = result.response;</code></div><div class="line number12 index11 alt1"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript keyword">var</code> <code class="javascript plain">args = [r, uploader, file, result];</code></div><div class="line number13 index12 alt2"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript keyword">try</code> <code class="javascript plain">{</code></div><div class="line number14 index13 alt1"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript keyword">var</code> <code class="javascript plain">data = $.parseJSON(r);</code></div><div class="line number15 index14 alt2"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript keyword">if</code> <code class="javascript plain">(data != </code><code class="javascript keyword">null</code><code class="javascript plain">) {</code></div><div class="line number16 index15 alt1"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript plain">args[0] = data;</code></div><div class="line number17 index16 alt2"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript plain">}</code></div><div class="line number18 index17 alt1"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript plain">}</code></div><div class="line number19 index18 alt2"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript keyword">catch</code> <code class="javascript plain">(e) { }</code></div><div class="line number20 index19 alt1"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript plain">settings.success.apply(uploader, args);</code></div><div class="line number21 index20 alt2"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript plain">});</code></div><div class="line number22 index21 alt1"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript plain">}</code></div><div class="line number23 index22 alt2"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript keyword">if</code> <code class="javascript plain">(settings.error) {</code></div><div class="line number24 index23 alt1"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript plain">uploaders.bind(</code><code class="javascript string">'Error'</code><code class="javascript plain">, </code><code class="javascript keyword">function</code> <code class="javascript plain">(uploader, error) {</code></div><div class="line number25 index24 alt2"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript plain">settings.error(error.message);</code></div><div class="line number26 index25 alt1"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript plain">});</code></div><div class="line number27 index26 alt2"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript plain">}</code></div><div class="line number28 index27 alt1"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript keyword">else</code> <code class="javascript plain">{</code></div><div class="line number29 index28 alt2"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript plain">uploaders.bind(</code><code class="javascript string">'Error'</code><code class="javascript plain">, </code><code class="javascript keyword">function</code> <code class="javascript plain">(uploader, error) {</code></div><div class="line number30 index29 alt1"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript plain">alert(</code><code class="javascript string">"上传失败,错误消息："</code> <code class="javascript plain">+ error.message);</code></div><div class="line number31 index30 alt2"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript plain">});</code></div><div class="line number32 index31 alt1"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript plain">}</code></div><div class="line number33 index32 alt2"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript plain">uploaders.bind(</code><code class="javascript string">'FilesAdded'</code><code class="javascript plain">, </code><code class="javascript keyword">function</code> <code class="javascript plain">(uploader, files) {</code></div><div class="line number34 index33 alt1"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript plain">uploader.start();</code></div><div class="line number35 index34 alt2"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript plain">});</code></div><div class="line number36 index35 alt1"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript keyword">this</code><code class="javascript plain">.each(</code><code class="javascript keyword">function</code> <code class="javascript plain">() {</code></div><div class="line number37 index36 alt2"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript plain">uploaders.setOption(</code><code class="javascript string">'browse_button'</code><code class="javascript plain">, </code><code class="javascript keyword">this</code><code class="javascript plain">.id);</code></div><div class="line number38 index37 alt1"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript plain">uploaders.init();</code></div><div class="line number39 index38 alt2"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript plain">uploaders.refresh();</code></div><div class="line number40 index39 alt1"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript plain">});</code></div><div class="line number41 index40 alt2"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript keyword">return</code> <code class="javascript plain">uploaders;</code></div><div class="line number42 index41 alt1"><code class="javascript plain">};</code></div></div></td></tr></tbody></table></div></div></div><br><br>调用代码：<br><br><br><div class="cnblogs_Highlighter sh-gutter"><div><div id="highlighter_509149" class="syntaxhighlighter collapsed  html"><div class="toolbar"><span><a href="http://www.cnblogs.com/2050/p/3913184.html#" class="toolbar_item command_expandSource expandSource">+ View Code</a></span><span><a href="http://www.cnblogs.com/2050/p/3913184.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="html plain">&lt;</code><code class="html keyword">button</code> <code class="html plain">type="button" class="btn btn-primary" id="upload1"&gt;&lt;</code><code class="html keyword">i</code> <code class="html plain">class="glyphicon glyphicon-upload"&gt;&lt;/</code><code class="html keyword">i</code><code class="html plain">&gt; 上传&lt;/</code><code class="html keyword">button</code><code class="html plain">&gt;</code></div></div></td></tr></tbody></table></div></div></div><div class="cnblogs_Highlighter sh-gutter"><div><div id="highlighter_53576" class="syntaxhighlighter collapsed  javascript"><div class="toolbar"><span><a href="http://www.cnblogs.com/2050/p/3913184.html#" class="toolbar_item command_expandSource expandSource">+ View Code</a></span><span><a href="http://www.cnblogs.com/2050/p/3913184.html#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="javascript plain">&lt;script type=</code><code class="javascript string">"text/javascript"</code><code class="javascript plain">&gt;</code></div><div class="line number2 index1 alt1"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript plain">$(document).ready(</code><code class="javascript keyword">function</code> <code class="javascript plain">() {</code></div><div class="line number3 index2 alt2"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript plain">$(</code><code class="javascript string">"#upload1"</code><code class="javascript plain">).plSingleUpload({</code></div><div class="line number4 index3 alt1"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript plain">url: </code><code class="javascript string">'@Url.Action("ImportExls")'</code><code class="javascript plain">,</code></div><div class="line number5 index4 alt2"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript plain">success: </code><code class="javascript keyword">function</code> <code class="javascript plain">(data)</code></div><div class="line number6 index5 alt1"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript plain">{</code></div><div class="line number7 index6 alt2"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript plain">alert(data.Message);</code></div><div class="line number8 index7 alt1"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript plain">}</code></div><div class="line number9 index8 alt2"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript plain">});</code></div><div class="line number10 index9 alt1"><code class="javascript spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="javascript plain">});</code></div><div class="line number11 index10 alt2"><code class="javascript plain">&lt;/script&gt;</code></div></div></td></tr></tbody></table></div></div></div></div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(3253203,&#39;Digg&#39;,this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(3253203,&#39;Bury&#39;,this)">反对(0)</a></div>
+				&nbsp;&nbsp;<span class="comment_actions"></span>
+			<p></p>
+		
+			<h4>
+				<a href="http://www.cnblogs.com/2050/p/3913184.html#3255393" class="layer">#110楼</a><a name="3255393" id="comment_anchor_3255393"></a>
+					<span>
+						 <span class="comment_date">2015-08-27 14:53</span>
+					</span>
+				<a id="a_comment_author_3255393" href="http://home.cnblogs.com/u/803758/" target="_blank">暗桔子</a> <a href="http://msg.cnblogs.com/send/%E6%9A%97%E6%A1%94%E5%AD%90" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</h4>
+			<p>
+				</p><div id="comment_body_3255393" class="blog_comment_body">楼主你好，我遇到个问题, 在ie8浏览器，点击上传的时候会报这个错误<br>SCRIPT601: 未知的运行时错误  plupload.full.min.js, 行15 字符16516<br>是什么原因？</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(3255393,&#39;Digg&#39;,this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(3255393,&#39;Bury&#39;,this)">反对(0)</a></div>
+				&nbsp;&nbsp;<span class="comment_actions"></span>
+			<p></p>
+		
+			<h4>
+				<a href="http://www.cnblogs.com/2050/p/3913184.html#3255405" class="layer">#111楼</a><a name="3255405" id="comment_anchor_3255405"></a>[<span class="louzhu">楼主</span>]
+					<span>
+						 <span class="comment_date">2015-08-27 15:03</span>
+					</span>
+				<a id="a_comment_author_3255405" href="http://www.cnblogs.com/2050/" target="_blank">无双</a> <a href="http://msg.cnblogs.com/send/%E6%97%A0%E5%8F%8C" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</h4>
+			<p>
+				</p><div id="comment_body_3255405" class="blog_comment_body"><a href="http://www.cnblogs.com/2050/p/3913184.html#3255393" title="查看所回复的评论" onclick="commentManager.renderComments(0,50,3255393);">@</a>暗桔<br>要看你具体的代码啊，怎么调用的</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(3255405,&#39;Digg&#39;,this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(3255405,&#39;Bury&#39;,this)">反对(0)</a></div><span id="comment_3255405_avatar" style="display:none;">http://pic.cnblogs.com/face/u130623.jpg?id=31110421</span>
+				&nbsp;&nbsp;<span class="comment_actions"></span>
+			<p></p>
+		
+			<h4>
+				<a href="http://www.cnblogs.com/2050/p/3913184.html#3256042" class="layer">#112楼</a><a name="3256042" id="comment_anchor_3256042"></a>
+					<span>
+						 <span class="comment_date">2015-08-28 11:47</span>
+					</span>
+				<a id="a_comment_author_3256042" href="http://home.cnblogs.com/u/750107/" target="_blank">1212300224</a> <a href="http://msg.cnblogs.com/send/1212300224" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</h4>
+			<p>
+				</p><div id="comment_body_3256042" class="blog_comment_body">楼主，我下载了你的demo。<br>有个问题IE下。显示拒绝访问。急！！<br><br><br>//上传按钮<br>	$('#upload-btn').click(function(){<br>		uploader.start(); //这里显示  拒绝访问！！！<br>	});</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(3256042,&#39;Digg&#39;,this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(3256042,&#39;Bury&#39;,this)">反对(0)</a></div>
+				&nbsp;&nbsp;<span class="comment_actions"></span>
+			<p></p>
+		
+			<h4>
+				<a href="http://www.cnblogs.com/2050/p/3913184.html#3256209" class="layer">#113楼</a><a name="3256209" id="comment_anchor_3256209"></a>
+					<span>
+						 <span class="comment_date">2015-08-28 15:09</span>
+					</span>
+				<a id="a_comment_author_3256209" href="http://home.cnblogs.com/u/750107/" target="_blank">1212300224</a> <a href="http://msg.cnblogs.com/send/1212300224" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</h4>
+			<p>
+				</p><div id="comment_body_3256209" class="blog_comment_body"><a href="http://www.cnblogs.com/2050/p/3913184.html#3255405" title="查看所回复的评论" onclick="commentManager.renderComments(0,50,3255405);">@</a>无双<br>我和他一样，我是用你上面代码，然后再IE7、8下面运行到uploader.init()的时候  就报了 ”未知的运行时的错误“</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(3256209,&#39;Digg&#39;,this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(3256209,&#39;Bury&#39;,this)">反对(0)</a></div>
+				&nbsp;&nbsp;<span class="comment_actions"></span>
+			<p></p>
+		
+			<h4>
+				<a href="http://www.cnblogs.com/2050/p/3913184.html#3261846" class="layer">#114楼</a><a name="3261846" id="comment_anchor_3261846"></a>
+					<span>
+						 <span class="comment_date">2015-09-07 17:03</span>
+					</span>
+				<a id="a_comment_author_3261846" href="http://www.cnblogs.com/hanfeige/" target="_blank">寒_飞</a> <a href="http://msg.cnblogs.com/send/%E5%AF%92_%E9%A3%9E" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</h4>
+			<p>
+				</p><div id="comment_body_3261846" class="blog_comment_body">@无双<br><br>楼主你好，pupload我研究了好几天，着重是研究了断点续传与秒传的功能，要实现这些功能首先都要确定文件的唯一性，目前进展还算顺利，但是今天在做IE测试的时候发现，IE分片功能无法使用，我不清楚到底是什么原因造成的，在ie8、9下，分块是没有作用的。<br><br> 我通过上传一个500M的文件，然后打开我的上传目录，在上传时，谷歌、火狐会上传500个块文件，最后进行合并。<br> 但是：Ie始终是上传完成后一次性进行读写了，我非常纠结这个问题，望楼主能给与指示，我的flash版本是18.x，最新的，我目前排除了其它问题，有点怀疑与这个有关。<br><br>刚才又测试了一下，在silverlight下也不支持分块，先前怀疑是flash版本问题，现在又怀疑代码了。。。<br><br>但是我的代码是官方的代码，我唯独就是用了c#的后台做的上传分块。</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(3261846,&#39;Digg&#39;,this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(3261846,&#39;Bury&#39;,this)">反对(0)</a></div>
+				&nbsp;&nbsp;<span class="comment_actions"></span>
+			<p></p>
+		
+			<h4>
+				<a href="http://www.cnblogs.com/2050/p/3913184.html#3262286" class="layer">#115楼</a><a name="3262286" id="comment_anchor_3262286"></a>
+					<span>
+						 <span class="comment_date">2015-09-08 10:53</span>
+					</span>
+				<a id="a_comment_author_3262286" href="http://home.cnblogs.com/u/808190/" target="_blank">斯巴达48</a> <a href="http://msg.cnblogs.com/send/%E6%96%AF%E5%B7%B4%E8%BE%BE48" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</h4>
+			<p>
+				</p><div id="comment_body_3262286" class="blog_comment_body">IE8不支持呢 只有在你的域名上才能用</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(3262286,&#39;Digg&#39;,this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(3262286,&#39;Bury&#39;,this)">反对(0)</a></div>
+				&nbsp;&nbsp;<span class="comment_actions"></span>
+			<p></p>
+		
+			<h4>
+				<a href="http://www.cnblogs.com/2050/p/3913184.html#3262298" class="layer">#116楼</a><a name="3262298" id="comment_anchor_3262298"></a>
+					<span>
+						 <span class="comment_date">2015-09-08 11:03</span>
+					</span>
+				<a id="a_comment_author_3262298" href="http://home.cnblogs.com/u/808190/" target="_blank">斯巴达48</a> <a href="http://msg.cnblogs.com/send/%E6%96%AF%E5%B7%B4%E8%BE%BE48" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</h4>
+			<p>
+				</p><div id="comment_body_3262298" class="blog_comment_body"><a href="http://www.cnblogs.com/2050/p/3913184.html#3255393" title="查看所回复的评论" onclick="commentManager.renderComments(0,50,3255393);">@</a>暗桔子<br>解决了没  求答案呢</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(3262298,&#39;Digg&#39;,this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(3262298,&#39;Bury&#39;,this)">反对(0)</a></div>
+				&nbsp;&nbsp;<span class="comment_actions"></span>
+			<p></p>
+		
+			<h4>
+				<a href="http://www.cnblogs.com/2050/p/3913184.html#3262711" class="layer">#117楼</a><a name="3262711" id="comment_anchor_3262711"></a>[<span class="louzhu">楼主</span>]
+					<span>
+						 <span class="comment_date">2015-09-08 18:11</span>
+					</span>
+				<a id="a_comment_author_3262711" href="http://www.cnblogs.com/2050/" target="_blank">无双</a> <a href="http://msg.cnblogs.com/send/%E6%97%A0%E5%8F%8C" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</h4>
+			<p>
+				</p><div id="comment_body_3262711" class="blog_comment_body"><a href="http://www.cnblogs.com/2050/p/3913184.html#3262286" title="查看所回复的评论" onclick="commentManager.renderComments(0,50,3262286);">@</a>斯巴达48<br>IE8我正式项目中也用过呢，好像并没有遇到问题，你最好有个demo什么的能让看到啊</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(3262711,&#39;Digg&#39;,this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(3262711,&#39;Bury&#39;,this)">反对(0)</a></div><span id="comment_3262711_avatar" style="display:none;">http://pic.cnblogs.com/face/u130623.jpg?id=31110421</span>
+				&nbsp;&nbsp;<span class="comment_actions"></span>
+			<p></p>
+		
+			<h4>
+				<a href="http://www.cnblogs.com/2050/p/3913184.html#3262714" class="layer">#118楼</a><a name="3262714" id="comment_anchor_3262714"></a>[<span class="louzhu">楼主</span>]
+					<span>
+						 <span class="comment_date">2015-09-08 18:15</span>
+					</span>
+				<a id="a_comment_author_3262714" href="http://www.cnblogs.com/2050/" target="_blank">无双</a> <a href="http://msg.cnblogs.com/send/%E6%97%A0%E5%8F%8C" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</h4>
+			<p>
+				</p><div id="comment_body_3262714" class="blog_comment_body"><a href="http://www.cnblogs.com/2050/p/3913184.html#3261846" title="查看所回复的评论" onclick="commentManager.renderComments(0,50,3261846);">@</a>寒_飞<br>你好，你找个官方的分片上传的代码在IE中测试下，如果有问题那就是Plupload本身有问题了，如果官方的代码是正常的那说明你自己代码中可能哪里有问题</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(3262714,&#39;Digg&#39;,this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(3262714,&#39;Bury&#39;,this)">反对(0)</a></div><span id="comment_3262714_avatar" style="display:none;">http://pic.cnblogs.com/face/u130623.jpg?id=31110421</span>
+				&nbsp;&nbsp;<span class="comment_actions"></span>
+			<p></p>
+		
+			<h4>
+				<a href="http://www.cnblogs.com/2050/p/3913184.html#3271695" class="layer">#119楼</a><a name="3271695" id="comment_anchor_3271695"></a>
+					<span>
+						 <span class="comment_date">2015-09-22 13:41</span>
+					</span>
+				<a id="a_comment_author_3271695" href="http://home.cnblogs.com/u/85141/" target="_blank">NTXX</a> <a href="http://msg.cnblogs.com/send/NTXX" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</h4>
+			<p>
+				</p><div id="comment_body_3271695" class="blog_comment_body">特地上来，发表下IE8下点上传按钮没有反应的问题如何解决的：先看下载下来的demo是否可以在ie8下使用，如果可以说明，你没有设置container这个参数。试一下。</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(3271695,&#39;Digg&#39;,this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(3271695,&#39;Bury&#39;,this)">反对(0)</a></div>
+				&nbsp;&nbsp;<span class="comment_actions"></span>
+			<p></p>
+		
+			<h4>
+				<a href="http://www.cnblogs.com/2050/p/3913184.html#3271777" class="layer">#120楼</a><a name="3271777" id="comment_anchor_3271777"></a>
+					<span>
+						 <span class="comment_date">2015-09-22 15:07</span>
+					</span>
+				<a id="a_comment_author_3271777" href="http://www.cnblogs.com/Recoding/" target="_blank">并排逗比北边跑</a> <a href="http://msg.cnblogs.com/send/%E5%B9%B6%E6%8E%92%E9%80%97%E6%AF%94%E5%8C%97%E8%BE%B9%E8%B7%91" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</h4>
+			<p>
+				</p><div id="comment_body_3271777" class="blog_comment_body">这个插件把文件发送到后端,那么这个文件的请求参数是什么,虽然我能用int类型的index,获取一个文件,但是我很想知道我用Key-Value方式如何在后端获取这个文件</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(3271777,&#39;Digg&#39;,this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(3271777,&#39;Bury&#39;,this)">反对(0)</a></div><span id="comment_3271777_avatar" style="display:none;">http://pic.cnblogs.com/face/677045/20150621232140.png</span>
+				&nbsp;&nbsp;<span class="comment_actions"></span>
+			<p></p>
+		
+			<h4>
+				<a href="http://www.cnblogs.com/2050/p/3913184.html#3276041" class="layer">#121楼</a><a name="3276041" id="comment_anchor_3276041"></a>
+					<span>
+						 <span class="comment_date">2015-09-28 18:04</span>
+					</span>
+				<a id="a_comment_author_3276041" href="http://home.cnblogs.com/u/817069/" target="_blank">sjp12341</a> <a href="http://msg.cnblogs.com/send/sjp12341" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</h4>
+			<p>
+				</p><div id="comment_body_3276041" class="blog_comment_body">楼主，请教下怎么做断点续传？求案例，谢谢了。</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(3276041,&#39;Digg&#39;,this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(3276041,&#39;Bury&#39;,this)">反对(0)</a></div>
+				&nbsp;&nbsp;<span class="comment_actions"></span>
+			<p></p>
+		
+			<h4>
+				<a href="http://www.cnblogs.com/2050/p/3913184.html#3279234" class="layer">#122楼</a><a name="3279234" id="comment_anchor_3279234"></a>
+					<span>
+						 <span class="comment_date">2015-10-07 10:44</span>
+					</span>
+				<a id="a_comment_author_3279234" href="http://www.cnblogs.com/Recoding/" target="_blank">并排逗比北边跑</a> <a href="http://msg.cnblogs.com/send/%E5%B9%B6%E6%8E%92%E9%80%97%E6%AF%94%E5%8C%97%E8%BE%B9%E8%B7%91" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</h4>
+			<p>
+				</p><div id="comment_body_3279234" class="blog_comment_body">点击选择图片-&gt;选择图片-&gt;在点击选择图片-&gt;选择图片-&gt;上传-&gt;上传了两张.这个问题如何解决<br>监视过FilesAdded事件,和star()执行时的uploader里面的files,长度都为1,但是就是会上传两次图片</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(3279234,&#39;Digg&#39;,this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(3279234,&#39;Bury&#39;,this)">反对(0)</a></div><span id="comment_3279234_avatar" style="display:none;">http://pic.cnblogs.com/face/677045/20150621232140.png</span>
+				&nbsp;&nbsp;<span class="comment_actions"></span>
+			<p></p>
+		
+			<h4>
+				<a href="http://www.cnblogs.com/2050/p/3913184.html#3279244" class="layer">#123楼</a><a name="3279244" id="comment_anchor_3279244"></a>
+					<span>
+						 <span class="comment_date">2015-10-07 10:59</span>
+					</span>
+				<a id="a_comment_author_3279244" href="http://www.cnblogs.com/Recoding/" target="_blank">并排逗比北边跑</a> <a href="http://msg.cnblogs.com/send/%E5%B9%B6%E6%8E%92%E9%80%97%E6%AF%94%E5%8C%97%E8%BE%B9%E8%B7%91" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</h4>
+			<p>
+				</p><div id="comment_body_3279244" class="blog_comment_body">解决了,那个files数组应该指的是,这次上传要发送的文件,其余要被上传的文件不会出现在file中,我在FilesAdded事件中保存这次上传的图片的file对象,第二次点击时候利用上次保存的file对象和removeFile方法,删除第一次选择的图片</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(3279244,&#39;Digg&#39;,this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(3279244,&#39;Bury&#39;,this)">反对(0)</a></div><span id="comment_3279244_avatar" style="display:none;">http://pic.cnblogs.com/face/677045/20150621232140.png</span>
+				&nbsp;&nbsp;<span class="comment_actions"></span>
+			<p></p>
+		
+			<h4>
+				<a href="http://www.cnblogs.com/2050/p/3913184.html#3279251" class="layer">#124楼</a><a name="3279251" id="comment_anchor_3279251"></a>
+					<span>
+						 <span class="comment_date">2015-10-07 11:02</span>
+					</span>
+				<a id="a_comment_author_3279251" href="http://www.cnblogs.com/Recoding/" target="_blank">并排逗比北边跑</a> <a href="http://msg.cnblogs.com/send/%E5%B9%B6%E6%8E%92%E9%80%97%E6%AF%94%E5%8C%97%E8%BE%B9%E8%B7%91" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</h4>
+			<p>
+				</p><div id="comment_body_3279251" class="blog_comment_body">但是又发现了一个小问题,在谷歌浏览器中,文件选择对话框的右下角的文件类型显示的是自定义文件,虽然显示的文件的确被过滤了</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(3279251,&#39;Digg&#39;,this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(3279251,&#39;Bury&#39;,this)">反对(0)</a></div><span id="comment_3279251_avatar" style="display:none;">http://pic.cnblogs.com/face/677045/20150621232140.png</span>
+				&nbsp;&nbsp;<span class="comment_actions"></span>
+			<p></p>
+		
+			<h4>
+				<a href="http://www.cnblogs.com/2050/p/3913184.html#3282028" class="layer">#125楼</a><a name="3282028" id="comment_anchor_3282028"></a>
+					<span>
+						 <span class="comment_date">2015-10-10 16:48</span>
+					</span>
+				<a id="a_comment_author_3282028" href="http://home.cnblogs.com/u/701439/" target="_blank">20132013</a> <a href="http://msg.cnblogs.com/send/20132013" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</h4>
+			<p>
+				</p><div id="comment_body_3282028" class="blog_comment_body">哪里下载插件</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(3282028,&#39;Digg&#39;,this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(3282028,&#39;Bury&#39;,this)">反对(0)</a></div>
+				&nbsp;&nbsp;<span class="comment_actions"></span>
+			<p></p>
+		
+			<h4>
+				<a href="http://www.cnblogs.com/2050/p/3913184.html#3283629" class="layer">#126楼</a><a name="3283629" id="comment_anchor_3283629"></a>
+					<span>
+						 <span class="comment_date">2015-10-13 12:00</span>
+					</span>
+				<a id="a_comment_author_3283629" href="http://home.cnblogs.com/u/701439/" target="_blank">20132013</a> <a href="http://msg.cnblogs.com/send/20132013" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</h4>
+			<p>
+				</p><div id="comment_body_3283629" class="blog_comment_body">上传500M 以上的视频时， 上传了一部分，就出现 -200 http error。  批量上传20个视频，只有一半是成功的。 求解答</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(3283629,&#39;Digg&#39;,this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(3283629,&#39;Bury&#39;,this)">反对(0)</a></div>
+				&nbsp;&nbsp;<span class="comment_actions"></span>
+			<p></p>
+		
+			<h4>
+				<a href="http://www.cnblogs.com/2050/p/3913184.html#3283641" class="layer">#127楼</a><a name="3283641" id="comment_anchor_3283641"></a>
+					<span>
+						 <span class="comment_date">2015-10-13 12:24</span>
+					</span>
+				<a id="a_comment_author_3283641" href="http://home.cnblogs.com/u/701439/" target="_blank">20132013</a> <a href="http://msg.cnblogs.com/send/20132013" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</h4>
+			<p>
+				</p><div id="comment_body_3283641" class="blog_comment_body"><a href="http://www.cnblogs.com/2050/p/3913184.html#3135638" title="查看所回复的评论" onclick="commentManager.renderComments(0,50,3135638);">@</a>克些勒儿<br>po主， 我在使用plupload的过程中 本地环境没有任何问题， 服务器环境会时常发生错误 errcode：-200。 已经使用随机数网址，避免缓存影响。 po主可不可以提供些思路？<br><br>这个问题你解决了吗</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(3283641,&#39;Digg&#39;,this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(3283641,&#39;Bury&#39;,this)">反对(0)</a></div>
+				&nbsp;&nbsp;<span class="comment_actions"></span>
+			<p></p>
+		
+			<h4>
+				<a href="http://www.cnblogs.com/2050/p/3913184.html#3284660" class="layer">#128楼</a><a name="3284660" id="comment_anchor_3284660"></a>
+					<span>
+						 <span class="comment_date">2015-10-14 16:06</span>
+					</span>
+				<a id="a_comment_author_3284660" href="http://home.cnblogs.com/u/651232/" target="_blank">han_xingyuan</a> <a href="http://msg.cnblogs.com/send/han_xingyuan" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</h4>
+			<p>
+				</p><div id="comment_body_3284660" class="blog_comment_body">方便的话可以加Q：1151589049指导指导我么</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(3284660,&#39;Digg&#39;,this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(3284660,&#39;Bury&#39;,this)">反对(0)</a></div>
+				&nbsp;&nbsp;<span class="comment_actions"></span>
+			<p></p>
+		
+			<h4>
+				<a href="http://www.cnblogs.com/2050/p/3913184.html#3285391" class="layer">#129楼</a><a name="3285391" id="comment_anchor_3285391"></a><span id="comment-maxId" style="display:none;">3285391</span><span id="comment-maxDate" style="display:none;">2015/10/15 16:47:11</span>
+					<span>
+						 <span class="comment_date">2015-10-15 16:47</span>
+					</span>
+				<a id="a_comment_author_3285391" href="http://home.cnblogs.com/u/651232/" target="_blank">han_xingyuan</a> <a href="http://msg.cnblogs.com/send/han_xingyuan" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</h4>
+			<p>
+				</p><div id="comment_body_3285391" class="blog_comment_body">有人知道为何resize属性设置了无效么，知道的麻烦指导一下</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(3285391,&#39;Digg&#39;,this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(3285391,&#39;Bury&#39;,this)">反对(0)</a></div>
+				&nbsp;&nbsp;<span class="comment_actions"></span>
+			<p></p>
+		
+</div><div id="comments_pager_bottom"><div class="pager"><a href="http://www.cnblogs.com/2050/p/3913184.html#!comments" onclick="commentManager.renderComments(2,50);return false;">&lt; Prev</a><a href="http://www.cnblogs.com/2050/p/3913184.html#!comments" onclick="commentManager.renderComments(1,50);return false;">1</a><a href="http://www.cnblogs.com/2050/p/3913184.html#!comments" onclick="commentManager.renderComments(2,50);return false;">2</a><span class="current">3</span></div></div></div><script type="text/javascript">var commentManager = new blogCommentManager();commentManager.renderComments(0);</script>
+<div id="comment_form" class="commentform">
+<a name="commentform"></a>
+<div id="divCommentShow"></div>
+<div id="comment_nav"><span id="span_refresh_tips"></span><a href="javascript:void(0);" id="lnk_RefreshComments" onclick="return RefreshCommentList();">刷新评论</a><a href="http://www.cnblogs.com/2050/p/3913184.html#" onclick="return RefreshPage();">刷新页面</a><a href="http://www.cnblogs.com/2050/p/3913184.html#top">返回顶部</a></div>
+<div id="comment_form_container"><div class="login_tips">注册用户登录后才能发表评论，请 <a rel="nofollow" href="javascript:void(0);" class="underline" onclick="return login(&#39;commentform&#39;);">登录</a> 或 <a rel="nofollow" href="javascript:void(0);" class="underline" onclick="return register();">注册</a>，<a href="http://www.cnblogs.com/">访问</a>网站首页。</div></div>
+<div class="ad_text_commentbox" id="ad_text_under_commentbox"></div>
+<div id="site_nav_under"><a href="http://www.ucancode.com/index.htm" target="_blank">【推荐】50万行VC++源码: 大型组态工控、电力仿真CAD与GIS源码库</a><br><a href="http://www.rongcloud.cn/" target="_blank">【推荐】融云即时通讯云－专注为 App 开发者提供IM云服务</a><br><a href="https://www.jpush.cn/" target="_blank">【推荐】极光推送-20多万开发者都在用的推送服务平台，免费接入体验</a><br><a href="http://click.aliyun.com/m/1328/" target="_blank">【专享】阿里云9折优惠码：bky758</a><br></div>
+<div id="opt_under_post"></div>
+<script type="text/javascript">
+    var enableGoogleAd = canShowAdsense(); 
+    fixPostBodyFormat();
+</script>
+<div id="google_ad_c1" class="c_ad_block"><a href="http://job.cnblogs.com/" target="_blank"><img width="300" height="250" src="./前端上传组件Plupload使用指南 - 无双 - 博客园_files/job_300_250.jpg" alt=""></a></div>
+<div id="under_post_news"><div class="itnews c_ad_block"><b>最新IT新闻</b>:<br> ·  <a href="http://news.cnblogs.com/n/531287/" target="_blank">魅族告别小众文艺 致敬诺基亚渴望成街机</a><br> ·  <a href="http://news.cnblogs.com/n/531286/" target="_blank">watch OS 2首个小更新发布 优化日历事件同步</a><br> ·  <a href="http://news.cnblogs.com/n/531285/" target="_blank">iOS 9.1更新：Live Photos拍照更好用了</a><br> ·  <a href="http://news.cnblogs.com/n/531284/" target="_blank">美科学家称地球可能是较早出现生命的行星</a><br> ·  <a href="http://news.cnblogs.com/n/531283/" target="_blank">Uber全球扩张一把手离职 曾领导中国业务</a><br>» <a href="http://news.cnblogs.com/" title="IT新闻" target="_blank">更多新闻...</a></div></div>
+<div id="google_ad_c2" class="c_ad_block"><a href="http://e.jikexueyuan.com/android.html?hmsr=cnb_banner_android_09.14" target="_blank"><img width="468" height="60" src="./前端上传组件Plupload使用指南 - 无双 - 博客园_files/24442-20150914101320586-2077280663.jpg" alt=""></a></div>
+<div id="under_post_kb"><div class="itnews c_ad_block" id="kb_block"><b>最新知识库文章</b>:<br><div id="kb_recent"> ·  <a href="http://kb.cnblogs.com/page/531270/" target="_blank">什么时候应该避免写代码注释？</a><br> ·  <a href="http://kb.cnblogs.com/page/529677/" target="_blank">持续集成是什么？</a><br> ·  <a href="http://kb.cnblogs.com/page/530389/" target="_blank">人，技术与流程</a><br> ·  <a href="http://kb.cnblogs.com/page/530044/" target="_blank">HTTPS背后的加密算法</a><br> ·  <a href="http://kb.cnblogs.com/page/529285/" target="_blank">下一代云计算模式：Docker正掀起个性化商业革命</a><br></div>» <a href="http://kb.cnblogs.com/" target="_blank">更多知识库文章...</a></div></div>
+<div id="HistoryToday" class="c_ad_block"><b>历史上的今天:</b><br>2010-08-14 <a href="http://www.cnblogs.com/2050/archive/2010/08/14/1799383.html">flash 内置类的位置</a><br></div>
+<script type="text/javascript">
+$(function () {
+    loadNewsAndKb();
+    loadBlogSignature();
+    LoadPostInfoBlock(cb_blogId, cb_entryId, cb_blogApp, cb_blogUserGuid);
+    GetPrevNextPost(cb_entryId, cb_blogId, cb_entryCreatedDate);
+    loadOptUnderPost();
+    GetHistoryToday(cb_blogId, cb_blogApp, cb_entryCreatedDate);
+    setTimeout(function () { incrementViewCount(cb_entryId); }, 200);
+});
+</script>
+</div>
+
+</div>
+
+<p id="footer">
+	Powered by: 
+	<br>
+	
+	<a id="Footer1_Hyperlink3" name="Hyperlink1" href="http://www.cnblogs.com/" style="font-family:Verdana;font-size:12px;">博客园</a>
+	<br>
+	Copyright © 无双
+</p>
+
+
+</body></html>

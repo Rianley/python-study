@@ -1,0 +1,10 @@
+[ 2016-01-23T12:19:13+08:00 ] 127.0.0.1 /two/ThinkPHP/Home/Index/seachlist
+ERR: 非法操作:seachlist
+
+[ 2016-01-23T14:46:13+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005138s ]
+SQL: DESCRIBE truck_area [ RunTime:0.043737s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.039777s ]
+

@@ -1,0 +1,97 @@
+[ 2016-01-20T00:03:03+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/valCode1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002209s ]
+
+[ 2016-01-20T00:03:07+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/index.html
+ERR: 模板不存在:./TruckHome/Home/View/Xproduct/index.html
+
+[ 2016-01-20T10:02:23+08:00 ] 127.0.0.1 /two/ThinkPHP/Home/Xproduct/index
+ERR: 表达式错误: neq 
+
+[ 2016-01-20T19:29:36+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/keyword=%E8%A7%A3%E6%94%BE
+ERR: 非法操作:keyword=解放
+
+[ 2016-01-20T19:53:01+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/valCode1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002143s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002438s ]
+
+[ 2016-01-20T19:53:37+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/valCode1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002488s ]
+
+[ 2016-01-20T21:13:08+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/prodetail/id/1.html
+ERR: 非法数据对象！:[count=>Array]
+
+[ 2016-01-20T22:27:37+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/User/register.php
+ERR: 非法操作:register.php
+
+[ 2016-01-20T22:28:44+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/User/register.php
+ERR: 非法操作:register.php
+
+[ 2016-01-20T22:29:05+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004502s ]
+SQL: DESCRIBE truck_area [ RunTime:0.023675s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.036940s ]
+
+[ 2016-01-20T22:33:01+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003236s ]
+SQL: DESCRIBE truck_area [ RunTime:0.007849s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.001303s ]
+
+[ 2016-01-20T22:33:06+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002978s ]
+SQL: DESCRIBE truck_area [ RunTime:0.007576s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.001234s ]
+
+[ 2016-01-20T22:33:11+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/User/requireCity.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003712s ]
+SQL: DESCRIBE truck_area [ RunTime:0.007911s ]
+SQL: SELECT * FROM `truck_area` WHERE ( upid=0 )  [ RunTime:0.001233s ]
+
+[ 2016-01-20T22:33:23+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/User/checkPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003067s ]
+SQL: DESCRIBE truck_user [ RunTime:0.008953s ]
+SQL: SELECT * FROM `truck_user` WHERE `phone` = '18369662061' LIMIT 1   [ RunTime:0.000953s ]
+
+[ 2016-01-20T22:33:39+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/User/checkPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003211s ]
+SQL: DESCRIBE truck_user [ RunTime:0.008021s ]
+SQL: SELECT * FROM `truck_user` WHERE `phone` = '15172764834' LIMIT 1   [ RunTime:0.000912s ]
+
+[ 2016-01-20T22:33:44+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/User/getPhone.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003028s ]
+
+[ 2016-01-20T22:34:07+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/User/yzMessage.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002048s ]
+

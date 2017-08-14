@@ -1,0 +1,536 @@
+
+/*
+*top-bar
+*/
+em {
+    font-style: normal;
+}
+.top-bar {
+    height: 30px;
+    line-height: 30px;
+    color: #E9EFFB;
+    background: #41454B none repeat;
+}
+.top-bar .top-bar-inner {
+    margin: 0px auto;
+    width: 1000px;
+}
+.top-bar {
+    line-height: 30px;
+    color: #E9EFFB;
+}
+.top-bar .top-bar-sign {
+    position: relative;
+    float: right;
+    z-index: 1;
+}
+.top-bar .top-bar-sign a, .top-bar .top-bar-sign a:visited {
+    margin: 0px 5px;
+    color: #E9EFFB;
+    text-decoration: none;
+}
+/*
+site-nav-wrapper
+*/
+
+.site-nav-wrapper {
+    margin: 10px auto;
+    position: relative;
+    padding-left: 160px;
+    width: 840px;
+    height: 60px;
+    background: #2459A6 none repeat scroll 0% 0%;
+}
+.site-nav-wrapper .truckhome {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 160px;
+    height: 60px;
+    text-indent: -160px;
+    overflow: hidden;
+    background: #F2F2F2 none repeat scroll 0% 0%;
+
+}
+.site-nav-wrapper .truckhome  a{
+	background:url(../images/index/sitenav-icons.png);
+	margin: 10px auto 0px;
+	width: 110px;
+	height: 40px;
+	display: block;
+	background-position: 0px -113px;
+	}
+.site-nav-2015 .site-nav-news, .site-nav-2015 .site-nav-detail, .site-nav-2015 .site-nav-bbs {
+    position: relative;
+    padding-right: 2px;
+    background-position: 100% 0px;
+}
+.site-nav-2015 a {
+    color: #FFF;
+    text-decoration: none;
+}
+.site-nav-2015 a:hover {
+    color: #FFF;
+    text-decoration: underline;
+}
+.site-nav-2015 dl {
+    float: left;
+}
+.site-nav-2015 dt a {
+    font-size: 14px;
+}
+.site-nav-2015 dd {
+    padding-top: 7px;
+    font-size: 0px;
+    line-height: 22px;
+    height: 53px;
+}
+.site-nav-2015 dd a {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 12px;
+}
+.site-nav-2015 .site-nav-news dd a {
+    width: 50px;
+}
+.site-nav-news{
+	padding-left: 79px;
+}
+.site-nav-2015 dt {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+.site-nav-2015 .site-nav-news dt {
+    width: 79px;
+}
+.site-nav-2015 .site-nav-news dd {
+    width: 100px;
+}
+.site-nav-2015 .site-nav-news .more {
+    background-position: -127px -65px;
+}
+.site-nav-2015 .site-nav-detail {
+    padding-left: 95px;
+}
+.site-nav-2015 .site-nav-detail dt {
+    width: 95px;
+}
+.site-nav-2015 .site-nav-detail a, .site-nav-2015 .site-nav-bbs a, .site-nav-2015 .site-nav-other a {
+    width: 75px;
+}
+.site-nav-2015 .site-nav-detail dd, .site-nav-2015 .site-nav-bbs dd, .site-nav-2015 .site-nav-other dd {
+    width: 150px;
+}
+.site-nav-2015 .site-nav-bbs {
+    padding-left: 80px;
+}
+.site-nav-2015 .site-nav-bbs dt {
+    width: 80px;
+}
+.site-nav-2015 .site-nav-other {
+    padding-left: 27px;
+}
+.imglogo{
+	position: absolute;
+	left: 1px;
+	top: 2px;
+}
+/*
+category-nav start
+*/
+
+.category-nav {
+    margin: 10px auto 0px;
+    width: 1000px;
+    height: 64px;
+    background: #F9F9F9 none repeat scroll 0% 0%;
+}
+.category-nav a, .category-nav a:visited {
+    padding-top: 40px;
+    float: left;
+    width: 99px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #303030;
+    text-decoration: none;
+    border-right: 1px solid #F2F2F3;
+    background: transparent url("../images/index/subcategory-icons.png") no-repeat scroll 0% 0%;
+}
+.category-nav a:hover{background-color: #ececec;color:#333; text-decoration: none}
+.category-nav .category-light {
+    background-position: 0px 0px;
+}
+.category-nav .category-dumper {
+    background-position: -99px 0px;
+}
+.category-nav .category-cargo {
+    background-position: -198px 0px;
+}
+.category-nav .category-tractor {
+    background-position: -297px 0px;
+}
+.category-nav .category-mixer {
+    background-position: -396px 0px;
+}
+.category-nav .category-trailer {
+    background-position: -495px 0px;
+}
+.category-nav .category-minicar {
+    border-left: 1px solid #FFF;
+    background-position: -594px 0px;
+}
+.category-nav .category-special {
+    background-position: -693px 0px;
+}
+.category-nav .category-pickup {
+    background-position: -792px 0px;
+}
+.category-nav .category-parts {
+    border-right: 0px none;
+    background-position: -891px 0px;
+}
+.adimg{width:1000px;margin:10px auto;}
+/*
+category-nav end
+*/
+
+/*
+hottruck--start
+*/
+.hottruck { width: 1000px; overflow: hidden; margin: 0 auto }
+.hottruck_box { width: 100%; float: left; height: 212px; padding: 5px 0 10px }
+.hottruck_box ul { border-bottom: 1px solid #e9e9e9; height: 52px; overflow: hidden; width: 980px; padding: 0 10px }
+.hottruck_box ul li { cursor: default; float: left; padding-right: 0; padding-top: 6px; text-align: center; width: 118px; line-height: 20px }
+.hottruck_box ul li.li01 { font-size: 12px; font-weight: bold; width: 61px; padding: 18px 16px 0 0; line-height: 18px; text-align: right; background-position: -92px 0; margin-right: 16px }
+.hottruck_box ul li .graya { color: #999; margin: 0 3px }
+.hottruck_box ul li.limore { float: right; padding-top: 26px; width: 46px; text-align: right }
+.hottruck_box ul li.limore .graya { color: #999; margin: 0 }
+.hottruck_box ul li.limore .graya:hover, .hottruck_box ul li .graya:hover { color: #d60000 }
+.same_truck2 { float: left; height: 44px; width: 1000px; background-position: 0 -375px; overflow: hidden; position: relative }
+.toggled { margin-left: 10px; float: left; width: 650px; border-left: 1px #e9e9e9 solid }
+.same_truck2 .toggled li { float: left; height: 44px }
+.same_truck2 li.menu_off { font-size: 14px; line-height: 41px; cursor: pointer; text-align: center; padding: 0 14px 0; border-top: 3px solid #e9e9e9; border-right: solid 1px #e9e9e9; border-left: none; background: #f0f0f0; color: #333 }
+.same_truck2 li.menu_on { font-size: 14px; line-height: 41px; cursor: pointer; text-align: center; padding: 0 14px 0; border-left: none; background-position: -480px 0; font-weight: bold }
+.hot_search { height: 30px; right: 10px; overflow: hidden; position: absolute; top: 8px }
+.hot_stext { float: left; height: 18px; line-height: 18px; width: 199px; border: #c4c4c4 solid 1px; border-right: 0; padding: 5px 0 5px 38px; font-size: 14px; background-position: -471px -55px }
+.hot_button { cursor: pointer; float: left; height: 30px; position: relative; width: 50px; background: 0; border: 0; background: #0f5489; text-align: center; line-height: 30px; font-size: 14px; color: #fff; font-family: "Microsoft YaHei" }
+.hot_button:hover { background: #1267a8 }
+.hottruck_box ul.trucklin { border-bottom: 0; height: 24px; overflow: hidden; line-height: 24px; width: 980px }
+.hottruck_box ul.trucklin li.li01 { font-size: 12px; font-weight: bold; width: 61px; padding: 0 15px 0 0; line-height: 22px; text-align: right; background-position: -92px -17px; margin-right: 16px; float: left }
+.hottruck_box ul.trucklin li { cursor: default; float: left; padding-right: 0; padding-top: 0; text-align: center; width: 116px }
+.hottruck_box ul.trucklin li.limore { float: right; padding-right: 0; padding-top: 0; width: 46px; text-align: right }
+.hottruck_box ul.truckliney { border-bottom: 1px solid #e9e9e9; padding: 6px 10px }
+.hottruck_box ul.trucklineyt { margin-top: 0 }
+.hottruck_box ul.trucklineyt li.li01 { background: 0 }
+.hottruck_box ul li .graya { color: #999; margin: 0 3px }
+.hottruck_box ul li.limore { float: right; padding-top: 26px; width: 46px; text-align: right }
+.hottruck_box ul li.limore .graya { color: #999; margin: 0 }
+.hottruck_box ul li.limore .graya:hover, .hottruck_box ul li .graya:hover { color: #d60000 }
+
+/*
+hottruck--end
+*/
+/*
+.mainpart start
+*/
+
+.mainpart { margin: 0 auto 10px; width: 1000px; border-top: solid 3px #0f5489; overflow: hidden }
+.main_floor { width: 100%; margin: 0 auto; border-bottom: solid 1px #e9e9e9 }
+.main_floor_l { float: left; border-right: solid 1px #e9e9e9 }
+.main_floor_m { float: left; border-right: solid 1px #e9e9e9 }
+.main_floor_r { float: right }
+.w1 { width: 360px }
+.w2 { width: 413px }
+.w3 { width: 224px }
+.f1 { height: 319px }
+.f2 { height: 340px }
+.f3 { height: 414px }
+.f4 { height: 363px }
+.f5 { height: 127px }
+.straight1 { height: 881px; border-bottom: solid 1px #e9e9e9 }
+.bartitle { width: 100%; float: left; font-size: 18px; line-height: 28px; color: #333; position: relative; font-family: "Microsoft YaHei"; padding: 15px 0 8px }
+.bartitle a, .bartitle2 a { color: #333 }
+.photo_gallery { margin: 0 auto 10px; width: 1000px; overflow: hidden }
+.bartitle2 { width: 100%; float: left; font-size: 18px; line-height: 43px; color: #333; position: relative; font-family: "Microsoft YaHei"; border-bottom: solid 1px #e9e9e9 }
+.bartitle a.checkmore, .bartitle2 a.checkmore { position: absolute; color: #c4c4c4; font-size: 12px; font-weight: normal; right: 0; font-family: "Microsoft YaHei" }
+.bartitle a:hover, .bartitle2 a:hover { color: #d60000; text-decoration: none }
+.bartitle a:hover.checkmore, .bartitle2 a:hover.checkmore { color: #d60000; text-decoration: underline }
+.focus { position: relative; width: 340px; height: 236px; margin: 20px 20px 8px 0 }
+.focus img { width: 340px; height: 200px }
+.focus .shadow .title { width: 260px; height: 65px; padding-left: 30px; padding-top: 20px }
+.focus .shadow .title a { text-decoration: none; color: #fff; font-size: 14px; font-weight: bolder; overflow: hidden }
+.focus .btn { position: absolute; bottom: 34px; left: 510px; overflow: hidden; zoom: 1 }
+.focus .btn a { position: relative; display: inline; width: 13px; height: 13px; border-radius: 7px; margin: 0 5px; color: #b0b0b0; text-decoration: none; text-align: center; outline: 0; float: left; background: #d9d9d9 }
+.focus .btn a:hover, .focus .btn a.current { cursor: pointer; background: #fc114a }
+.focus .fPic { position: absolute; left: 0; top: 0 }
+.focus .D1fBt { overflow: hidden; zoom: 1; height: 16px; z-index: 10 }
+.focus .shadow { width: 100%; position: absolute; bottom: -36px; left: 0; z-index: 10; height: 31px; line-height: 31px; background: #f0f0f0; display: block; text-align: center }
+.focus .shadow a { text-decoration: none; color: #0f5489; font-size: 14px; overflow: hidden; font-weight: bold }
+.focus .shadow a:hover { text-decoration: none; color: #d60000 }
+.focus .fcon { position: relative; width: 100%; float: left; display: none; background: #fff }
+.focus .fcon img { display: block; width: 340px; height: 200px }
+.focus .fbg { bottom: 39px; right: 0; position: absolute; height: 15px; text-align: center; z-index: 200 }
+.focus .fbg div { margin: 4px auto 0; overflow: hidden; zoom: 1; height: 14px }
+.focus .D1fBt a { position: relative; display: inline; width: 25px; height: 15px; line-height: 15px; margin-left: 1px; color: #fff; text-decoration: none; text-align: center; outline: 0; float: left; background: #0f5489; opacity: .6 }
+.focus .D1fBt .current, .focus .D1fBt a:hover { background: #f60; opacity: 1 }
+.focus .D1fBt img { display: none }
+.focus .D1fBt i { font-style: normal }
+.prev { position: absolute; width: 40px; height: 74px; background-position: -300px -74px; top: 50%; margin-top: -50px; left: 0; cursor: pointer; display: none }
+.next { position: absolute; width: 40px; height: 74px; background-position: -340px -74px; top: 50%; margin-top: -50px; right: 0; cursor: pointer; display: none }
+.focus:hover .prev { display: block }
+.focus:hover .next { display: block }
+.focus:hover .prev:hover { background-position: -300px 0 }
+.focus:hover .next:hover { background-position: -340px 0 }
+.focus_picnew { line-height: 24px; color: #3e3e40; overflow: hidden; text-align: left; float: left; clear: both; width: 340px }
+.focus_picnew a { background-position: -460px -86px; padding-left: 10px; display: inline-block; line-height: 24px }
+.main_floor_m h1 { float: left; width: 368px; margin: 16px 25px 13px 20px; line-height: 28px; height: 28px; display: inline-block; overflow: hidden; text-align: center }
+.main_floor_m h1 a { font-size: 20px; color: #d60000; font-family: "Microsoft YaHei" }
+.newslist1 { float: left; width: 368px; margin: 0 25px 18px 20px; overflow: hidden }
+.newslist1 li { float: left; line-height: 28px; padding-left: 12px; height: 28px; display: inline-block; overflow: hidden; width: 355px; background-position: -460px -85px }
+.newslist1 li a { font-size: 14px }
+.brand { float: left; width: 195px; padding: 0 10px 0 19px; overflow: hidden }
+.brand dl { float: left; width: 100%; line-height: 26px }
+.brand dl dt, .brand dl dd { float: left }
+.brand dl dd { width: 50px; margin-right: 15px }
+.brand dl dt { width: 39px }
+.hottopic { float: left; width: 340px; overflow: hidden }
+.hottopic dl { width: 100%; float: left; height: 134px; border-bottom: solid 1px #e9e9e9; margin-top: 8px }
+.hottopic dl dt { float: left; width: 165px; text-align: center; overflow: hidden; line-height: 20px; overflow: hidden; white-space: nowrap }
+.hottopic dl dt.xy { float: right }
+.hottopic dl dt a { font-size: 12px; color: #d60000 }
+.hottopic dl dt a:hover { text-decoration: underline }
+.hottopic ul { float: left; padding: 8px 0 0 0; width: 100% }
+.hottopic ul li { float: left; line-height: 26px; height: 26px; position: relative; width: 330px; padding-left: 10px; background-position: -460px -86px; color: #999 }
+.hottopic ul li a { float: left }
+.hottopic ul li span { float: right }
+.hottopic ul li span a { color: #999 }
+.newslist2 { float: left; width: 368px; margin: 0 25px 18px 20px; overflow: hidden }
+.newslist2 ul { float: left; width: 100%; overflow: hidden }
+.newslist2 ul li { float: left; line-height: 28px; padding-left: 12px; width: 355px; background-position: -460px -84px }
+.newslist2 ul li span { float: left; height: 28px; overflow: hidden; display: inline-block; width: 254px }
+.newslist2 ul li span a { font-size: 14px }
+.newslist2 ul li label { float: right; color: #999 }
+.ggbannernew { float: left; width: 205px; height: 300px; padding: 20px 0 0 19px }
+/*
+.mainpart end
+*/
+.sinaweibo, .qqkqzone, .wweixin, .bdsharebuttonbox li a.sinaweibo:hover, .bdsharebuttonbox li a.qqkqzone:hover, .bdsharebuttonbox li a.wweixin:hover, .truckmodel a.lighttruck, .truckmodel a.dumper, .truckmodel a.cargotruck, .truckmodel a.drivingtruck, .truckmodel a.transportmixer, .truckmodel a.trailer, .truckmodel a.pickuptruck, .truckmodel a.specialvehicle, .truckmodel a.powersystem, .same_truck2, .same_truck2 li.menu_on, .hot_stext, .hottruck_box ul li.li01, .hottruck_box ul.trucklin li.li01, .prev, .next, .focus:hover .prev, .focus:hover .next, .focus:hover .prev:hover, .focus:hover .next:hover, .focus_picnew a, .hottopic ul li, .newslist2 ul li, .tannel1 ul li, .hottopic2 ul li, .newslist1 li, .hottopic3 ul li, .rank1 li.one, .rank1 li.two, .rank1 li.three, .rank1 li.four, .rank1 li.five, .rank1 li.six, .rank1 li.seven, .rank1 li.eight, .rank1 li.nine, .rank1 li.ten, .rankmid li.onenew, .rankmid li.twonew, .rankmid li.threenew, .rankmid li.fournew, .rankmid li.fivenew, .rankmid li.sixnew, .rankmid li.sevennew, .rankmid li.eightnew, .rankmid li.ninenew, .rankmid li.tennew, .same_chd2, .same_che2, .same_chd2 ul li.menu_on, .same_che2 ul li.menu_on, .gotop02 a.gotop02-con .icon-book1, .gotop02 a.gotop02-con .icon-top, .merchandise em, .actualpic_l ul li, .rankleftwz ul li {
+    background-image: url("../images/index/iconcollection.png");
+}
+/*
+排行榜  start
+*/
+.rankleft { float: left; width: 332px; height: 391px; border-bottom: solid 1px #e9e9e9; border-right: solid 1px #e9e9e9 }
+.rankright { float: left; width: 334px; height: 391px; border-bottom: solid 1px #e9e9e9 }
+.rankleftitle { float: left; text-indent: 17px }
+.same_chd2, .same_che2 { float: left; width: 100%; height: 26px; background-position: -460px -233px; margin-top: 3px }
+.same_chd2 span, .same_che2 span { color: #666 }
+.same_chd2 ul li, .same_che2 ul li { float: left; cursor: pointer; width: 50%; text-align: center; color: #666; line-height: 25px; height: 25px }
+.same_chd2 ul li.menu_on, .same_che2 ul li.menu_on { color: #333; background-position: -380px -115px; border-bottom: solid 1px #0f5489 }
+.rankleftwz { float: left; overflow: hidden; width: 304px; padding-top: 5px }
+.rankleftwz ul li { line-height: 30px; height: 30px; position: relative; width: 294px; padding-left: 10px; float: left; background-position: -460px -83px; color: #999 }
+.rankleftwz ul li a { float: left }
+.rankleftwz ul li span { float: right }
+.rankleftwz ul li span a { color: #999 }
+.rankmid { float: left; padding-left: 17px; width: 315px; margin-top: 4px; overflow: hidden }
+.rankmid li { float: left;  line-height: 30px; width: 284px }
+.rankmid li span { float: left; display: inline-block; line-height: 30px; height: 30px; overflow: hidden; color: #666 }
+.s1 { float: left; padding: 0 0 0 17px; width: 92px; margin-right: 18px }
+.s2 { float: left; width: 134px; margin-right: 18px }
+.s3 { float: left; width: 48px; text-align: center }
+.s4 { width: 64px; margin-right: 15px }
+.rankmid li span font { color: #d60000 }
+.rankmid li.onenew { background-position: -500px -455px }
+.rankmid li.twonew { background-position: -500px -485px }
+.rankmid li.threenew { background-position: -500px -515px }
+.rankmid li.fournew { background-position: -500px -545px }
+.rankmid li.fivenew { background-position: -500px -575px }
+.rankmid li.sixnew { background-position: -500px -605px }
+.rankmid li.sevennew { background-position: -500px -635px }
+.rankmid li.eightnew { background-position: -500px -665px }
+.rankmid li.ninenew { background-position: -500px -695px }
+.rankmid li.tennew { background-position: -500px -725px }
+/*
+排行榜  end
+*/
+
+
+/*
+排行榜  start
+*/
+.friendlink { padding: 10px 0 23px; float: left; width: 100%; overflow: hidden }
+.friendlink a { color: #0f5489; margin: 0 12px 0 0; display: inline-block; height: 26px; font-size-adjust: none; font-stretch: normal; font-style: normal; font-variant: normal; font-weight: 400; line-height: 26px }
+.friendlink em { color: #ccc; margin-right: 12px }
+.bartitle2 a.checkmore2 { position: absolute; color: #0f5489; font-size: 12px; font-weight: normal; right: 0; font-family: "Simsun" }
+.bartitle2 a.checkmore2:hover { color: #d60000; text-decoration: underline }
+.friendlink a.graynew { color: #c4c4c4 }
+.friendlink a.graynew:hover { color: #d60000 }
+/*
+友情链接  end
+*/
+
+
+/* 公共底部 start*/
+.site-nav-wrapper .truckhome a, .site-nav-2015 .new i, .site-nav-2015 dd .more, .site-nav-2015 .site-nav-news, .site-nav-2015 .site-nav-detail, .site-nav-2015 .site-nav-bbs, .truckhome-footer-2015 .iphone, .truckhome-footer-2015 .android {
+    background: transparent url("../images/sitenav-icons.png") no-repeat scroll 0% 0%;
+}
+.truckhome-footer-2015{margin:10px auto;padding:10px 0;width: 1000px;border-top:3px solid #0f5489;}
+.truckhome-footer-2015 p{line-height: 24px; text-align: center;color:#999;}
+.truckhome-footer-2015 a,.truckhome-footer-2015 a:visited{margin:0 10px;color:#999; text-decoration: none;display: inline-block; vertical-align: top; *vertical-align: baseline;}
+.truckhome-footer-2015 a:hover{color: #d60000;text-decoration: underline;}
+.truckhome-footer-2015 .iphone,.truckhome-footer-2015 .android{padding-left: 20px;}
+.truckhome-footer-2015 .iphone{background-position: -147px -110px}
+.truckhome-footer-2015 .android{background-position: -146px -140px}
+
+.truckhome-footer-2015 {
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+.truckhome-footer-2015 .share {
+    position: absolute;
+    top: 1px;
+    right: 0px;
+    width: 136px;
+    color: #999;
+    height: 42px;
+    line-height: 42px;
+}
+.truckhome-footer-2015 .share .share-tools-360che {
+    position: absolute;
+    left: 42px !important;
+    top: 0px;
+    width: 100px;
+    margin: 0px;
+    float: left;
+    font-size: 0px;
+}
+.truckhome-footer-2015 a, .truckhome-footer-2015 a:visited {
+    margin: 0px 10px;
+    color: #999;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+}
+.share-tools-360che a, .share-tools-360che span {
+    margin-top: 10px;
+    width: 24px;
+    height: 24px;
+    text-indent: -48px;
+    cursor: pointer;
+    overflow: hidden;
+    display: block;
+    background: transparent url("../images/share-tools-360che.png") no-repeat scroll 0% 0%;
+}
+.share-tools-360che .weibo {
+    background-position: 0px 0px;
+}
+.share-tools-360che .qzone {
+    background-position: 0px -25px;
+}
+.share-tools-360che .wechat {
+    background-position: 0px -50px;
+}
+.truckhome-footer-2015 .share .share-tools-360che a, .truckhome-footer-2015 .share-tools-360che span {
+    float: left;
+    margin-bottom: -6px;
+    margin-left: 0px;
+}
+.truckhome-footer-2015 .industrial-logo {
+    position: absolute;
+    top: 33px;
+    left: 210px;
+}
+/* 公共底部 end*/
+
+
+
+/* 回顶部 start*/
+.gotop02 { width: 48px; font-size: 12px; text-align: center; text-decoration: none; position: fixed; _position: absolute; left: 50.5%; margin-left: 525px; bottom: 10px; _bottom: auto; z-index: 100; font-size: 12px }
+.gotop02 a.gotop02-con { display: inline-block; width: 50px; height: 50px; overflow: hidden; position: relative; color: #888; font-size: 12px; text-decoration: none; line-height: 16px; float: left }
+.gotop02 a.gotop02-con .icon-book { width: 50px; height: 50px; position: relative; left: 0; top: 0; overflow: hidden }
+.gotop02 a.gotop02-con .icon-book1 { background-position: -180px -58px }
+.gotop02 a.gotop02-con .icon-top { width: 50px; height: 50px; background-position: -180px -116px; position: relative; left: 0; top: 0; overflow: hidden }
+.gotop02 a.gotop02-con span { display: inline-block; width: 30px; height: 32px; text-align: center; padding: 3px 10px; line-height: 16px; position: absolute; left: 1px; top: 6px; cursor: pointer }
+.gotop02 a.gotop02-con:hover { color: #fff; background-color: #0f5489 }
+.gotop02 a.gotop02-con:hover i, .gotop02 a.gotop02-con span { display: none }
+.gotop02 a.gotop02-con:hover span, .gotop02 a.gotop02-con i { display: inline-block; font-style: normal }
+/* 回顶部 end*/
+
+
+
+
+.sre1li{
+font-size: 14px;
+line-height: 41px;
+cursor: pointer;
+text-align: center;
+padding: 0px 14px;
+border-top: 3px solid #E9E9E9;
+border-right: 1px solid #E9E9E9;
+border-left: medium none;
+background: #F0F0F0 none repeat scroll 0% 0%;
+color: #333;
+}
+.sre1lit{
+background-image: url("../images/index/iconcollection.png");
+font-size: 14px;
+line-height: 41px;
+cursor: pointer;
+text-align: center;
+padding: 0px 14px;
+border-left: medium none;
+background-position: -480px 0px;
+font-weight: bold;
+}
+.sre2li{
+	font-size: 14px;
+line-height: 41px;
+cursor: pointer;
+text-align: center;
+padding: 0px 14px;
+border-top: 3px solid #E9E9E9;
+border-right: 1px solid #E9E9E9;
+border-left: medium none;
+background: #F0F0F0 none repeat scroll 0% 0%;
+color: #333;
+}
+.sre2lit{
+background-image: url("../images/index/iconcollection.png");
+font-size: 14px;
+line-height: 41px;
+cursor: pointer;
+text-align: center;
+padding: 0px 14px;
+border-left: medium none;
+background-position: -480px 0px;
+font-weight: bold;
+}
+.sre3li{
+font-size: 14px;
+line-height: 41px;
+cursor: pointer;
+text-align: center;
+padding: 0px 14px;
+border-top: 3px solid #E9E9E9;
+border-right: 1px solid #E9E9E9;
+border-left: medium none;
+background: #F0F0F0 none repeat scroll 0% 0%;
+color: #333;
+}
+.sre3lit{
+background-image: url("../images/index/iconcollection.png");
+font-size: 14px;
+line-height: 41px;
+cursor: pointer;
+text-align: center;
+padding: 0px 14px;
+border-left: medium none;
+background-position: -480px 0px;
+font-weight: bold;
+}

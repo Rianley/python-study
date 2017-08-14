@@ -1,0 +1,307 @@
+[ 2016-01-19T10:30:19+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xarticle/addCommment.html
+ERR: 非法数据对象！
+
+[ 2016-01-19T10:30:40+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xarticle/addCommment.html
+ERR: 非法数据对象！
+
+[ 2016-01-19T10:31:16+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xarticle/addCommment.html
+ERR: 非法数据对象！
+
+[ 2016-01-19T10:31:20+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xarticle/addCommment.html
+ERR: 非法数据对象！
+
+[ 2016-01-19T10:31:45+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xarticle/addCommment.html
+ERR: 非法数据对象！
+
+[ 2016-01-19T10:32:17+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xarticle/addCommment.html
+ERR: 非法数据对象！
+
+[ 2016-01-19T10:33:26+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xarticle/addCommment.html
+ERR: 非法数据对象！
+
+[ 2016-01-19T10:35:53+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xarticle/addCommment.html
+ERR: 非法数据对象！
+
+[ 2016-01-19T10:36:58+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xarticle/addCommment.html
+ERR: 非法数据对象！
+
+[ 2016-01-19T10:39:07+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xarticle/addCommment.html
+ERR: 非法数据对象！
+
+[ 2016-01-19T15:13:46+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xarticle/zxdetial/id/16.html
+ERR: 非法操作:zxdetial
+
+[ 2016-01-19T15:13:59+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xarticle/zxdetial/id/16.html
+ERR: 非法操作:zxdetial
+
+[ 2016-01-19T19:14:01+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Index/searchlist/id/1.html
+ERR: 表达式错误: in 
+
+[ 2016-01-19T19:14:40+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Index/searchlist/id/1.html
+ERR: 表达式错误: in 
+
+[ 2016-01-19T19:14:53+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Index/searchlist/id/1.html
+ERR: 表达式错误: in 
+
+[ 2016-01-19T20:32:49+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/BaoJia/index/id/9.html
+ERR: 无法加载控制器:BaoJia
+
+[ 2016-01-19T21:29:09+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/index.html
+ERR: 模板不存在:./TruckHome/Home/View/Xproduct/index.html
+
+[ 2016-01-19T22:52:15+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/index.html
+ERR: 模板不存在:./TruckHome/Home/View/Xproduct/index.html
+
+[ 2016-01-19T22:54:35+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/index.html
+ERR: 模板不存在:./TruckHome/Home/View/Xproduct/index.html
+
+[ 2016-01-19T23:24:43+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/index.html
+ERR: 模板不存在:./TruckHome/Home/View/Xproduct/index.html
+
+[ 2016-01-19T23:33:25+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/index.html
+ERR: 模板不存在:./TruckHome/Home/View/Xproduct/index.html
+
+[ 2016-01-19T23:34:11+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/index.html
+ERR: 模板不存在:./TruckHome/Home/View/Xproduct/index.html
+
+[ 2016-01-19T23:34:24+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/index.html
+ERR: 模板不存在:./TruckHome/Home/View/Xproduct/index.html
+
+[ 2016-01-19T23:35:57+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/valCode1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002200s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002469s ]
+
+[ 2016-01-19T23:36:01+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/index.html
+ERR: 模板不存在:./TruckHome/Home/View/Xproduct/index.html
+
+[ 2016-01-19T23:36:07+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/valCode1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002539s ]
+
+[ 2016-01-19T23:36:13+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/valCode1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004206s ]
+
+[ 2016-01-19T23:38:45+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/index.html
+ERR: 模板不存在:./TruckHome/Home/View/Xproduct/index.html
+
+[ 2016-01-19T23:39:10+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/index.html
+ERR: 模板不存在:./TruckHome/Home/View/Xproduct/index.html
+
+[ 2016-01-19T23:39:39+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/index.html
+ERR: 模板不存在:./TruckHome/Home/View/Xproduct/index.html
+
+[ 2016-01-19T23:39:46+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/index.html
+ERR: 模板不存在:./TruckHome/Home/View/Xproduct/index.html
+
+[ 2016-01-19T23:42:38+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/index.html
+ERR: 模板不存在:./TruckHome/Home/View/Xproduct/index.html
+
+[ 2016-01-19T23:43:22+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/valCode1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002856s ]
+
+[ 2016-01-19T23:43:29+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/index.html
+ERR: 模板不存在:./TruckHome/Home/View/Xproduct/index.html
+
+[ 2016-01-19T23:44:13+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/valCode1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001969s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002218s ]
+
+[ 2016-01-19T23:44:16+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/index.html
+ERR: 模板不存在:./TruckHome/Home/View/Xproduct/index.html
+
+[ 2016-01-19T23:44:36+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/valCode1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002342s ]
+
+[ 2016-01-19T23:44:38+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/valCode1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002573s ]
+
+[ 2016-01-19T23:44:43+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/valCode1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002616s ]
+
+[ 2016-01-19T23:45:36+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/valCode1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002517s ]
+
+[ 2016-01-19T23:46:22+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/valCode1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001889s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002143s ]
+
+[ 2016-01-19T23:46:31+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/valCode1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002070s ]
+
+[ 2016-01-19T23:46:33+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/valCode1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002119s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002375s ]
+
+[ 2016-01-19T23:46:37+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/valCode1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001950s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002206s ]
+
+[ 2016-01-19T23:46:50+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/valCode1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001937s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002249s ]
+
+[ 2016-01-19T23:47:01+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/valCode1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003681s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003191s ]
+
+[ 2016-01-19T23:47:47+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/valCode1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003762s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002231s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002490s ]
+
+[ 2016-01-19T23:50:14+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/valCode1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003805s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002249s ]
+
+[ 2016-01-19T23:50:42+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/index.html
+ERR: 模板不存在:./TruckHome/Home/View/Xproduct/index.html
+
+[ 2016-01-19T23:51:26+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/valCode1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002388s ]
+
+[ 2016-01-19T23:54:20+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/valCode1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003582s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002268s ]
+
+[ 2016-01-19T23:54:23+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/valCode1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002161s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002420s ]
+
+[ 2016-01-19T23:54:28+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/valCode1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002113s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002379s ]
+
+[ 2016-01-19T23:54:38+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/valCode1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002303s ]
+
+[ 2016-01-19T23:54:43+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/valCode1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001946s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002200s ]
+
+[ 2016-01-19T23:54:51+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/valCode1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002135s ]
+
+[ 2016-01-19T23:54:55+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/valCode1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002318s ]
+
+[ 2016-01-19T23:57:47+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/valCode1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003991s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002459s ]
+
+[ 2016-01-19T23:57:52+08:00 ] 127.0.0.1 /two/ThinkPHP/index.php/Home/Xproduct/index.html
+ERR: 模板不存在:./TruckHome/Home/View/Xproduct/index.html
+
