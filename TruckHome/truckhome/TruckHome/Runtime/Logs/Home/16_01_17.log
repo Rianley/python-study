@@ -1,6 +1,0 @@
-[ 2016-01-17T14:41:03+08:00 ] 127.0.0.1 /two/ThinkPHP/Home/Xart
-ERR: 无法加载控制器:Xart
-
-[ 2016-01-17T15:44:28+08:00 ] 127.0.0.1 /two/ThinkPHP/Home/Xarticle/index
-ERR: Think\Model:assign方法不存在！
-
