@@ -1,5 +1,5 @@
 # learnPython
-> 这些都是我平时写的爬虫记录和使用的一些示例，希望看到的同学一起学习一起交流。
+> 这些都是我借鉴别人写的爬虫记录和使用的一些示例，希望看到的同学一起学习一起交流。
 * [Python爬虫日记系列](https://github.com/rieuse/learnPython/tree/master/Python%E7%88%AC%E8%99%AB%E6%97%A5%E8%AE%B0%E7%B3%BB%E5%88%97)：是我学Python学的爬虫，而且爬虫的思路和讲解都放到了我的简书和博客中了，适合初学者学习。
 * [Python基础代码](https://github.com/rieuse/learnPython/tree/master/Python%E5%9F%BA%E7%A1%80%E4%BB%A3%E7%A0%81)：一些初学Python的时候写的代码，还有一些小技巧记录一下。
 * [Python各种模块使用](https://github.com/rieuse/learnPython/tree/master/Python%E5%90%84%E7%A7%8D%E6%A8%A1%E5%9D%97%E4%BD%BF%E7%94%A8)：一些python有关的模块使用示例
