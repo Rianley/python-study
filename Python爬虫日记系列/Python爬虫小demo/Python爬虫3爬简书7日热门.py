@@ -11,11 +11,13 @@ for i in range(1, 7):
     url = base_url + '?page={}'.format(i)
     r = requests.get(url)
     html = r.text
+
     soup = BeautifulSoup(html, 'html.parser')
     for article in soup.find_all(class_='content'):
         title = article.find(class_='title').get_text()
         link = 'http://www.jianshu.com' + article.find(class_='title').get('href')
-        author = article.find(class_='blue-link').get_text()
+        #author = article.find(class_='blue-link').get_text()
+        author = '未知'
         time = article.span['data-shared-at']
         meta = article.find(class_='meta').find_all(['a', 'span'])
         metas = []
@@ -30,8 +32,14 @@ for i in range(1, 7):
             money = '0'
         articles.append([title, author, time, read, comment, like, money, link])
 
-with open('jianshu.csv', 'w') as f:
-    writer = csv.writer(f)
-    writer.writerow(['文章标题', '作者', '时间', '阅读量', '评论', '喜欢', '赞赏数', '文章地址'])
-    for row in articles:
-        writer.writerow(row)
+for row in articles:
+     print(row)
+
+
+
+
+# with open('jianshu.csv', 'w') as f:
+#     writer = csv.writer(f)
+#     writer.writerow(['文章标题', '作者', '时间', '阅读量', '评论', '喜欢', '赞赏数', '文章地址'])
+#     for row in articles:
+#         writer.writerow(row)
